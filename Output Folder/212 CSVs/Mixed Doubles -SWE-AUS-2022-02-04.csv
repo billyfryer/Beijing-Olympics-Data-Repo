@@ -1,0 +1,5 @@
+"n_PersonID","Team","c_Person","c_PersonShort","c_PersonFirstName","c_PersonLastName","c_FunctionShort","n_Sort","c_Value_GAME_SUCCESS","c_Value_CW","c_Value_CCW","c_Value_DRAW","c_Value_TAKEOUT","c_ValueRelative_GAME_SUCCESS","c_ValueRelative_CW","c_ValueRelative_CCW","c_ValueRelative_DRAW","c_ValueRelative_TAKEOUT"
+721971,"SWE","ERIKSSON Oskar","ERIKSSON O","Oskar","Eriksson","M",5,"24","13","11","17","7","84","87","82","87","79"
+1245672,"SWE","DE VAL Almida","DE VAL A","Almida","de Val","F",5,"16","7","9","13","3","75","79","72","81","50"
+1323453,"AUS","HEWITT Dean","HEWITT D","Dean","Hewitt","M",5,"24","13","11","16","8","75","69","82","73","78"
+1929264,"AUS","GILL Tahli","GILL T","Tahli","Gill","F",5,"16","7","9","12","4","69","68","69","81","31"
