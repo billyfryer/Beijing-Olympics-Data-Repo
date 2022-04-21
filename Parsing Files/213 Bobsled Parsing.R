@@ -13,7 +13,6 @@ all_files <- list.files(path = "Output Folder/213 Bobsled JSONs",
 
 # Comment Out For Loop For now
 for (json_file_name in all_files){
-  json_file_name <- all_files[4]
   # Sanity Check
   print(json_file_name)
   
