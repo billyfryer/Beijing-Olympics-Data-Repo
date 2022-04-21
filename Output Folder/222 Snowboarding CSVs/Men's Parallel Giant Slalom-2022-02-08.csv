@@ -1,0 +1,5 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","b_Completed","b_Upcoming","c_ODF_IRM"
+1,549918,"WILD Vic","WILD V","Vic","Wild","9",1,23062,73035,ROC,ROC,1,1,"1","41.48","41.48",41480,  0,TRUE,FALSE,NA
+1,333880,"FISCHNALLER Roland","FISCHNALLER R","Roland","Fischnaller","6",2,    6, 2210,Italy,ITA,2,2,"2","DNF","DNF",NA,NA,TRUE,FALSE,"DNF"
+1,571851,"KARL Benjamin","KARL B","Benjamin","Karl","2",2,  151, 2219,Austria,AUT,1,1,"1","41.90","41.90",41900,  0,TRUE,FALSE,NA
+1,922194,"MASTNAK Tim","MASTNAK T","Tim","Mastnak","4",1,   30, 2783,Slovenia,SLO,2,2,"2","+0.82","42.72",42720,820,TRUE,FALSE,NA

@@ -1,0 +1,9 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","b_Completed","b_Upcoming","c_Result"
+1,1352128,"SURGET Merlin","SURGET M","Merlin","Surget","16",1,144,2202,France,FRA,1,1,"1",TRUE,FALSE,NA
+1,1368658,"VEDDER Jake","VEDDER J","Jake","Vedder","18",2,  5,2209,United States,USA,2,2,"2",TRUE,FALSE,"+0.76"
+1, 915754,"EGUIBAR Lucas","EGUIBAR L","Lucas","Eguibar","21",4,145,2203,Spain,ESP,3,3,"3",TRUE,FALSE,"+17.50"
+1, 930699,"LEONI Tommaso","LEONI T","Tommaso","Leoni","19",3,  6,2210,Italy,ITA,4,4,"4",TRUE,FALSE,"+53.83"
+1, 911250,"HAEMMERLE Alessandro","HAEMMERLE A","Alessandro","Hämmerle","4",3,151,2219,Austria,AUT,1,1,"1",TRUE,FALSE,NA
+1,1632059,"GRONDIN Eliot","GRONDIN E","Eliot","Grondin","1",1,159,2231,Canada,CAN,2,2,"2",TRUE,FALSE,"+0.02"
+1, 722574,"VISINTIN Omar","VISINTIN O","Omar","Visintin","6",4,  6,2210,Italy,ITA,3,3,"3",TRUE,FALSE,"+0.48"
+1, 807792,"LUEFTNER Julian","LUEFTNER J","Julian","Lüftner","2",2,151,2219,Austria,AUT,4,4,"4",TRUE,FALSE,"+0.64"
