@@ -40,6 +40,8 @@ for (json_file_name in all_files){
   
   
   # Two Different Types: Pairs and Singles/Team
+  # Something in my gut tells me that Team is different but I don't
+  # know so I'm gonna trust what I have...
   if(str_detect(json_file_name, pattern = c("Singles")) |
      str_detect(json_file_name, pattern = c("Team"))) {
     # Individual Events Don't have a Team Member List
@@ -65,7 +67,7 @@ for (json_file_name in all_files){
   # Write to CSV
   # Wrapped in a unique because we only need 1 filename
   # The team event stuff was being a little silly
-  output_file_name <- unique(paste0("Output Folder/215 Ski Jumping CSVs/", 
+  output_file_name <- unique(paste0("Output Folder/217 Figure Skating CSVs/", 
                                     # Only the actual date, not the time of game
                                     Event, "-", substr(Date, 1,10), ".csv"))
   

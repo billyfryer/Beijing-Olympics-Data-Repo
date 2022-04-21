@@ -64,7 +64,7 @@ for (json_file_name in all_files){
   # Write to CSV
   # Wrapped in a unique because we only need 1 filename
   # The team event stuff was being a little silly
-  output_file_name <- unique(paste0("Output Folder/215 Ski Jumping CSVs/", 
+  output_file_name <- unique(paste0("Output Folder/216 Nordic Combined CSVs/", 
                                     # Only the actual date, not the time of game
                                     Event, "-", substr(Date, 1,10), ".csv"))
   
