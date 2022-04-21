@@ -1,6 +1,6 @@
-# Luge Parsing
+# Ski Jumping Parsing
 
-# Bobsled Parsing
+# Libraries
 library(tidyverse)
 library(jsonlite)
 library(lubridate)
@@ -8,14 +8,13 @@ library(lubridate)
 # Read in All File Names
 # Code Stolen From:
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
-all_files <- list.files(path = "Output Folder/214 Luge JSONs",
+all_files <- list.files(path = "Output Folder/215 Ski Jumping JSONs",
                         # To make sure I grab only the relevant files 
                         pattern = "Match ID")
 
-
-# Comment Out For Loop For now
 for (json_file_name in all_files){
   
+  json_file_name <- all_files[3]
   # Sanity Check
   print(json_file_name)
   
@@ -23,7 +22,7 @@ for (json_file_name in all_files){
   # Don't know how this works, but it does.
   # Stolen From Stack Overflow:
   # https://stackoverflow.com/questions/38074926/unable-to-parse-locally-stored-json-file-with-special-character-like-backslash
-  file_path <- paste0("Output Folder/214 Luge JSONs/", json_file_name)
+  file_path <- paste0("Output Folder/215 SKi Jumping JSONs/", json_file_name)
   raw_json <- fromJSON(gsub("\\\\","",readLines(file_path)))
   
   # Date of Match and Gender
@@ -34,19 +33,21 @@ for (json_file_name in all_files){
                      n = 2)[[1]][1] %>% 
     # Trim Whitespace
     str_trim()
+
+  Results <- raw_json$Result$PhaseList$ParticipantList %>% as.data.frame()
   
-  # Get Basic Results
-  Results <- raw_json$Result$PhaseList$ParticipantList %>% 
-    as.data.frame()
-  
-  # Phase List needs to be unlisted
+  # Always Unlist Phase Result List b/c nothing there
   Results$PhaseResultList <- unlist(Results$PhaseResultList)
   
-  # Monobob doesn't have a team member list since there is only 1 person
-  # Hence the If-Else
-  if(str_detect(Event, pattern = "Singles", negate = TRUE)){
+
+  # Two Different Types: Team and Individual
+  if(str_detect(json_file_name, pattern = "Individual")) {
+    # Individual Events Don't have a Team Member List
+    Results$TeamMemberList <- unlist(Results$TeamMemberList)
+    Full_Results <- Results
+  } else {
     # Make a Key Variable For joining on Team members
-    Results <- Results %>%  mutate(key = 1:nrow(Results))
+    Results <- Results %>% mutate(key = 1:nrow(Results))
     
     # Results looks ok, just have to figure out the team members now 
     TeamMembers <- Results$TeamMemberList
@@ -59,15 +60,12 @@ for (json_file_name in all_files){
     # Now I need to Join back the Team Members to the Results
     Full_Results <- full_join(Results, TeamMembers, by = "key") %>% 
       select(-key, -TeamMemberList)
-  } else {
-    Results$TeamMemberList <- unlist(Results$TeamMemberList)
-    Full_Results <- Results
   }
   
   # Write to CSV
   # Wrapped in a unique because we only need 1 filename
   # The team event stuff was being a little silly
-  output_file_name <- unique(paste0("Output Folder/214 Luge CSVs/", 
+  output_file_name <- unique(paste0("Output Folder/215 Ski Jumping CSVs/", 
                                     # Only the actual date, not the time of game
                                     Event, "-", substr(Date, 1,10), ".csv"))
   
@@ -75,4 +73,5 @@ for (json_file_name in all_files){
             file = output_file_name,
             row.names = FALSE)
   print(paste(Event, "was a Success", "/n"))
+  
 }
