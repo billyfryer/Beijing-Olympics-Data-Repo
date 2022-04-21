@@ -1,0 +1,90 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","c_ResultInfo_1","c_ResultInfo_2","b_Completed","b_Upcoming","n_BDF_VideoSessionID","c_ODF_IRM"
+1, 703233,"HERRMANN Denise","HERRMANN D","Denise","Herrmann","8", 8,    2, 2206,Germany,GER, 1, 1,"1","44:12.7","44:12.7",2652700,     0,"0 + 0 + 1 + 0","1",TRUE,FALSE,1,NA
+1, 844445,"CHEVALIER-BOUCHET Anais","CHEVALIER-BOUCHET A","Anaïs","Chevalier-Bouchet","12",12,  144, 2202,France,FRA, 2, 2,"2","+9.4","44:22.1",2662100,  9400,"0 + 0 + 0 + 1","1",TRUE,FALSE,1,NA
+1, 918902,"OLSBU ROEISELAND Marte","OLSBU ROEISELAND M","Marte","Olsbu Røiseland","1", 1,  153, 2221,Norway,NOR, 3, 3,"3","+15.3","44:28.0",2668000, 15300,"1 + 0 + 0 + 1","2",TRUE,FALSE,1,NA
+1,1626878,"VOIGT Vanessa","VOIGT V","Vanessa","Voigt","36",36,    2, 2206,Germany,GER, 4, 4,"4","+16.6","44:29.3",2669300, 16600,"1 + 0 + 0 + 0","1",TRUE,FALSE,1,NA
+1, 980215,"ALIMBEKAVA Dzinara","ALIMBEKAVA D","Dzinara","Alimbekava","30",30,  103, 4387,Belarus,BLR, 5, 5,"5","+31.7","44:44.4",2684400, 31700,"0 + 0 + 0 + 1","1",TRUE,FALSE,1,NA
+1,1338578,"DAVIDOVA Marketa","DAVIDOVA M","Markéta","Davidová","15",15,   17, 2240,Czech Republic,CZE, 6, 6,"6","+31.9","44:44.6",2684600, 31900,"0 + 0 + 0 + 1","1",TRUE,FALSE,1,NA
+1,1635357,"IRWIN Deedra","IRWIN D","Deedra","Irwin","16",16,    5, 2209,United States,USA, 7, 7,"7","+1:01.4","45:14.1",2714100, 61400,"0 + 0 + 0 + 1","1",TRUE,FALSE,1,NA
+1,1338357,"TANDREVOLD Ingrid Landmark","TANDREVOLD IL","Ingrid Landmark","Tandrevold","22",22,  153, 2221,Norway,NOR, 8, 8,"8","+1:02.7","45:15.4",2715400, 62700,"0 + 1 + 0 + 0","1",TRUE,FALSE,1,NA
+1,1362292,"REZTSOVA Kristina","REZTSOVA K","Kristina","Reztsova","74",74,23062,73035,ROC,ROC, 9, 9,"9","+1:13.1","45:25.8",2725800, 73100,"0 + 0 + 2 + 0","2",TRUE,FALSE,1,NA
+1, 760227,"DZHIMA Yuliia","DZHIMA Y","Yuliia","Dzhima","32",32,   13, 2232,Ukraine,UKR,10,10,"10","+1:21.7","45:34.4",2734400, 81700,"0 + 1 + 0 + 1","2",TRUE,FALSE,1,NA
+1, 771319,"PETRENKO Iryna","PETRENKO I","Iryna","Petrenko","21",21,   13, 2232,Ukraine,UKR,11,11,"11","+1:29.5","45:42.2",2742200, 89500,"0 + 0 + 0 + 0","0",TRUE,FALSE,1,NA
+1, 760473,"BRORSSON Mona","BRORSSON M","Mona","Brorsson","13",13,  154, 2222,Sweden,SWE,12,12,"12","+1:30.4","45:43.1",2743100, 90400,"1 + 0 + 0 + 0","1",TRUE,FALSE,1,NA
+1,1632804,"OBERG Elvira","OBERG E","Elvira","Öberg","28",28,  154, 2222,Sweden,SWE,13,13,"13","+1:42.5","45:55.2",2755200,102500,"0 + 1 + 2 + 0","3",TRUE,FALSE,1,NA
+1,1018336,"HINZ Vanessa","HINZ V","Vanessa","Hinz","80",80,    2, 2206,Germany,GER,14,14,"14","+1:54.7","46:07.4",2767400,114700,"0 + 1 + 0 + 0","1",TRUE,FALSE,1,NA
+1,1017701,"PERSSON Linn","PERSSON L","Linn","Persson","34",34,  154, 2222,Sweden,SWE,15,15,"15","+2:09.6","46:22.3",2782300,129600,"0 + 0 + 1 + 1","2",TRUE,FALSE,1,NA
+1,1017700,"OEBERG Hanna","OEBERG H","Hanna","Öberg","17",17,  154, 2222,Sweden,SWE,16,16,"16","+2:23.1","46:35.8",2795800,143100,"0 + 2 + 0 + 1","3",TRUE,FALSE,1,NA
+1,1017687,"HAUSER Lisa Theresa","HAUSER LT","Lisa Theresa","Hauser","11",11,  151, 2219,Austria,AUT,17,17,"17","+2:23.3","46:36.0",2796000,143300,"0 + 1 + 1 + 1","3",TRUE,FALSE,1,NA
+1, 717491,"WIERER Dorothea","WIERER D","Dorothea","Wierer","4", 4,    6, 2210,Italy,ITA,18,18,"18","+2:32.3","46:45.0",2805000,152300,"0 + 1 + 0 + 2","3",TRUE,FALSE,1,NA
+1,1018300,"CHARVATOVA Lucie","CHARVATOVA L","Lucie","Charvátová","65",65,   17, 2240,Czech Republic,CZE,19,19,"19","+2:33.9","46:46.6",2806600,153900,"0 + 1 + 0 + 1","2",TRUE,FALSE,1,NA
+1, 720690,"HOJNISZ-STAREGA Monika","HOJNISZ-STAREGA M","Monika","Hojnisz-Starega","26",26,  150, 2214,Poland,POL,20,20,"20","+2:42.6","46:55.3",2815300,162600,"0 + 0 + 1 + 1","2",TRUE,FALSE,1,NA
+1,1245784,"SIMON Julia","SIMON J","Julia","Simon","45",45,  144, 2202,France,FRA,21,21,"21","+2:56.4","47:09.1",2829100,176400,"0 + 0 + 1 + 3","4",TRUE,FALSE,1,NA
+1, 720075,"ECKHOFF Tiril","ECKHOFF T","Tiril","Eckhoff","19",19,  153, 2221,Norway,NOR,22,22,"22","+2:57.5","47:10.2",2830200,177500,"0 + 2 + 0 + 3","5",TRUE,FALSE,1,NA
+1,1137086,"MIRONOVA Svetlana","MIRONOVA S","Svetlana","Mironova","38",38,23062,73035,ROC,ROC,23,23,"23","+3:46.6","47:59.3",2879300,226600,"0 + 1 + 1 + 1","3",TRUE,FALSE,1,NA
+1,1017698,"HAECKI Lena","HAECKI L","Lena","Häcki","41",41,  149, 2213,Switzerland,SUI,24,24,"24","+3:50.6","48:03.3",2883300,230600,"0 + 2 + 1 + 1","4",TRUE,FALSE,1,NA
+1,1017902,"PREUSS Franziska","PREUSS F","Franziska","Preuß","71",71,    2, 2206,Germany,GER,25,25,"25","+3:51.5","48:04.2",2884200,231500,"0 + 2 + 0 + 2","4",TRUE,FALSE,1,NA
+1, 909271,"INNERHOFER Katharina","INNERHOFER K","Katharina","Innerhofer","54",54,  151, 2219,Austria,AUT,26,26,"26","+3:57.3","48:10.0",2890000,237300,"0 + 2 + 0 + 2","4",TRUE,FALSE,1,NA
+1, 759916,"TACHIZAKI Fuyuko","TACHIZAKI F","Fuyuko","Tachizaki","3", 3,   18, 2241,Japan,JPN,27,27,"27","+4:04.8","48:17.5",2897500,244800,"1 + 1 + 0 + 1","3",TRUE,FALSE,1,NA
+1, 980274,"JISLOVA Jessica","JISLOVA J","Jessica","Jislová","23",23,   17, 2240,Czech Republic,CZE,27,28,"27","+4:04.8","48:17.5",2897500,244800,"0 + 1 + 0 + 1","2",TRUE,FALSE,1,NA
+1,1338606,"KLEMENCIC Polona","KLEMENCIC P","Polona","Klemencic","2", 2,   30, 2783,Slovenia,SLO,29,29,"29","+4:06.1","48:18.8",2898800,246100,"0 + 2 + 0 + 0","2",TRUE,FALSE,1,NA
+1, 659680,"BESCOND Anais","BESCOND A","Anaïs","Bescond","10",10,  144, 2202,France,FRA,30,30,"30","+4:13.3","48:26.0",2906000,253300,"2 + 1 + 0 + 1","4",TRUE,FALSE,1,NA
+1,1137045,"SCHWAIGER Julia","SCHWAIGER J","Julia","Schwaiger","20",20,  151, 2219,Austria,AUT,31,31,"31","+4:29.5","48:42.2",2922200,269500,"2 + 1 + 0 + 0","3",TRUE,FALSE,1,NA
+1, 656616,"EDER Mari","EDER M","Mari","Eder","18",18,  161, 2237,Finland,FIN,32,32,"32","+4:30.2","48:42.9",2922900,270200,"1 + 0 + 1 + 1","3",TRUE,FALSE,1,NA
+1,1245794,"BANKES Megan","BANKES M","Megan","Bankes","25",25,  159, 2231,Canada,CAN,33,33,"33","+4:34.5","48:47.2",2927200,274500,"0 + 0 + 0 + 2","2",TRUE,FALSE,1,NA
+1,1768993,"VOBORNIKOVA Tereza","VOBORNIKOVA T","Tereza","Voborníková","50",50,   17, 2240,Czech Republic,CZE,34,34,"34","+4:38.9","48:51.6",2931600,278900,"0 + 0 + 1 + 1","2",TRUE,FALSE,1,NA
+1,1469807,"CHU Yuanmeng","CHU Y","Yuanmeng","Chu","58",58,   26, 2770,China,CHN,35,35,"35","+4:46.1","48:58.8",2938800,286100,"0 + 0 + 0 + 2","2",TRUE,FALSE,1,NA
+1,1352000,"ZUK Kamila","ZUK K","Kamila","Zuk","43",43,  150, 2214,Poland,POL,36,36,"36","+4:50.0","49:02.7",2942700,290000,"0 + 2 + 1 + 0","3",TRUE,FALSE,1,NA
+1,2079225,"STREMOUS Alina","STREMOUS A","Alina","Stremous","56",56,   23, 2251,Moldova,MDA,37,37,"37","+4:54.8","49:07.5",2947500,294800,"1 + 2 + 0 + 1","4",TRUE,FALSE,1,NA
+1,1338325,"KALKENBERG Emilie","KALKENBERG E","Emilie","Kalkenberg","53",53,  153, 2221,Norway,NOR,38,38,"38","+4:56.1","49:08.8",2948800,296100,"3 + 0 + 0 + 1","4",TRUE,FALSE,1,NA
+1,1338227,"EGAN Clare","EGAN C","Clare","Egan","59",59,    5, 2209,United States,USA,39,39,"39","+4:56.2","49:08.9",2948900,296200,"1 + 0 + 3 + 1","5",TRUE,FALSE,1,NA
+1,1137047,"BRAISAZ-BOUCHET Justine","BRAISAZ-BOUCHET J","Justine","Braisaz-Bouchet","24",24,  144, 2202,France,FRA,40,40,"40","+4:57.4","49:10.1",2950100,297400,"0 + 2 + 2 + 1","5",TRUE,FALSE,1,NA
+1, 771179,"LESHCHANKA Iryna","LESHCHANKA I","Iryna","Leshchanka","14",14,  103, 4387,Belarus,BLR,41,41,"41","+4:57.6","49:10.3",2950300,297600,"1 + 1 + 1 + 1","4",TRUE,FALSE,1,NA
+1, 844403,"FIALKOVA Paulina","FIALKOVA P","Paulína","Fialková","6", 6,   14, 2233,Slovakia,SVK,42,42,"42","+4:58.0","49:10.7",2950700,298000,"0 + 2 + 1 + 1","4",TRUE,FALSE,1,NA
+1,1119483,"TOMINGAS Tuuli","TOMINGAS T","Tuuli","Tomingas","5", 5,    8, 2217,Estonia,EST,43,43,"43","+5:07.6","49:20.3",2960300,307600,"0 + 1 + 1 + 2","4",TRUE,FALSE,1,NA
+1, 823285,"VISHNEVSKAYA SHEPORENKO Galina","VISHNEVSKAYA SHEPORENKO G","Galina","Vishnevskaya Sheporenko","44",44,  160, 2236,Kazakhstan,KAZ,44,44,"44","+5:19.6","49:32.3",2972300,319600,"0 + 1 + 0 + 0","1",TRUE,FALSE,1,NA
+1,1137050,"LIE Lotte","LIE L","Lotte","Lie","51",51,  147, 2205,Belgium,BEL,45,45,"45","+5:24.2","49:36.9",2976900,324200,"1 + 2 + 0 + 1","4",TRUE,FALSE,1,NA
+1, 980292,"FIALKOVA Ivona","FIALKOVA I","Ivona","Fialková","49",49,   14, 2233,Slovakia,SVK,46,46,"46","+5:41.5","49:54.2",2994200,341500,"0 + 4 + 1 + 1","6",TRUE,FALSE,1,NA
+1,1475309,"MENG Fanqi","MENG F","Fanqi","Meng","73",73,   26, 2770,China,CHN,47,47,"47","+5:43.8","49:56.5",2996500,343800,"0 + 0 + 0 + 2","2",TRUE,FALSE,1,NA
+1,1245770,"KRUCHINKINA Elena","KRUCHINKINA E","Elena","Kruchinkina","35",35,  103, 4387,Belarus,BLR,48,48,"48","+5:44.1","49:56.8",2996800,344100,"0 + 3 + 0 + 1","4",TRUE,FALSE,1,NA
+1, 759915,"SANFILIPPO Federica","SANFILIPPO F","Federica","Sanfilippo","33",33,    6, 2210,Italy,ITA,49,49,"49","+5:56.6","50:09.3",3009300,356600,"0 + 2 + 1 + 2","5",TRUE,FALSE,1,NA
+1,1351980,"ZDRAVKOVA Maria","ZDRAVKOVA M","Maria","Zdravkova","81",81,  148, 2211,Bulgaria,BUL,50,50,"50","+6:00.4","50:13.1",3013100,360400,"0 + 1 + 0 + 0","1",TRUE,FALSE,1,NA
+1, 704349,"KINNUNEN Nastassia","KINNUNEN N","Nastassia","Kinnunen","48",48,  161, 2237,Finland,FIN,51,51,"51","+6:00.8","50:13.5",3013500,360800,"0 + 1 + 2 + 1","4",TRUE,FALSE,1,NA
+1,1351981,"TODOROVA Milena","TODOROVA M","Milena","Todorova","52",52,  148, 2211,Bulgaria,BUL,52,52,"52","+6:02.2","50:14.9",3014900,362200,"0 + 2 + 0 + 3","5",TRUE,FALSE,1,NA
+1,1776669,"SLETTEMARK Ukaleq Astri","SLETTEMARK UA","Ukaleq Astri","Slettemark","55",55,  152, 2220,Denmark,DEN,53,53,"53","+6:14.7","50:27.4",3027400,374700,"0 + 0 + 0 + 0","0",TRUE,FALSE,1,NA
+1,1338344,"SOLA Hanna","SOLA H","Hanna","Sola","27",27,  103, 4387,Belarus,BLR,54,54,"54","+6:23.2","50:35.9",3035900,383200,"3 + 2 + 1 + 1","7",TRUE,FALSE,1,NA
+1, 980288,"ZBYLUT Kinga","ZBYLUT K","Kinga","Zbylut","88",88,  150, 2214,Poland,POL,55,55,"55","+6:42.0","50:54.7",3054700,402000,"0 + 1 + 1 + 1","3",TRUE,FALSE,1,NA
+1,1362293,"USHKINA Natalia","USHKINA N","Natalia","Ushkina","57",57,  164, 2244,Romania,ROU,56,56,"56","+6:51.4","51:04.1",3064100,411400,"0 + 1 + 1 + 0","2",TRUE,FALSE,1,NA
+1, 848468,"REID Joanne","REID J","Joanne","Reid","83",83,    5, 2209,United States,USA,57,57,"57","+6:53.6","51:06.3",3066300,413600,"0 + 3 + 0 + 2","5",TRUE,FALSE,1,NA
+1, 823185,"BENDIKA Baiba","BENDIKA B","Baiba","Bendika","9", 9,    9, 2218,Latvia,LAT,58,58,"58","+6:57.6","51:10.3",3070300,417600,"1 + 3 + 0 + 2","6",TRUE,FALSE,1,NA
+1, 657144,"TANG Jialin","TANG J","Jialin","Tang","37",37,   26, 2770,China,CHN,59,59,"59","+7:03.3","51:16.0",3076000,423300,"1 + 1 + 1 + 1","4",TRUE,FALSE,1,NA
+1,1338585,"CARRARA Michela","CARRARA M","Michela","Carrara","75",75,    6, 2210,Italy,ITA,60,60,"60","+7:16.4","51:29.1",3089100,436400,"1 + 2 + 1 + 1","5",TRUE,FALSE,1,NA
+1,1017695,"LESCINSKAITE Gabriele","LESCINSKAITE G","Gabriele","Lescinskaite","60",60,    7, 2215,Lithuania,LTU,61,61,"61","+7:26.5","51:39.2",3099200,446500,"1 + 1 + 0 + 2","4",TRUE,FALSE,1,NA
+1, 397165,"GASPARIN Selina","GASPARIN S","Selina","Gasparin","77",77,  149, 2213,Switzerland,SUI,62,62,"62","+7:31.1","51:43.8",3103800,451100,"1 + 2 + 2 + 2","7",TRUE,FALSE,1,NA
+1, 823338,"DUNKLEE Susan","DUNKLEE S","Susan","Dunklee","67",67,    5, 2209,United States,USA,63,63,"63","+7:33.3","51:46.0",3106000,453300,"1 + 1 + 0 + 2","4",TRUE,FALSE,1,NA
+1,1633125,"KLEMENCIC Ziva","KLEMENCIC Z","Ziva","Klemencic","46",46,   30, 2783,Slovenia,SLO,64,64,"64","+7:38.9","51:51.6",3111600,458900,"0 + 1 + 0 + 3","4",TRUE,FALSE,1,NA
+1,1632382,"HACHISUKA Asuka","HACHISUKA A","Asuka","Hachisuka","63",63,   18, 2241,Japan,JPN,65,65,"65","+7:45.3","51:58.0",3118000,465300,"0 + 1 + 0 + 3","4",TRUE,FALSE,1,NA
+1, 844449,"TALIHAERM Johanna","TALIHAERM J","Johanna","Talihärm","68",68,    8, 2217,Estonia,EST,66,66,"66","+7:46.8","51:59.5",3119500,466800,"0 + 1 + 1 + 1","3",TRUE,FALSE,1,NA
+1, 823214,"LUNDER Emma","LUNDER E","Emma","Lunder","47",47,  159, 2231,Canada,CAN,67,67,"67","+7:49.7","52:02.4",3122400,469700,"0 + 2 + 3 + 2","7",TRUE,FALSE,1,NA
+1,1472971,"HORVATOVA Henrieta","HORVATOVA H","Henrieta","Horvátová","78",78,   14, 2233,Slovakia,SVK,68,68,"68","+8:03.4","52:16.1",3136100,483400,"0 + 1 + 1 + 1","3",TRUE,FALSE,1,NA
+1,1632782,"BASERGA Amy","BASERGA A","Amy","Baserga","7", 7,  149, 2213,Switzerland,SUI,69,69,"69","+8:12.4","52:25.1",3145100,492400,"2 + 2 + 1 + 0","5",TRUE,FALSE,1,NA
+1,1137031,"DICKSON Emily","DICKSON E","Emily","Dickson","85",85,  159, 2231,Canada,CAN,70,70,"70","+8:13.4","52:26.1",3146100,493400,"2 + 1 + 0 + 2","5",TRUE,FALSE,1,NA
+1,1221175,"TANAKA Yurie","TANAKA Y","Yurie","Tanaka","86",86,   18, 2241,Japan,JPN,71,71,"71","+8:13.6","52:26.3",3146300,493600,"2 + 1 + 0 + 1","4",TRUE,FALSE,1,NA
+1,1017890,"GHILENKO Alla","GHILENKO A","Alla","Ghilenko","61",61,   23, 2251,Moldova,MDA,72,72,"72","+8:15.6","52:28.3",3148300,495600,"0 + 1 + 0 + 1","2",TRUE,FALSE,1,NA
+1,1629027,"AVVAKUMOVA Ekaterina","AVVAKUMOVA E","Ekaterina","Avvakumova","40",40,  106, 4391,South Korea,KOR,73,73,"73","+8:18.7","52:31.4",3151400,498700,"3 + 0 + 2 + 1","6",TRUE,FALSE,1,NA
+1,1221177,"MAEDA Sari","MAEDA S","Sari","Maeda","39",39,   18, 2241,Japan,JPN,74,74,"74","+8:32.3","52:45.0",3165000,512300,"2 + 1 + 0 + 4","7",TRUE,FALSE,1,NA
+1,1475604,"JUPPE Anna","JUPPE A","Anna","Juppe","72",72,  151, 2219,Austria,AUT,75,75,"75","+8:37.0","52:49.7",3169700,517000,"1 + 3 + 1 + 3","8",TRUE,FALSE,1,NA
+1,1017693,"VITTOZZI Lisa","VITTOZZI L","Lisa","Vittozzi","31",31,    6, 2210,Italy,ITA,76,76,"76","+8:44.4","52:57.1",3177100,524400,"5 + 1 + 2 + 0","8",TRUE,FALSE,1,NA
+1,1017671,"BURTASOVA Evgeniya","BURTASOVA E","Evgeniya","Burtasova","84",84,23062,73035,ROC,ROC,77,77,"77","+9:07.6","53:20.3",3200300,547600,"1 + 0 + 2 + 3","6",TRUE,FALSE,1,NA
+1,1023355,"NIGMATULLINA Uliana","NIGMATULLINA U","Uliana","Nigmatullina","29",29,23062,73035,ROC,ROC,78,78,"78","+9:29.4","53:42.1",3222100,569400,"1 + 2 + 3 + 4","10",TRUE,FALSE,1,NA
+1,1137072,"OJA Regina","OJA R","Regina","Oja","42",42,    8, 2217,Estonia,EST,79,79,"79","+9:41.0","53:53.7",3233700,581000,"4 + 0 + 2 + 1","7",TRUE,FALSE,1,NA
+1, 923171,"BEAUDRY Sarah","BEAUDRY S","Sarah","Beaudry","64",64,  159, 2231,Canada,CAN,80,80,"80","+9:42.3","53:55.0",3235000,582300,"3 + 1 + 1 + 0","5",TRUE,FALSE,1,NA
+1,2068290,"DING Yuhuan","DING Y","Yuhuan","Ding","82",82,   26, 2770,China,CHN,81,81,"81","+10:01.9","54:14.6",3254600,601900,"2 + 1 + 0 + 2","5",TRUE,FALSE,1,NA
+1,1137084,"KUELM Susan","KUELM S","Susan","Külm","89",89,    8, 2217,Estonia,EST,82,82,"82","+10:04.3","54:17.0",3257000,604300,"2 + 2 + 1 + 1","6",TRUE,FALSE,1,NA
+1,1338729,"MACHYNIAKOVA Veronika","MACHYNIAKOVA V","Veronika","Machyniaková","87",87,   14, 2233,Slovakia,SVK,83,83,"83","+11:09.0","55:21.7",3321700,669000,"1 + 2 + 0 + 2","5",TRUE,FALSE,1,NA
+1, 607268,"KIM Seon-Su","KIM SS","Seon-Su","Kim","70",70,  106, 4391,South Korea,KOR,84,84,"84","+12:24.8","56:37.5",3397500,744800,"3 + 0 + 3 + 0","6",TRUE,FALSE,1,NA
+1, 759829,"MAKA Anna","MAKA A","Anna","Maka","69",69,  150, 2214,Poland,POL,85,85,"85","+14:05.6","58:18.3",3498300,845600,"2 + 2 + 2 + 3","9",TRUE,FALSE,1,NA
+1, 909250,"KADEVA Daniela","KADEVA D","Daniela","Kadeva","76",76,  148, 2211,Bulgaria,BUL,86,86,"86","+15:17.7","59:30.4",3570400,917700,"4 + 1 + 2 + 1","8",TRUE,FALSE,1,NA
+1, 602500,"SEMERENKO Valj","SEMERENKO V","Valj","Semerenko","62",62,   13, 2232,Ukraine,UKR,NA,87,NA,"DNF","DNF",NA,NA,"0 + 1","1",TRUE,FALSE,1,"DNF"
+1,1137085,"MINKKINEN Suvi","MINKKINEN S","Suvi","Minkkinen","66",66,  161, 2237,Finland,FIN,NA,88,NA,"DNS","DNS",NA,NA,NA,NA,TRUE,FALSE,1,"DNS"
+1,1137026,"BLASHKO Darya","BLASHKO D","Darya","Blashko","79",79,   13, 2232,Ukraine,UKR,NA,89,NA,"DNS","DNS",NA,NA,NA,NA,TRUE,FALSE,1,"DNS"
