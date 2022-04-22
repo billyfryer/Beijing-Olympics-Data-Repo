@@ -36,14 +36,23 @@ for (json_file_name in all_files){
   
   Results <- raw_json$Result$PhaseList$ParticipantList
   
-  if(str_detect(Event, pattern = "Team")) {
-    # For team events, use Alyssa's Hockey Parsing method
+  # Do call if necessary, otherwise do as.data.frame
+  if (length(Results) == 1) {
+    # Easy Way
+    Results <- Results %>% as.data.frame()
+  } else {
+    # Harder Way
     Results <- lapply(Results, unlist)
     Results <- lapply(Results, FUN = function(x){ data.frame(t(x),
                                                              stringsAsFactors = F) })
     Results <- do.call("bind_rows", Results)
-    
-    # This worked for Speed skating, will it work for alpine skiing...?
+  }
+  
+  # These Two should be empty lists, so unlist to get rid of them
+  Results$TeamMemberList <- unlist(Results$TeamMemberList)
+  Results$PhaseResultList <- unlist(Results$PhaseResultList)
+  
+  if(str_detect(Event, pattern = "Team")) {
     # Make it so there is only 1 team per row rather than 2
     Results <- Results %>% 
       summarize(ParticipantType = c(n_ParticipantType1, n_ParticipantType2),
@@ -100,12 +109,6 @@ for (json_file_name in all_files){
                 TeamMemberList.c_Bib3 = c(TeamMemberList.c_Bib3, TeamMemberList.c_Bib3.1),
                 TeamMemberList.c_Bib4 = c(TeamMemberList.c_Bib4, TeamMemberList.c_Bib4.1)
       ) # End of Summarize
-  } else {
-    # NON Team Events
-    Results <- Results %>% as.data.frame()
-    # These Two should be empty lists, so unlist to get rid of them
-    Results$TeamMemberList <- unlist(Results$TeamMemberList)
-    Results$PhaseResultList <- unlist(Results$PhaseResultList)
   }
   
   # Write to CSV
@@ -118,6 +121,7 @@ for (json_file_name in all_files){
   write.csv(x = Results, 
             file = output_file_name,
             row.names = FALSE)
-  cat(Event, "was a Success")
   
+  # Print that it worked
+  print(paste(Event, "was a Success", "/n"))
 }

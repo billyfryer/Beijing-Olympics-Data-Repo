@@ -35,8 +35,17 @@ for (json_file_name in all_files){
     str_trim()
   
   Results <- raw_json$Result$PhaseList$ParticipantList
-  # Sports that have a qualifying and finals need the do.call
-  Results <- do.call("bind_rows", Results)
+  # Do call if necessary, otherwise do as.data.frame
+  if (length(Results) == 1) {
+    # Easy Way
+    Results <- Results %>% as.data.frame()
+  } else {
+    # Harder Way
+    Results <- lapply(Results, unlist)
+    Results <- lapply(Results, FUN = function(x){ data.frame(t(x),
+                                                             stringsAsFactors = F) })
+    Results <- do.call("bind_rows", Results)
+  }
   
   # Always Unlist Phase Result List b/c nothing there
   Results$PhaseResultList <- unlist(Results$PhaseResultList)

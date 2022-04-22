@@ -13,9 +13,11 @@ all_files <- list.files(path = "Output Folder/103 Speed Skating JSONs",
                         pattern = "Match ID")
 
 
-# Comment Out For Loop For now
+# Repeat for every file in Speed Skating
 for (json_file_name in all_files){
-  # Sanity Check
+  
+  # json_file_name <- all_files[14]
+  # Print For Tracking where we're at
   print(json_file_name)
   
   # Read in the json file
@@ -37,13 +39,25 @@ for (json_file_name in all_files){
   # Get Basic Results
   Results <- raw_json$Result$PhaseList$ParticipantList
   
-  # In Team Events, this gets a little messy, so separate
-  if(str_detect(Event, pattern = "Team")) {
-    # For team events, use Alyssa's Hockey Parsing method
+  # Do call if necessary, otherwise do as.data.frame
+  if (length(Results) == 1) {
+    # Easy Way
+    Results <- Results %>% as.data.frame()
+  } else {
+    # Harder Way
     Results <- lapply(Results, unlist)
     Results <- lapply(Results, FUN = function(x){ data.frame(t(x),
                                                              stringsAsFactors = F) })
     Results <- do.call("bind_rows", Results)
+  }
+  
+  # These Two should be empty lists, so unlist to get rid of them
+  Results$TeamMemberList <- unlist(Results$TeamMemberList)
+  Results$PhaseResultList <- unlist(Results$PhaseResultList)
+  
+  # In Team Events, this gets a little messy, so separate
+  if(str_detect(Event, pattern = "Team")) {
+    
     # Make it so there is only 1 team per row rather than 2
     Results <- Results %>% 
       summarize(ParticipantType = c(n_ParticipantType1, n_ParticipantType2),
@@ -87,11 +101,6 @@ for (json_file_name in all_files){
                 TeamMemberList.c_Bib2 = c(TeamMemberList.c_Bib2, TeamMemberList.c_Bib2.1),
                 TeamMemberList.c_Bib3 = c(TeamMemberList.c_Bib3, TeamMemberList.c_Bib3.1)
                 ) # End of Summarize
-  } else {
-    Results <- Results %>% as.data.frame()
-    # These Two should be empty lists, so unlist to get rid of them
-    Results$TeamMemberList <- unlist(Results$TeamMemberList)
-    Results$PhaseResultList <- unlist(Results$PhaseResultList)
   }
 
   # Write to CSV
@@ -104,5 +113,7 @@ for (json_file_name in all_files){
   write.csv(x = Results, 
            file = output_file_name,
            row.names = FALSE)
-  cat(Event, "was a Success")
+  
+  # Print that it worked
+  print(paste(Event, "was a Success", "/n"))
 }

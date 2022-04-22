@@ -33,8 +33,7 @@ for (json_file_name in all_files){
   
   ###################################################
   # Team 1 Data
-  # This works 4/19/2022 5:34 PM
-  
+
   # Team Name
   Team1 <- raw_json$MatchInfo$Competitor1$c_Short
   # Players
@@ -73,7 +72,6 @@ for (json_file_name in all_files){
   
   ###################################################
   # Team 2 Data
-  # This works 4/19/2022 5:34 PM
   # Team Name
   Team2 <- raw_json$MatchInfo$Competitor2$c_Short
   # Players

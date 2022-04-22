@@ -1,0 +1,13 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ResultInfo_1","c_ResultInfo_2","c_ResultInfo_3","b_Completed","b_Upcoming","n_BDF_VideoSessionID"
+1,1642245,"GU Eileen","GU E","Eileen","Gu","1",12, 26,2770,China,CHN, 1, 1,"1","95.25","95.25",95250,"93.25","95.25","30.00",TRUE,FALSE,1
+1,1021646,"SHARPE Cassie","SHARPE C","Cassie","Sharpe","4", 7,159,2231,Canada,CAN, 2, 2,"2","90.75","90.75",90750,"89.00","90.00","90.75",TRUE,FALSE,1
+1,1219428,"KARKER Rachael","KARKER R","Rachael","Karker","3",11,159,2231,Canada,CAN, 3, 3,"3","87.75","87.75",87750,"87.75","85.25","38.00",TRUE,FALSE,1
+1,1447047,"SILDARU Kelly","SILDARU K","Kelly","Sildaru","8",10,  8,2217,Estonia,EST, 4, 4,"4","87.00","87.00",87000,"80.25","87.00","85.00",TRUE,FALSE,1
+1,1626747,"LI Fanghui","LI F","Fenghui","Li","9", 6, 26,2770,China,CHN, 5, 5,"5","86.50","86.50",86500,"81.75","86.50","16.75",TRUE,FALSE,1
+1,1983477,"FAULHABER Hanna","FAULHABER H","Hanna","Faulhaber","5", 4,  5,2209,United States,USA, 6, 6,"6","85.25","85.25",85250,"85.25","84.50","19.00",TRUE,FALSE,1
+1,1626749,"KEXIN Zhang","KEXIN Z","Kexin","Zhang","6", 8, 26,2770,China,CHN, 7, 7,"7","78.75","78.75",78750,"78.75","25.75","3.25",TRUE,FALSE,1
+1,1953414,"FRASER Amy","FRASER A","Amy","Fraser","15", 2,159,2231,Canada,CAN, 8, 8,"8","75.25","75.25",75250,"75.25","35.75","11.00",TRUE,FALSE,1
+1,1495692,"ATKIN Zoe","ATKIN Z","Zoe","Atkin","2", 9,211,4058,Great Britain,GBR, 9, 9,"9","73.25","73.25",73250,"18.75","10.75","73.25",TRUE,FALSE,1
+1, 764426,"SIGOURNEY Brita","SIGOURNEY B","Brita","Sigourney","7", 5,  5,2209,United States,USA,10,10,"10","70.75","70.75",70750,"70.75","60.00","12.25",TRUE,FALSE,1
+1,1198871,"MARGULIES Carly","MARGULIES C","Carly","Margulies","12", 3,  5,2209,United States,USA,11,11,"11","61.00","61.00",61000,"24.75","1.75","61.00",TRUE,FALSE,1
+1,1026714,"CAKMAKLI Sabrina","CAKMAKLI S","Sabrina","Cakmakli","13", 1,  2,2206,Germany,GER,12,12,"12","54.00","54.00",54000,"40.00","54.00","42.75",TRUE,FALSE,1

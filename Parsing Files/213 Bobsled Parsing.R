@@ -33,10 +33,21 @@ for (json_file_name in all_files){
     str_trim()
   
   # Get Basic Results
-  Results <- raw_json$Result$PhaseList$ParticipantList %>% 
-    as.data.frame()
+  Results <- raw_json$Result$PhaseList$ParticipantList
   
-  # Phase List needs to be unlisted
+  # Do call if necessary, otherwise do as.data.frame
+  if (length(Results) == 1) {
+    # Easy Way
+    Results <- Results %>% as.data.frame()
+  } else {
+    # Harder Way
+    Results <- lapply(Results, unlist)
+    Results <- lapply(Results, FUN = function(x){ data.frame(t(x),
+                                                             stringsAsFactors = F) })
+    Results <- do.call("bind_rows", Results)
+  }
+  
+  # This should be empty lists, so unlist to get rid of them
   Results$PhaseResultList <- unlist(Results$PhaseResultList)
   
   # Monobob doesn't have a team member list since there is only 1 person
@@ -71,5 +82,6 @@ for (json_file_name in all_files){
   write.csv(x = Full_Results, 
             file = output_file_name,
             row.names = FALSE)
+  # Print that it worked
   print(paste(Event, "was a Success", "/n"))
 }

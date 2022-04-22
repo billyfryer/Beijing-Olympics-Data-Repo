@@ -15,8 +15,6 @@ all_files <- list.files(path = "Output Folder/212 Curling JSONs",
 
 for (json_file_name in all_files){
 
-  # Check with First File
-  # json_file_name <- all_files[1]
   # Sanity Check
   print(json_file_name)
   

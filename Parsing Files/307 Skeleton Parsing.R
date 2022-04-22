@@ -35,9 +35,17 @@ for (json_file_name in all_files){
     # Trim Whitespace
     str_trim()
   
-  # Get Basic Results
-  Results <- raw_json$Result$PhaseList$ParticipantList %>% 
-    as.data.frame()
+  # Do call if necessary, otherwise do as.data.frame
+  if (length(Results) == 1) {
+    # Easy Way
+    Results <- Results %>% as.data.frame()
+  } else {
+    # Harder Way
+    Results <- lapply(Results, unlist)
+    Results <- lapply(Results, FUN = function(x){ data.frame(t(x),
+                                                             stringsAsFactors = F) })
+    Results <- do.call("bind_rows", Results)
+  }
   
   # Phase List and Team Member List needs to be unlisted
   Results$PhaseResultList <- unlist(Results$PhaseResultList)
