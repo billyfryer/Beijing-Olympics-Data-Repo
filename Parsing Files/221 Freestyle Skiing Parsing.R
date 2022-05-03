@@ -211,7 +211,7 @@ for (json_file_name in all_files){
 # Names of key and output to a CSV
 names(key) <- c("Event", "MatchID")
 key$MatchID <- as.numeric(key$MatchID)
-key_file <- "Data/221 Freestyle Skiing CSVs/221 Lookup.csv"
+key_file <- "Data/Lookup CSVs/221 Lookup.csv"
 
 write.csv(x = key, 
           file = key_file,
