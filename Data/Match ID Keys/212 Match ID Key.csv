@@ -1,0 +1,148 @@
+Event,MatchID,Team1,Team 2
+Men's Tournament,746234,ROC,CAN
+Men's Tournament,746235,ITA,CHN
+Men's Tournament,746236,NOR,SUI
+Men's Tournament,746237,NOR,ITA
+Men's Tournament,746238,CHN,SUI
+Men's Tournament,746239,GBR,ROC
+Men's Tournament,746240,ITA,USA
+Men's Tournament,746241,DEN,CAN
+Men's Tournament,746242,SWE,DEN
+Men's Tournament,746243,ROC,DEN
+Men's Tournament,746244,CAN,GBR
+Men's Tournament,746245,DEN,NOR
+Men's Tournament,746246,SWE,GBR
+Men's Tournament,746247,ROC,SWE
+Men's Tournament,746248,CAN,SWE
+Men's Tournament,746249,SWE,SUI
+Men's Tournament,746250,SUI,GBR
+Men's Tournament,746251,CHN,GBR
+Men's Tournament,746252,CHN,USA
+Men's Tournament,746253,DEN,USA
+Men's Tournament,746254,SWE,ITA
+Men's Tournament,746256,NOR,SWE
+Men's Tournament,746257,USA,NOR
+Men's Tournament,746258,NOR,CAN
+Men's Tournament,746259,GBR,NOR
+Men's Tournament,746260,DEN,SUI
+Men's Tournament,746261,GBR,USA
+Men's Tournament,746262,CAN,USA
+Men's Tournament,746263,CHN,SWE
+Men's Tournament,746264,USA,GBR
+Men's Tournament,746265,SUI,ROC
+Men's Tournament,746266,DEN,CHN
+Men's Tournament,746267,USA,SWE
+Men's Tournament,746268,USA,ROC
+Men's Tournament,746269,ITA,DEN
+Men's Tournament,746270,GBR,ITA
+Men's Tournament,746271,SUI,ITA
+Men's Tournament,746272,CAN,ITA
+Men's Tournament,746273,CAN,SUI
+Men's Tournament,746274,SWE,CAN
+Men's Tournament,746275,SUI,USA
+Men's Tournament,746276,USA,CAN
+Men's Tournament,746277,GBR,DEN
+Men's Tournament,746278,CAN,CHN
+Men's Tournament,746279,SWE,GBR
+Men's Tournament,746280,CHN,ROC
+Men's Tournament,746281,ITA,ROC
+Men's Tournament,746282,ROC,NOR
+Men's Tournament,746283,NOR,CHN
+Women's Tournament,746284,KOR,GBR
+Women's Tournament,746285,SWE,CAN
+Women's Tournament,746286,CHN,GBR
+Women's Tournament,746287,SWE,JPN
+Women's Tournament,746288,JPN,GBR
+Women's Tournament,746289,ROC,SWE
+Women's Tournament,746290,DEN,CAN
+Women's Tournament,746291,ROC,JPN
+Women's Tournament,746292,DEN,ROC
+Women's Tournament,746293,CHN,JPN
+Women's Tournament,746294,SWE,DEN
+Women's Tournament,746295,DEN,CHN
+Women's Tournament,746296,JPN,SUI
+Women's Tournament,746297,SUI,CAN
+Women's Tournament,746298,USA,SUI
+Women's Tournament,746299,CAN,KOR
+Women's Tournament,746300,KOR,DEN
+Women's Tournament,746301,CAN,JPN
+Women's Tournament,746302,USA,DEN
+Women's Tournament,746303,JPN,KOR
+Women's Tournament,746304,SWE,GBR
+Women's Tournament,746305,ROC,GBR
+Women's Tournament,746306,GBR,CAN
+Women's Tournament,746307,CAN,CHN
+Women's Tournament,746308,KOR,CHN
+Women's Tournament,746309,USA,SWE
+Women's Tournament,746310,GBR,SUI
+Women's Tournament,746311,JPN,DEN
+Women's Tournament,746312,KOR,SWE
+Women's Tournament,746313,KOR,ROC
+Women's Tournament,746314,JPN,USA
+Women's Tournament,746315,SUI,SWE
+Women's Tournament,746316,SWE,SUI
+Women's Tournament,746317,CHN,ROC
+Women's Tournament,746318,SUI,ROC
+Women's Tournament,746319,GBR,JPN
+Women's Tournament,746320,ROC,USA
+Women's Tournament,746321,SWE,GBR
+Women's Tournament,746322,USA,CHN
+Women's Tournament,746323,DEN,SUI
+Women's Tournament,746324,CAN,ROC
+Women's Tournament,746325,DEN,GBR
+Women's Tournament,746326,JPN,SUI
+Women's Tournament,746327,SWE,CHN
+Women's Tournament,746328,SUI,KOR
+Women's Tournament,746329,CAN,USA
+Women's Tournament,746330,CHN,SUI
+Women's Tournament,746331,USA,KOR
+Women's Tournament,746332,GBR,USA
+Mixed Doubles Tournament,746333,SUI,GBR
+Mixed Doubles Tournament,746334,CHN,SWE
+Mixed Doubles Tournament,746335,CAN,CZE
+Mixed Doubles Tournament,746336,NOR,CZE
+Mixed Doubles Tournament,746337,ITA,NOR
+Mixed Doubles Tournament,746338,SUI,USA
+Mixed Doubles Tournament,746339,USA,GBR
+Mixed Doubles Tournament,746340,CAN,SUI
+Mixed Doubles Tournament,746341,CZE,SUI
+Mixed Doubles Tournament,746342,CHN,USA
+Mixed Doubles Tournament,746343,USA,CZE
+Mixed Doubles Tournament,746344,AUS,USA
+Mixed Doubles Tournament,746345,ITA,SWE
+Mixed Doubles Tournament,746346,SUI,SWE
+Mixed Doubles Tournament,746347,GBR,CHN
+Mixed Doubles Tournament,746348,AUS,CHN
+Mixed Doubles Tournament,746349,CAN,AUS
+Mixed Doubles Tournament,746350,USA,NOR
+Mixed Doubles Tournament,746351,USA,ITA
+Mixed Doubles Tournament,746352,NOR,CHN
+Mixed Doubles Tournament,746353,SWE,CZE
+Mixed Doubles Tournament,746354,CAN,ITA
+Mixed Doubles Tournament,746355,GBR,ITA
+Mixed Doubles Tournament,746356,NOR,GBR
+Mixed Doubles Tournament,746357,AUS,NOR
+Mixed Doubles Tournament,746358,SWE,USA
+Mixed Doubles Tournament,746359,SWE,GBR
+Mixed Doubles Tournament,746360,SWE,AUS
+Mixed Doubles Tournament,746361,CZE,CHN
+Mixed Doubles Tournament,746362,CZE,AUS
+Mixed Doubles Tournament,746363,ITA,SWE
+Mixed Doubles Tournament,746364,AUS,ITA
+Mixed Doubles Tournament,746365,SWE,GBR
+Mixed Doubles Tournament,746366,USA,CAN
+Mixed Doubles Tournament,746367,NOR,CAN
+Mixed Doubles Tournament,746368,NOR,SWE
+Mixed Doubles Tournament,746369,CHN,SUI
+Mixed Doubles Tournament,746370,NOR,GBR
+Mixed Doubles Tournament,746371,ITA,SUI
+Mixed Doubles Tournament,746372,ITA,NOR
+Mixed Doubles Tournament,746373,CZE,GBR
+Mixed Doubles Tournament,746374,GBR,AUS
+Mixed Doubles Tournament,746375,SUI,NOR
+Mixed Doubles Tournament,746376,CHN,CAN
+Mixed Doubles Tournament,746377,ITA,CHN
+Mixed Doubles Tournament,746378,AUS,SUI
+Mixed Doubles Tournament,746379,GBR,CAN
+Mixed Doubles Tournament,746380,SWE,CAN
+Mixed Doubles Tournament,746381,CZE,ITA

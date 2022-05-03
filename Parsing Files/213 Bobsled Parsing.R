@@ -3,20 +3,15 @@ library(tidyverse)
 library(jsonlite)
 library(lubridate)
 
-
-key <- data.frame(Event = c(),
-                  MatchID = c())
-
 # Read in All File Names
 # Code Stolen From:
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
-all_files <- list.files(path = "Data/213 Bobsled JSONs",
-                        # To make sure I grab only the relevant files 
-                        pattern = "Match ID")
+all_files <- list.files(path = "Data/213 Bobsled JSONs")
 
 
 # Comment Out For Loop For now
 for (json_file_name in all_files){
+  
   # Sanity Check
   print(json_file_name)
   
@@ -29,20 +24,10 @@ for (json_file_name in all_files){
   
   # Date of Match and Gender
   Date <- raw_json$Result$PhaseList$DateTimes$Start$c_Local
-  # Gender is in the json file name
-  Event <- str_split(json_file_name, 
-                     pattern = "Match ID", 
-                     n = 2)[[1]][1] %>% 
-    # Trim Whitespace
-    str_trim()
-  # Get Match ID
-  MatchID <- str_split(json_file_name, 
-                       pattern = "Match ID", 
-                       n = 2)[[1]][2] %>% 
-    # Trim Whitespace
-    str_trim() %>% 
-    # Get rid of the .json part
-    str_remove(pattern = ".json")
+  # Get MatchID
+  MatchID <- str_remove(json_file_name, pattern = ".json")
+  # Event
+  Event <- raw_json$PhaseInfo$Event$c_Name
   
   # Get Basic Results
   Results <- raw_json$Result$PhaseList$ParticipantList
@@ -95,17 +80,5 @@ for (json_file_name in all_files){
             row.names = FALSE)
   
   # Print that it worked
-  print(paste(Event, "was a Success", "/n"))
-  
-  # Add Event and MatchID Pair to key df
-  key <- rbind(key, c(Event, MatchID))
+  print(paste(MatchID, "was a Success", "/n"))
 }
-
-# Names of key and output to a CSV
-names(key) <- c("Event", "MatchID")
-key$MatchID <- as.numeric(key$MatchID)
-key_file <- "Data/Lookup CSVs/213 Lookup.csv"
-
-write.csv(x = key, 
-          file = key_file,
-          row.names = FALSE)

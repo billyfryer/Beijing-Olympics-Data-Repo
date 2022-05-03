@@ -1,16 +1,16 @@
-n_SportID,n_SportTypeID,c_Sport,c_SportShort,b_RecordsAvailable
-115,3,Alpine Skiing,ALP,FALSE
-218,3,Biathlon,BTH,FALSE
-213,3,Bobsled,BOB,FALSE
-220,3,Cross-Country Skiing,CCS,FALSE
-212,1,Curling,CUR,FALSE
-217,3,Figure Skating,FSK,FALSE
-221,3,Freestyle Skiing,FRS,FALSE
-113,1,Hockey,IHO,FALSE
-214,3,Luge,LUG,FALSE
-216,3,Nordic Combined,NCB,FALSE
-302,3,Short Track,STK,TRUE
-307,3,Skeleton,SKN,FALSE
-215,3,Ski Jumping,SJP,FALSE
-222,3,Snowboarding,SBD,FALSE
-103,3,Speed Skating,SSK,TRUE
+"n_SportID","n_SportTypeID","c_Sport","c_SportShort","b_RecordsAvailable"
+115,3,"Alpine Skiing","ALP",FALSE
+218,3,"Biathlon","BTH",FALSE
+213,3,"Bobsled","BOB",FALSE
+220,3,"Cross-Country Skiing","CCS",FALSE
+212,1,"Curling","CUR",FALSE
+217,3,"Figure Skating","FSK",FALSE
+221,3,"Freestyle Skiing","FRS",FALSE
+113,1,"Hockey","IHO",FALSE
+214,3,"Luge","LUG",FALSE
+216,3,"Nordic Combined","NCB",FALSE
+302,3,"Short Track","STK",TRUE
+307,3,"Skeleton","SKN",FALSE
+215,3,"Ski Jumping","SJP",FALSE
+222,3,"Snowboarding","SBD",FALSE
+103,3,"Speed Skating","SSK",TRUE

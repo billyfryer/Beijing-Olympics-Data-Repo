@@ -5,15 +5,11 @@ library(tidyverse)
 library(jsonlite)
 library(lubridate)
 
-key <- data.frame(Event = c(),
-                  MatchID = c())
 
 # Read in All File Names
 # Code Stolen From:
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
-all_files <- list.files(path = "Data/222 Snowboarding JSONs",
-                        # To make sure I grab only the relevant files 
-                        pattern = "Match ID")
+all_files <- list.files(path = "Data/222 Snowboarding JSONs")
 
 for (json_file_name in all_files){
   
@@ -29,20 +25,10 @@ for (json_file_name in all_files){
   
   # Date of Match and Gender
   Date <- raw_json$Result$PhaseList$DateTimes$Start$c_Local
-  # Gender is in the json file name
-  Event <- str_split(json_file_name, 
-                     pattern = "Match ID", 
-                     n = 2)[[1]][1] %>% 
-    # Trim Whitespace
-    str_trim()
-  # Get Match ID
-  MatchID <- str_split(json_file_name, 
-                       pattern = "Match ID", 
-                       n = 2)[[1]][2] %>% 
-    # Trim Whitespace
-    str_trim() %>% 
-    # Get rid of the .json part
-    str_remove(pattern = ".json")
+  # Get MatchID
+  MatchID <- str_remove(json_file_name, pattern = ".json")
+  # Event
+  Event <- raw_json$PhaseInfo$Event$c_Name
   
   Results <- raw_json$Result$PhaseList$ParticipantList
   
@@ -61,9 +47,8 @@ for (json_file_name in all_files){
   # Always Unlist Phase Result List b/c nothing there
   Results$PhaseResultList <- unlist(Results$PhaseResultList)
   
-  
   # Two Different Types: Team and Individual
-  if(str_detect(json_file_name, pattern = "Team", negate = TRUE)) {
+  if(str_detect(Event, pattern = "Team", negate = TRUE)) {
     # Individual Events Don't have a Team Member List
     Results$TeamMemberList <- unlist(Results$TeamMemberList)
     Full_Results <- Results
@@ -135,16 +120,4 @@ for (json_file_name in all_files){
   
   # Print that it worked
   print(paste(Event, "was a Success", "/n"))
-  
-  # Add Event and MatchID Pair to key df
-  key <- rbind(key, c(Event, MatchID))
 }
-
-# Names of key and output to a CSV
-names(key) <- c("Event", "MatchID")
-key$MatchID <- as.numeric(key$MatchID)
-key_file <- "Data/Lookup CSVs/222 Lookup.csv"
-
-write.csv(x = key, 
-          file = key_file,
-          row.names = FALSE)

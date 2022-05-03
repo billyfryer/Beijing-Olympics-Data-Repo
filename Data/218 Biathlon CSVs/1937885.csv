@@ -54,8 +54,8 @@
 1, 657144,"TANG Jialin","TANG J","Jialin","Tang","35",35,   26, 2770,China,CHN,53,53,"53","+7:01.4","41:48.3",2508300,421400,"1 + 0 + 1 + 2","4",TRUE,FALSE,NA
 1, 823214,"LUNDER Emma","LUNDER E","Emma","Lunder","32",32,  159, 2231,Canada,CAN,54,54,"54","+7:32.4","42:19.3",2539300,452400,"1 + 3 + 2 + 1","7",TRUE,FALSE,NA
 1, 771319,"PETRENKO Iryna","PETRENKO I","Iryna","Petrenko","40",40,   13, 2232,Ukraine,UKR,55,55,"55","+8:16.8","43:03.7",2583700,496800,"1 + 1 + 2 + 0","4",TRUE,FALSE,NA
-1,1629027,"AVVAKUMOVA Ekaterina","AVVAKUMOVA E","Ekaterina","Avvakumova","49",49,  106, 4391,South Korea,KOR,56,56,"56","LAP","LAP",NA,NA,"3 + 4","7",TRUE,FALSE,"LAP"
-1,1768993,"VOBORNIKOVA Tereza","VOBORNIKOVA T","Tereza","Voborníková","58",58,   17, 2240,Czech Republic,CZE,57,57,"57","LAP","LAP",NA,NA,"4 + 0 + 3","7",TRUE,FALSE,"LAP"
+1,1629027,"AVVAKUMOVA Ekaterina","AVVAKUMOVA E","Ekaterina","Avvakumova","49",49,  106, 4391,South Korea,KOR,NA,56,NA,"LAP","LAP",NA,NA,"3 + 4","7",TRUE,FALSE,"LAP"
+1,1768993,"VOBORNIKOVA Tereza","VOBORNIKOVA T","Tereza","Voborníková","58",58,   17, 2240,Czech Republic,CZE,NA,57,NA,"LAP","LAP",NA,NA,"4 + 0 + 3","7",TRUE,FALSE,"LAP"
 1, 844449,"TALIHAERM Johanna","TALIHAERM J","Johanna","Talihärm","43",43,    8, 2217,Estonia,EST,NA,58,NA,"DNS","DNS",NA,NA,NA,NA,TRUE,FALSE,"DNS"
 1,1137047,"BRAISAZ-BOUCHET Justine","BRAISAZ-BOUCHET J","Justine","Braisaz-Bouchet","48",48,  144, 2202,France,FRA,NA,59,NA,"DNS","DNS",NA,NA,NA,NA,TRUE,FALSE,"DNS"
 1,1352000,"ZUK Kamila","ZUK K","Kamila","Zuk","53",53,  150, 2214,Poland,POL,NA,60,NA,"DNS","DNS",NA,NA,NA,NA,TRUE,FALSE,"DNS"

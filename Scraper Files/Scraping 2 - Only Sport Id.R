@@ -1,6 +1,6 @@
 library(tidyverse)
 # Only things we need is SportIds
-sport_list <- read_csv("Output Folder/Sport List.csv")
+sport_list <- read_csv("Data/Sport List.csv")
 
 sportids <- sport_list %>% pull(n_SportID)
 
@@ -8,7 +8,7 @@ sportids <- sport_list %>% pull(n_SportID)
 for (i in 1:length(sportids)) {
   id <- sportids[i]
   
-  path <- paste0("Output Folder/", id)
+  path <- paste0("Data/", id)
   #dir.create(path)
 }
 
@@ -18,7 +18,7 @@ for (i in 1:length(sportids)) {
   id <- sportids[i]
   print(paste("Sport ID ", i, "/", length(sportids)))
   event_phase <- get_event_phase(id)
-  output_path <- paste0("Output Folder/", id, "/Event Phase.csv")
+  output_path <- paste0("Data/", id, "/Event Phase.csv")
   # write.csv(event_phase, output_path,
   #           row.names = FALSE)
 }
@@ -30,6 +30,6 @@ for (i in 1:length(sportids)) {
   print(paste("Sport ID ", i, "/", length(sportids)))
   sport_schedule <- get_sport_schedule(id)
   export_json <- toJSON(sport_schedule)
-  output_path <- paste0("Output Folder/", id, "/Sport Schedule.json")
+  output_path <- paste0("Data/", id, "/Sport Schedule.json")
   # write(export_json, file = output_path)
 }

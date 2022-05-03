@@ -9,9 +9,7 @@ library(lubridate)
 # Read in All File Names
 # Code Stolen From:
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
-all_files <- list.files(path = "Data/113 Hockey JSONs",
-           # To make sure I grab only the relevant files 
-           pattern = "en's")
+all_files <- list.files(path = "Data/113 Hockey JSONs")
 
 # Key DF for matching event and matchid
 key <- data.frame(Event = c(),
@@ -33,25 +31,12 @@ for (json_file_name in all_files) {
   
   # Date of Match and Gender
   Date <- raw_json$MatchInfo$StartDateTime$c_Local
+
   # Gender is in the json file name
-  Gender <- str_split(json_file_name, 
-                      pattern = "'", 
-                      n = 2)[[1]][1]
+  Event <- raw_json$MatchInfo$GenderEvent$c_Name
   
-  # Gender is in the json file name
-  Event <- str_split(json_file_name, 
-                     pattern = "Match ID", 
-                     n = 2)[[1]][1] %>% 
-    # Trim Whitespace
-    str_trim()
-  # Get Match ID
-  MatchID <- str_split(json_file_name, 
-                       pattern = "Match ID", 
-                       n = 2)[[1]][2] %>% 
-    # Trim Whitespace
-    str_trim() %>% 
-    # Get rid of the .json part
-    str_remove(pattern = ".json")
+  # Match ID
+  MatchID <- str_remove(json_file_name, pattern = ".json")
   
   ###################################################
   # Team 1 Data
@@ -215,7 +200,7 @@ for (json_file_name in all_files) {
 # Names of key and output to a CSV
 names(key) <- c("Event", "MatchID", "Team1", "Team 2")
 key$MatchID <- as.numeric(key$MatchID)
-key_file <- "Data/Lookup CSVs/113 Lookup.csv"
+key_file <- "Data/Match ID Keys/113 Match ID Key.csv"
 
 write.csv(x = key, 
           file = key_file,
