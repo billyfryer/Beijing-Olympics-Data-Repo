@@ -25,8 +25,10 @@ for (json_file_name in all_files){
   
   # Date of Match and Gender
   Date <- raw_json$Result$PhaseList$DateTimes$Start$c_Local
-  
+  # Get MatchID
   MatchID <- str_remove(json_file_name, pattern = ".json")
+  # Event
+  Event <- raw_json$PhaseInfo$Event$c_Name
   
   
   # Get Results
