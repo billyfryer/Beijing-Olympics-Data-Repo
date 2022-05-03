@@ -31,12 +31,10 @@ for (json_file_name in all_files) {
   
   # Date of Match and Gender
   Date <- raw_json$MatchInfo$StartDateTime$c_Local
-
-  # Gender is in the json file name
-  Event <- raw_json$MatchInfo$GenderEvent$c_Name
-  
-  # Match ID
+  # Get MatchID
   MatchID <- str_remove(json_file_name, pattern = ".json")
+  # Event
+  Event <- raw_json$MatchInfo$GenderEvent$c_Short
   
   ###################################################
   # Team 1 Data
