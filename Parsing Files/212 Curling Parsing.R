@@ -9,9 +9,15 @@ library(lubridate)
 # Code Stolen From:
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
 
-all_files <- list.files(path = "Output Folder/212 Curling JSONs",
+all_files <- list.files(path = "Data/212 Curling JSONs",
                         # To make sure I grab only the relevant files 
                         pattern = "Tournament")
+
+# Key DF for matching event and matchid
+key <- data.frame(Event = c(),
+                  MatchID = c(),
+                  Team1 = c(),
+                  Team2 = c())
 
 for (json_file_name in all_files){
 
@@ -22,15 +28,25 @@ for (json_file_name in all_files){
   # Don't know how this works, but it does.
   # Stolen From Stack Overflow:
   # https://stackoverflow.com/questions/38074926/unable-to-parse-locally-stored-json-file-with-special-character-like-backslash
-  file_path <- paste0("Output Folder/212 Curling JSONs/", json_file_name)
+  file_path <- paste0("Data/212 Curling JSONs/", json_file_name)
   raw_json <- fromJSON(gsub("\\\\","",readLines(file_path)))
   
   # Date of Match and Gender
   Date <- raw_json$MatchInfo$StartDateTime$c_Local
   # Gender is in the json file name
   Event <- str_split(json_file_name, 
-                      pattern = "Tournament", 
-                      n = 2)[[1]][1]
+                     pattern = "Match ID", 
+                     n = 2)[[1]][1] %>% 
+    # Trim Whitespace
+    str_trim()
+  # Get Match ID
+  MatchID <- str_split(json_file_name, 
+                       pattern = "Match ID", 
+                       n = 2)[[1]][2] %>% 
+    # Trim Whitespace
+    str_trim() %>% 
+    # Get rid of the .json part
+    str_remove(pattern = ".json")
   
   ###################################################
   # Team 1 Data
@@ -120,11 +136,21 @@ for (json_file_name in all_files){
     mutate_all(~replace(., is.na(.), 0))
   
   # Write to CSV
-  output_file_name <- paste0("Output Folder/212 Curling CSVs/", 
-                            # Only the actual date, not the time of game
-                            Event, "-", Team1,"-", Team2, "-", substr(Date, 1,10), ".csv")
+  output_file_name <- paste0("Data/212 Curling CSVs/", MatchID, ".csv")
   
   write.csv(x = Game_Statistics_Summary, 
             file = output_file_name,
             row.names = FALSE)
+  
+  # Update Key
+  key <- rbind(key, c(Event, MatchID, Team1, Team2))
 }
+
+# Names of key and output to a CSV
+names(key) <- c("Event", "MatchID", "Team1", "Team 2")
+key$MatchID <- as.numeric(key$MatchID)
+key_file <- "Data/212 Curling CSVs/212 Lookup.csv"
+
+write.csv(x = key, 
+          file = key_file,
+          row.names = FALSE)
