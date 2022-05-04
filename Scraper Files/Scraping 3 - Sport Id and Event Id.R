@@ -62,7 +62,7 @@ for (sport_id in unique(phase_sports$sportID)){
   # New Schedule
   phase_id_key <- get_event_phase(sport_id) %>% 
     select(sport_id = n_SportID,
-           phase_id = n_EventPhaseID,
+           match_id = n_EventPhaseID,
            event_name = c_GenderEvent)
 
   # Phase ID Key to csv
