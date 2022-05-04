@@ -1,4 +1,4 @@
-"sport_id","phase_id","event_name"
+"sport_id","match_id","event_name"
 220,1937864,"Men's Individual Sprint"
 220,1937870,"Men's 15km Individual"
 220,1937872,"Men's 50km Mass Start"

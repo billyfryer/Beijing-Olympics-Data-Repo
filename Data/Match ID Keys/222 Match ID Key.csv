@@ -1,4 +1,4 @@
-"sport_id","phase_id","event_name"
+"sport_id","match_id","event_name"
 222,1939301,"Men's Parallel Giant Slalom"
 222,1939305,"Men's Snowboard Cross"
 222,1939303,"Men's Halfpipe"
