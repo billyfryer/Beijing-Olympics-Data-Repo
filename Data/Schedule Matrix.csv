@@ -1,4 +1,4 @@
-"n_SportID","c_Sport","c_SportShort","n_DateLocal","c_DateLocal","d_DateLocal","c_TimeFirstEventLocal","c_TimeFirstEventUTC","c_TimeLastEventLocal","c_TimeLastEventUTC","n_NrOfEvents","NrOfMatches","n_MedalsGold","n_MedalsSilver","n_MedalsBronze"
+"n_SportID","c_Sport","c_SportShort","n_DateLocal","c_DateLocal","d_DateLocal","c_TimeFirstEventLocal","c_TimeFirstEventUTC","c_TimeLastEventLocal","c_TimeLastEventUTC","n_NrOfEvents","n_NrOfMatches","n_MedalsGold","n_MedalsSilver","n_MedalsBronze"
 115,"Alpine Skiing","ALP",20220202,"2022-02-02T00:00:00","/Date(1643760000000+0000)/",NA,NA,NA,NA,0,0,0,0,0
 115,"Alpine Skiing","ALP",20220203,"2022-02-03T00:00:00","/Date(1643846400000+0000)/",NA,NA,NA,NA,0,0,0,0,0
 115,"Alpine Skiing","ALP",20220204,"2022-02-04T00:00:00","/Date(1643932800000+0000)/",NA,NA,NA,NA,0,0,0,0,0
