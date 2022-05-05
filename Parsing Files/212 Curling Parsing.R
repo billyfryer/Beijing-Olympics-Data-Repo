@@ -11,12 +11,6 @@ library(lubridate)
 
 all_files <- list.files(path = "Data/212 Curling JSONs")
 
-# Key DF for matching event and matchid
-key <- data.frame(Event = c(),
-                  MatchID = c(),
-                  Team1 = c(),
-                  Team2 = c())
-
 for (json_file_name in all_files){
 
   # Sanity Check
@@ -126,21 +120,9 @@ for (json_file_name in all_files){
     mutate_all(~replace(., is.na(.), 0))
   
   # Write to CSV
-  output_file_name <- paste0("Data/212 Curling CSVs/", MatchID, ".csv")
+  output_file_name <- paste0("Data/212 CSVs/", MatchID, ".csv")
   
   write.csv(x = Game_Statistics_Summary, 
             file = output_file_name,
             row.names = FALSE)
-  
-  # Update Key
-  key <- rbind(key, c(Event, MatchID, Team1, Team2))
 } # End of For Loop
-
-# Names of key and output to a CSV
-names(key) <- c("Event", "MatchID", "Team1", "Team 2")
-key$MatchID <- as.numeric(key$MatchID)
-key_file <- "Data/Match ID Keys/212 Match ID Key.csv"
-
-write.csv(x = key, 
-          file = key_file,
-          row.names = FALSE)

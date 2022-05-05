@@ -101,7 +101,7 @@ for (json_file_name in all_files){
   # Write to CSV
   # Wrapped in a unique because we only need 1 filename
   # The team event stuff was being a little silly
-  output_file_name <- unique(paste0("Data/103 Speed Skating CSVs/", 
+  output_file_name <- unique(paste0("Data/103 CSVs/", 
                            MatchID, ".csv"))
   
   write.csv(x = Results, 

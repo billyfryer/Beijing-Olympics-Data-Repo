@@ -8,7 +8,6 @@ library(lubridate)
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
 all_files <- list.files(path = "Data/213 Bobsled JSONs")
 
-
 # Comment Out For Loop For now
 for (json_file_name in all_files){
   
@@ -72,7 +71,7 @@ for (json_file_name in all_files){
   # Write to CSV
   # Wrapped in a unique because we only need 1 filename
   # The team event stuff was being a little silly
-  output_file_name <- unique(paste0("Data/213 Bobsled CSVs/", 
+  output_file_name <- unique(paste0("Data/213 CSVs/", 
                                     MatchID, ".csv"))
   
   write.csv(x = Full_Results, 

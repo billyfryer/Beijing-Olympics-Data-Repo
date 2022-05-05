@@ -77,7 +77,7 @@ for (sport_id in unique(phase_sports$sportID)){
     print(paste("Event",event_name, ":", i, "/", nrow(phase_id_key)))
     sport_json <- get_sport_data(sportId = sport_id, phaseId = phase_id)
     export_json <- toJSON(sport_json)
-    output_path <- paste0("Data/", sport_id, " ", sport, " JSONs/",
+    output_path <- paste0("Data/", sport_id, " JSONs/",
                           phase_id, ".json")    
     write(export_json, file = output_path)
   }
@@ -117,7 +117,7 @@ for (sport_id in unique(match_sports$sportID)){
     match_id = schedule[i,3]
     sport_json <- get_sport_data(sportId = sport_id, matchId = match_id)
     export_json <- toJSON(sport_json)
-    output_path <- paste0("Data/", sport_id, " ", sport, " JSONs/",
+    output_path <- paste0("Data/", sport_id, " JSONs/",
                           match_id, ".json")
     write(export_json, file = output_path)
   }
