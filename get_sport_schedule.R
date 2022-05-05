@@ -6,7 +6,13 @@ get_sport_schedule <- function(sportID){
 
   jackpot <- jsonlite::fromJSON(url)  %>%  
     as.data.frame() %>% 
-    unnest(col = DateList.EventPhaseMatchList)
+    unnest(cols = "DateList.EventPhaseMatchList") %>% 
+    jsonlite::flatten() %>% 
+    as.data.frame()
   
+  if(sportID %in% c(113, 212)) {
+    jackpot$Match.PeriodList <- unlist(jackpot$Match.PeriodList)
+  }
+
   return(jackpot)
 }

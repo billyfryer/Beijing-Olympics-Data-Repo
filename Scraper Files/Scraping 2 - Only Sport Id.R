@@ -38,9 +38,8 @@ for (i in 1:length(sportids)) {
 
 ### Get Sport Schedule
 source("get_sport_schedule.R")
-for (i in 1:length(sportids)) {
-  id <- sportids[i]
-  print(paste("Sport ID ", i, "/", length(sportids)))
+for (id in sportids) {
+  print(paste("Sport ID:", id))
   sport_schedule <- get_sport_schedule(id)
   
   # Change "Phase" to match
@@ -54,12 +53,8 @@ for (i in 1:length(sportids)) {
                                   right = "_")
   # Final Name Cleaning
   sport_schedule <- sport_schedule %>% 
-    janitor::clean_names(case = "big_camel") %>% 
-    data.frame()
-  
-  # Get Rid of Row Names
-  rownames(sport_schedule) <- NULL
-  
+    janitor::clean_names(case = "big_camel")
+
   output_path <- paste0("Data/Sport Schedules/", id, " Sport Schedule.csv")
   write.csv(sport_schedule, output_path,
             row.names = FALSE)
