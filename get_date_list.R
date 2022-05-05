@@ -8,12 +8,6 @@ get_date_list <- function() {
   temp <- jsonlite::fromJSON(url) %>% 
     .$Dates %>% 
     as.data.frame()
-  
-  names(temp) <- str_split(names(temp), 
-                           pattern = "_", 
-                           n = 2, 
-                           simplify = TRUE)[,2]
-
 
   return(temp)
 }

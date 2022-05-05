@@ -1,4 +1,4 @@
-"SportID","SportTypeID","Sport","Sport_Short"
+"n_SportID","n_SportTypeID","c_Sport","c_SportShort"
 115,3,"Alpine Skiing","ALP"
 218,3,"Biathlon","BTH"
 213,3,"Bobsled","BOB"

@@ -12,9 +12,5 @@ get_schedule_matrix <- function() {
     dplyr::mutate(NrOfMatches = n_NrOfMatches + n_NrOfPhases) %>% 
     dplyr::select(n_SportID:n_NrOfEvents, NrOfMatches, n_MedalsGold:n_MedalsBronze)
   
-  names(jackpot) <- c("SportID", "Sport", "SportShort", "n_DateLocal",
-                      "c_DateLocal", "d_DateLocal", "TimeFirstEventLocal",
-                      "TimeFirstEventUTC", "TimeLastEventLocal", "TimeLastEventUTC",
-                      "NrOfEvents", "NrOfMatches", "MedalsGold", "MedalsSilver", "MedalsBronze")
   return(jackpot)
 }

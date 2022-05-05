@@ -1,4 +1,4 @@
-"Date","Current","Day","Day","DayShort","DayNr","WeekDayNr","Month","MonthShort","MonthNr","Year","TimeFirstEventLocal","TimeFirstEventUTC","TimeLastEventLocal","TimeLastEventUTC"
+"n_Date","b_Current","n_Day","c_Day","c_DayShort","n_DayNr","n_WeekDayNr","c_Month","c_MonthShort","n_MonthNr","n_Year","c_TimeFirstEventLocal","c_TimeFirstEventUTC","c_TimeLastEventLocal","c_TimeLastEventUTC"
 20220202,FALSE,-2,"Wednesday","Wed",2,4,"February","Feb",2,2022,"2022-02-02T20:05:00","2022-02-02T12:05:00","2022-02-02T23:00:00","2022-02-02T15:00:00"
 20220203,FALSE,-1,"Thursday","Thu",3,5,"February","Feb",2,2022,"2022-02-03T09:05:00","2022-02-03T01:05:00","2022-02-03T23:00:00","2022-02-03T15:00:00"
 20220204,FALSE,0,"Friday","Fri",4,6,"February","Feb",2,2022,"2022-02-04T07:00:00","2022-02-03T23:00:00","2022-02-04T23:00:00","2022-02-04T15:00:00"

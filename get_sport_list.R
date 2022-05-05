@@ -10,6 +10,5 @@ get_sport_list <- function() {
     jsonlite::flatten() %>% 
     dplyr::select(-b_RecordsAvailable)
   
-  names(temp) <- c("SportID", "SportTypeID", "Sport", "Sport_Short")
   return(temp)
 }
