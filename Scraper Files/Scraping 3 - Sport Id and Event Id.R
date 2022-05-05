@@ -64,10 +64,6 @@ for (sport_id in unique(phase_sports$sportID)){
     select(sport_id = n_SportID,
            match_id = n_EventPhaseID,
            event_name = c_GenderEvent)
-
-  # Phase ID Key to csv
-  output_path <- paste0("Data/Match ID Keys/", sport_id, " Match ID Key.csv")
-  write.csv(phase_id_key, file = output_path, row.names = FALSE)
   
   # Internal For Loop for individual games
   for (i in 1:nrow(phase_id_key)) {
