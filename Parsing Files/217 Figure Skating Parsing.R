@@ -70,21 +70,7 @@ for (i in 1:length(all_files)){
   } else {
     Results$TeamMemberList <- unlist(Results$TeamMemberList)
     Full_Results <- Results
-   # # Make a Key Variable For joining on Team members
-   # Results <- Results %>% mutate(key = 1:nrow(Results))
-   # 
-   # # Results looks ok, just have to figure out the team members now 
-   # TeamMembers <- Results$TeamMemberList
-   # TeamMembers <- lapply(TeamMembers, unlist)
-   # TeamMembers <- lapply(TeamMembers, FUN = function(x){ data.frame(t(x), stringsAsFactors = F) })
-   # TeamMembers <- do.call("bind_rows", TeamMembers)
-   # # Mutate On key to join with Results
-   # TeamMembers <- TeamMembers %>% mutate(key = 1:nrow(TeamMembers))
-   # 
-   # # Now I need to Join back the Team Members to the Results
-   # Full_Results <- full_join(Results, TeamMembers, by = "key") %>% 
-   #   select(-key, -TeamMemberList)
-  }
+   }
   
   # Write to CSV
   # Wrapped in a unique because we only need 1 filename

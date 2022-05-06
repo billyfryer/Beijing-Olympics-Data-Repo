@@ -1,0 +1,18 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ResultInfo_1","c_ResultInfo_2","b_Completed","b_Upcoming","c_ODF_IRM"
+1, 642928,"SCHOUTEN Irene","SCHOUTEN I","Irene","Schouten","8", 8,    1, 2201,Netherlands,NED, 1, 1,"1","60","60",60000,"16","8:14.73",TRUE,FALSE,NA
+1, 652005,"BLONDIN Ivanie","BLONDIN I","Ivanie","Blondin","1", 1,  159, 2231,Canada,CAN, 2, 2,"2","40","40",40000,"16","8:14.79",TRUE,FALSE,NA
+1, 703475,"LOLLOBRIGIDA Francesca","LOLLOBRIGIDA F","Francesca","Lollobrigida","2", 2,    6, 2210,Italy,ITA, 3, 3,"3","20","20",20000,"16","8:14.98",TRUE,FALSE,NA
+1, 481004,"MANGANELLO KILBURG Mia","MANGANELLO KILBURG M","Mia","Kilburg-Manganello","7", 7,    5, 2209,United States,USA, 4, 4,"4","10","10",10000,"16","8:16.15",TRUE,FALSE,NA
+1, 914721,"BO-REUM Kim","BO-REUM K","Bo-Reum","Kim","4", 4,  106, 4391,South Korea,KOR, 5, 5,"5","6","6", 6000,"16","8:16.81",TRUE,FALSE,NA
+1, 751659,"MALTAIS Valerie","MALTAIS V","Valérie","Maltais","14",14,  159, 2231,Canada,CAN, 6, 6,"6","6","6", 6000,"16","8:20.46",TRUE,FALSE,NA
+1, 985487,"ZUEVA Marina","ZUEVA M","Marina","Zueva","15",15,  103, 4387,Belarus,BLR, 7, 7,"7","4","4", 4000,"16","8:20.10",TRUE,FALSE,NA
+1,1146729,"SATO Ayano","SATO A","Ayano","Sato","3", 3,   18, 2241,Japan,JPN, 8, 8,"8","3","3", 3000,"16","8:16.94",TRUE,FALSE,NA
+1,  97209,"PECHSTEIN Claudia","PECHSTEIN C","Claudia","Pechstein","13",13,    2, 2206,Germany,GER, 9, 9,"9","3","3", 3000,"16","8:25.78",TRUE,FALSE,NA
+1,1146782,"CZYSZCZON Magdalena","CZYSZCZON M","Magdalena","Czyszczon","11",11,  150, 2214,Poland,POL,10,10,"10","2","2", 2000,"16","8:21.07",TRUE,FALSE,NA
+1,1384759,"GROENEWOUD Marijke","GROENEWOUD M","Marijke","Groenewoud","9", 9,    1, 2201,Netherlands,NED,11,11,"11","1","1", 1000,"16","9:12.86",TRUE,FALSE,NA
+1,2076410,"BIRKELAND Giorgia","BIRKELAND G","Giorgia","Birkeland","12",12,    5, 2209,United States,USA,12,12,"12",NA,NA,NA,"16","8:18.10",TRUE,FALSE,NA
+1, 741608,"GUO Dan","GUO D","Dan","Guo","6", 6,   26, 2770,China,CHN,13,13,"13",NA,NA,NA,"16","8:18.61",TRUE,FALSE,NA
+1,1453623,"MOROZOVA Nadezhda","MOROZOVA N","Nadezhda","Morozova","16",16,  160, 2236,Kazakhstan,KAZ,14,14,"14",NA,NA,NA,"16","8:21.05",TRUE,FALSE,NA
+1,1023486,"GOLUBEVA Elizaveta","GOLUBEVA E","Elizaveta","Golubeva","17",17,23062,73035,ROC,ROC,15,15,"15",NA,NA,NA,"15",NA,TRUE,FALSE,NA
+1,1362332,"BOSIEK Karolina","BOSIEK K","Karolina","Bosiek","10",10,  150, 2214,Poland,POL,NA,16,NA,"DQ","DQ",NA,NA,NA,TRUE,FALSE,"DQ"
+1,1221511,"LI Qishi","LI Q","Qishi","Li","5", 5,   26, 2770,China,CHN,NA,17,NA,"DQ","DQ",    0,"0","8:16.98",TRUE,FALSE,"DQ"
