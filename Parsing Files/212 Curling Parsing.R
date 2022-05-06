@@ -9,10 +9,12 @@ library(lubridate)
 # Code Stolen From:
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
 
-all_files <- list.files(path = "Data/212 Curling JSONs")
+all_files <- list.files(path = "Data/212 JSONs")
+all_files <- paste0("Data/212 JSONs/", all_files)
 
-for (json_file_name in all_files){
-
+for (i in 1:length(all_files)){
+  
+  json_file_name <- all_files[i]
   # Sanity Check
   print(json_file_name)
   
@@ -20,8 +22,7 @@ for (json_file_name in all_files){
   # Don't know how this works, but it does.
   # Stolen From Stack Overflow:
   # https://stackoverflow.com/questions/38074926/unable-to-parse-locally-stored-json-file-with-special-character-like-backslash
-  file_path <- paste0("Data/212 Curling JSONs/", json_file_name)
-  raw_json <- fromJSON(gsub("\\\\","",readLines(file_path)))
+  raw_json <- fromJSON(gsub("\\\\","",readLines(json_file_name)))
   
   # Date of Match and Gender
   Date <- raw_json$MatchInfo$StartDateTime$c_Local
@@ -30,7 +31,7 @@ for (json_file_name in all_files){
   Event <- raw_json$MatchInfo$GenderEvent$c_Name
   
   # Match ID
-  MatchID <- str_remove(json_file_name, pattern = ".json")
+  MatchID <- raw_json$MatchInfo$n_ID
   
   ###################################################
   # Team 1 Data
