@@ -13,7 +13,9 @@ all_files <- list.files(path = "Data/113 JSONs")
 all_files <- paste0("Data/113 JSONs/", all_files)
 
 
-for (json_file_name in all_files) {
+for (i in 1:length(all_files)) {
+  
+  json_file_name <- all_files[i]
   
   # Sanity Check
   print(json_file_name)
@@ -22,12 +24,12 @@ for (json_file_name in all_files) {
   # Don't know how this works, but it does.
   # Stolen From Stack Overflow:
   # https://stackoverflow.com/questions/38074926/unable-to-parse-locally-stored-json-file-with-special-character-like-backslash
-  raw_json <- fromJSON(gsub("\\\\","",readLines(file_path)))
+  raw_json <- fromJSON(gsub("\\\\","",readLines(json_file_name)))
   
   # Date of Match and Gender
   Date <- raw_json$MatchInfo$StartDateTime$c_Local
   # Get MatchID
-  MatchID <- str_remove(json_file_name, pattern = ".json")
+  MatchID <- raw_json$MatchInfo$n_ID
   # Event
   Event <- raw_json$MatchInfo$GenderEvent$c_Short
   
