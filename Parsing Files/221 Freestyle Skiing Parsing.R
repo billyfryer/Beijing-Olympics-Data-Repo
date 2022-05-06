@@ -11,13 +11,12 @@ library(lubridate)
 all_files <- list.files(path = "Data/221 JSONs")
 all_files <- paste0("Data/221 JSONs/", all_files)
 
-
 for (i in 1:length(all_files)){
   
   json_file_name <- all_files[i]
   # Sanity Check
   print(json_file_name)
-  
+
   # Read in the json file
   # Don't know how this works, but it does.
   # Stolen From Stack Overflow:
