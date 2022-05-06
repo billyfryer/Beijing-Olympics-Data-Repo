@@ -1,0 +1,27 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ODF_QualificationMark","c_ResultInfo_1","c_ResultInfo_2","c_ResultInfo_3","b_Completed","b_Upcoming","n_BDF_VideoSessionID","c_ODF_IRM"
+1,1761769,"OLDHAM Megan","OLDHAM M","Megan","Oldham","8",20,  159, 2231,Canada,CAN, 1, 1,"1","171.25","171.25",171250,"Q","80.00","91.25","8.25",TRUE,FALSE,1,NA
+1,1447594,"LEDEUX Tess","LEDEUX T","Tess","Ledeux","2", 4,  144, 2202,France,FRA, 2, 2,"2","171.00","171.00",171000,"Q","90.50","80.50","20.00",TRUE,FALSE,1,NA
+1,1591888,"TATALINA Anastasia","TATALINA A","Anastasiya","Tatalina","11",24,23062,73035,ROC,ROC, 3, 3,"3","163.25","163.25",163250,"Q","68.75","89.75","73.50",TRUE,FALSE,1,NA
+1,1254075,"MOESTUE EIE Sandra","MOESTUE EIE S","Sandra","Moestue Eie","16",17,  153, 2221,Norway,NOR, 4, 4,"4","162.00","162.00",162000,"Q","77.50","76.25","84.50",TRUE,FALSE,1,NA
+1,1642245,"GU Eileen","GU E","Eileen","Gu","4", 5,   26, 2770,China,CHN, 5, 5,"5","161.25","161.25",161250,"Q","89.00","24.50","72.25",TRUE,FALSE,1,NA
+1,1475771,"GREMAUD Mathilde","GREMAUD M","Mathilde","Gremaud","1", 2,  149, 2213,Switzerland,SUI, 6, 6,"6","159.25","159.25",159250,"Q","88.25","71.00","33.75",TRUE,FALSE,1,NA
+1,1857620,"MUIR Kirsty","MUIR K","Kirsty","Muir","12",15,  211, 4058,Great Britain,GBR, 7, 7,"7","157.50","157.50",157500,"Q","89.25","67.00","68.25",TRUE,FALSE,1,NA
+1,1021660,"STEVENS Darian","STEVENS D","Darian","Stevens","22",22,    5, 2209,United States,USA, 8, 8,"8","152.00","152.00",152000,"Q","84.75","10.00","67.25",TRUE,FALSE,1,NA
+1,1372769,"HOEFFLIN Sarah","HOEFFLIN S","Sarah","Hoefflin","6",26,  149, 2213,Switzerland,SUI, 9, 9,"9","149.50","149.50",149500,"Q","85.50","42.75","64.00",TRUE,FALSE,1,NA
+1,1254074,"KILLI Johanne","KILLI J","Johanne","Killi","5", 1,  153, 2221,Norway,NOR,10,10,"10","148.25","148.25",148250,"Q","87.50","60.75","58.25",TRUE,FALSE,1,NA
+1,1642243,"ASSELIN Olivia","ASSELIN O","Olivia","Asselin","19",16,  159, 2231,Canada,CAN,11,11,"11","147.75","147.75",147750,"Q","60.75","87.00","16.00",TRUE,FALSE,1,NA
+1,1372713,"KARAVA Anni","KARAVA A","Anni","Karava","24",12,  161, 2237,Finland,FIN,12,12,"12","144.50","144.50",144500,"Q","82.50","52.50","62.00",TRUE,FALSE,1,NA
+1, 929565,"SUMMERHAYES Katie","SUMMERHAYES K","Katie","Summerhayes","17",13,  211, 4058,Great Britain,GBR,13,13,"13","136.50","136.50",136500,NA,"63.75","69.25","67.25",TRUE,FALSE,1,NA
+1,1495689,"HAMILL Marin","HAMILL M","Marin","Hamill","15",19,    5, 2209,United States,USA,14,14,"14","132.25","132.25",132250,NA,"61.50","66.00","66.25",TRUE,FALSE,1,NA
+1,1206127,"VOISIN Maggie","VOISIN M","Maggie","Voisin","14",21,    5, 2209,United States,USA,15,15,"15","128.00","128.00",128000,NA,"16.25","60.00","68.00",TRUE,FALSE,1,NA
+1,1021666,"OHACO Dominique","OHACO D","Dominique","Ohaco","27",23,  219, 4328,Chile,CHI,16,16,"16","126.50","126.50",126500,NA,"60.25","11.25","66.25",TRUE,FALSE,1,NA
+1,1447047,"SILDARU Kelly","SILDARU K","Kelly","Sildaru","3", 3,    8, 2217,Estonia,EST,17,17,"17","125.50","125.50",125500,NA,"40.25","85.25","28.00",TRUE,FALSE,1,NA
+1,1723983,"EICHINGER Aliah Delia","EICHINGER AD","Aliah Delia","Eichinger","26", 6,    2, 2206,Germany,GER,18,18,"18","115.75","115.75",115750,NA,"51.00","64.75","39.00",TRUE,FALSE,1,NA
+1,1983492,"ORLOVA Ksenia","ORLOVA K","Ksenia","Orlova","21", 8,23062,73035,ROC,ROC,19,19,"19","114.75","114.75",114750,NA,"60.00","54.75","9.25",TRUE,FALSE,1,NA
+1,1983490,"YANG Shuorui","YANG S","Shuorui","Yang","20",10,   26, 2770,China,CHN,20,20,"20","96.00","96.00", 96000,NA,"38.25","40.50","55.50",TRUE,FALSE,1,NA
+1,1370554,"WOLF Lara","WOLF L","Lara","Wolf","18",11,  151, 2219,Austria,AUT,21,21,"21","91.50","91.50", 91500,NA,"25.25","36.25","55.25",TRUE,FALSE,1,NA
+1,1372767,"HACKETT Margaux","HACKETT M","Margaux","Hackett","13",18,  158, 2230,New Zealand,NZL,22,22,"22","74.75","74.75", 74750,NA,"9.75","9.00","65.00",TRUE,FALSE,1,NA
+1,1240713,"WALLNER Laura","WALLNER L","Laura","Wallner","23",25,  151, 2219,Austria,AUT,23,23,"23","68.50","68.50", 68500,NA,"59.50","9.00","9.00",TRUE,FALSE,1,NA
+1,1430067,"CLAIRE Caroline","CLAIRE C","Caroline","Claire","10",14,    5, 2209,United States,USA,24,24,"24","20.00","20.00", 20000,NA,"20.00","17.25","DNS",TRUE,FALSE,1,NA
+1,1140114,"BERTAGNA Silvia","BERTAGNA S","Silvia","Bertagna","9", 9,    6, 2210,Italy,ITA,25,25,"25","17.00","17.00", 17000,NA,"17.00","16.75","DNS",TRUE,FALSE,1,NA
+1,1447592,"GASKELL Elena","GASKELL E","Elena","Gaskell","7", 7,  159, 2231,Canada,CAN,NA,26,NA,"DNS","DNS",NA,NA,"DNS","DNS","DNS",TRUE,FALSE,1,"DNS"

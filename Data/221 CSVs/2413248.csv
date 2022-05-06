@@ -1,0 +1,13 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ResultInfo_1","c_ResultInfo_2","c_ResultInfo_3","b_Completed","b_Upcoming","n_BDF_VideoSessionID","c_ODF_IRM"
+1,1372709,"HALL Alex","HALL A","Alexander","Hall","6", 8,  5,2209,United States,USA, 1, 1,"1","90.01","90.01",90010,"90.01","86.38","31.41",TRUE,FALSE,1,NA
+1,1021657,"GOEPPER Nick","GOEPPER N","Nicholas","Goepper","9",10,  5,2209,United States,USA, 2, 2,"2","86.48","86.48",86480,"45.75","86.48","53.45",TRUE,FALSE,1,NA
+1,1019299,"TJADER Jesper","TJADER J","Jesper","Tjäder","8", 9,154,2222,Sweden,SWE, 3, 3,"3","85.35","85.35",85350,"85.35","16.11","37.33",TRUE,FALSE,1,NA
+1,1160705,"RAGETTLI Andri","RAGETTLI A","Andri","Ragettli","1",12,149,2213,Switzerland,SUI, 4, 4,"4","83.50","83.50",83500,"78.20","83.50","33.95",TRUE,FALSE,1,NA
+1,1429991,"RUUD Birk","RUUD B","Birk","Ruud","4",11,153,2221,Norway,NOR, 5, 5,"5","79.33","79.33",79330,"26.98","47.93","79.33",TRUE,FALSE,1,NA
+1,1140094,"BOESCH Fabian","BOESCH F","Fabian","Boesch","5", 3,149,2213,Switzerland,SUI, 6, 6,"6","78.05","78.05",78050,"78.05","51.46","13.98",TRUE,FALSE,1,NA
+1, 995493,"STEVENSON Colby","STEVENSON C","Colby","Stevenson","2", 7,  5,2209,United States,USA, 7, 7,"7","77.41","77.41",77410,"77.41","41.73","55.18",TRUE,FALSE,1,NA
+1,1857619,"SVANCER Matej","SVANCER M","Matej","Svancer","27", 4,151,2219,Austria,AUT, 8, 8,"8","73.05","73.05",73050,"73.05","31.86","49.83",TRUE,FALSE,1,NA
+1,1446111,"MOFFATT Max","MOFFATT M","Max","Moffatt","12", 2,159,2231,Canada,CAN, 9, 9,"9","70.40","70.40",70400,"47.18","65.31","70.40",TRUE,FALSE,1,NA
+1,1642289,"BARCLAY Ben","BARCLAY B","Ben","Barclay","21", 6,158,2230,New Zealand,NZL,10,10,"10","67.40","67.40",67400,"29.16","29.78","67.40",TRUE,FALSE,1,NA
+1,1563409,"MAGNUSSON Oliwer","MAGNUSSON O","Oliwer","Magnusson","14", 1,154,2222,Sweden,SWE,11,11,"11","40.46","40.46",40460,"23.75","22.75","40.46",TRUE,FALSE,1,NA
+1,1372735,"GUBSER Kim","GUBSER K","Kim","Gubser","16", 5,149,2213,Switzerland,SUI,12,12,"12","DNS","DNS",NA,"DNS","DNS","DNS",TRUE,FALSE,1,"DNS"

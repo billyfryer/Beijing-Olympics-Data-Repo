@@ -1,0 +1,25 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ODF_QualificationMark","c_ResultInfo_1","b_Completed","b_Upcoming","n_BDF_VideoSessionID","c_ResultInfo_2"
+1, 652529,"QI Guangpu","QI G","Guangpu","Qi","4", 5,   26, 2770,China,CHN, 1, 1,"1","127.88","127.88",127880,"QF","127.88",TRUE,FALSE,1,NA
+1, 761211,"JIA Zongyang","JIA Z","Zongyang","Jia","3",14,   26, 2770,China,CHN, 2, 2,"2","125.67","125.67",125670,"QF","125.67",TRUE,FALSE,1,NA
+1,1633217,"ROTH Noe","ROTH N","Noe","Roth","7",15,  149, 2213,Switzerland,SUI, 3, 3,"3","123.08","123.08",123080,"QF","123.08",TRUE,FALSE,1,NA
+1, 836981,"LOUGHRAN Eric","LOUGHRAN E","Eric","Loughran","9",24,    5, 2209,United States,USA, 4, 4,"4","121.24","121.24",121240,"QF","121.24",TRUE,FALSE,1,NA
+1, 583183,"ABRAMENKO Oleksandr","ABRAMENKO O","Oleksandr","Abramenko","13", 7,   13, 2232,Ukraine,UKR, 5, 5,"5","120.36","120.36",120360,"QF","120.36",TRUE,FALSE,1,NA
+1,1198849,"LILLIS Chris","LILLIS C","Christopher","Lillis","20",12,    5, 2209,United States,USA, 6, 6,"6","119.91","119.91",119910,"QF","119.91",TRUE,FALSE,1,NA
+1,1146780,"OKIPNIUK Oleksandr","OKIPNIUK O","Oleksandr","Okipnyuk","18",18,   13, 2232,Ukraine,UKR, 7, 7,"7","125.00","125.00",125000,"QF","92.76",TRUE,FALSE,1,"125.00"
+1,1638260,"WERNER Pirmin","WERNER P","Pirmin","Werner","5",11,  149, 2213,Switzerland,SUI, 8, 8,"8","123.45","123.45",123450,"QF","112.22",TRUE,FALSE,1,"123.45"
+1, 808957,"BUROV Ilya","BUROV I","Ilya","Burov","17",23,23062,73035,ROC,ROC, 9, 9,"9","120.36","120.36",120360,"QF","117.65",TRUE,FALSE,1,"120.36"
+1,1026693,"NIKITIN Stanislav","NIKITIN S","Stanislav","Nikitin","10", 3,23062,73035,ROC,ROC,10,10,"10","119.47","119.47",119470,"QF","119.47",TRUE,FALSE,1,"86.88"
+1,1638240,"SCHOENEFELD Justin","SCHOENEFELD J","Justin","Schoenefeld","15",17,    5, 2209,United States,USA,11,11,"11","118.59","118.59",118590,"QF","118.59",TRUE,FALSE,1,"105.88"
+1, 809006,"HLADCHENKO Stanislau","HLADCHENKO S","Stanislau","Hladchenko","19",21,  103, 4387,Belarus,BLR,12,12,"12","115.49","115.49",115490,"QF","115.49",TRUE,FALSE,1,"107.69"
+1,1952100,"FONTAINE Miha","FONTAINE M","Miha","Fontaine","14", 6,  159, 2231,Canada,CAN,13,13,"13","115.05","115.05",115050,NA,"115.05",TRUE,FALSE,1,"107.69"
+1,1026688,"WANG Xindi","WANG X","Xindi","Wang","6",22,   26, 2770,China,CHN,14,14,"14","114.60","114.60",114600,NA,"114.60",TRUE,FALSE,1,"98.19"
+1,1776673,"KOTOVSKYI Dmytro","KOTOVSKYI D","Dmytro","Kotovskyi","8", 1,   13, 2232,Ukraine,UKR,15,15,"15","114.03","114.03",114030,NA,"73.89",TRUE,FALSE,1,"114.03"
+1,1198854,"BUROV Maxim","BUROV M","Maxim","Burov","1", 2,23062,73035,ROC,ROC,16,16,"16","113.28","113.28",113280,NA,"95.02",TRUE,FALSE,1,"113.28"
+1,1985668,"NADEAU Emile","NADEAU E","Emile","Nadeau","16", 8,  159, 2231,Canada,CAN,17,17,"17","112.83","112.83",112830,NA,"112.83",TRUE,FALSE,1,"102.26"
+1,1638246,"SUN Jiaxu","SUN J","Jiaxu","Sun","2", 4,   26, 2770,China,CHN,18,18,"18","110.86","110.86",110860,NA,"85.40",TRUE,FALSE,1,"110.86"
+1,1724017,"KHASHYRBAYEV Sherzod","KHASHYRBAYEV S","Sherzod","Khashyrbayev","12",20,  160, 2236,Kazakhstan,KAZ,19,19,"19","109.74","109.74",109740,NA,"109.74",TRUE,FALSE,1,"69.23"
+1, 703548,"GUSTYK Maksym","GUSTYK M","Maksym","Gustyk","21",19,  103, 4387,Belarus,BLR,20,20,"20","109.74","109.74",109740,NA,"109.74",TRUE,FALSE,1,"97.20"
+1,1026699,"WALLACE Lloyd","WALLACE L","Lloyd","Wallace","23",16,  211, 4058,Great Britain,GBR,21,21,"21","108.41","108.41",108410,NA,"108.41",TRUE,FALSE,1,"71.94"
+1,1219345,"DIK Pavel","DIK P","Pavel","Dik","22", 9,  103, 4387,Belarus,BLR,22,22,"22","106.20","106.20",106200,NA,"106.20",TRUE,FALSE,1,"81.45"
+1,1238849,"IRVING Lewis","IRVING L","Lewis","Irving","25",13,  159, 2231,Canada,CAN,23,23,"23","103.98","103.98",103980,NA,"103.98",TRUE,FALSE,1,"80.99"
+1,1160038,"GYGAX Nicolas","GYGAX N","Nicolas","Gygax","11",10,  149, 2213,Switzerland,SUI,24,24,"24","103.62","103.62",103620,NA,"101.77",TRUE,FALSE,1,"103.62"
