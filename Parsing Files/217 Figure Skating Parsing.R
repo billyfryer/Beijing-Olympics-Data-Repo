@@ -11,12 +11,12 @@ library(lubridate)
 all_files <- list.files(path = "Data/217 JSONs")
 all_files <- paste0("Data/217 JSONs/", all_files)
 
-
 for (i in 1:length(all_files)){
   
   json_file_name <- all_files[i]
   # Sanity Check
   print(json_file_name)
+  print(paste("i = ", i))
   
   # Read in the json file
   # Don't know how this works, but it does.
@@ -29,7 +29,7 @@ for (i in 1:length(all_files)){
   # Get MatchID
   MatchID <- raw_json$PhaseInfo$n_PhaseID
   # Event
-  Event <- raw_json$PhaseInfo$Event$c_Name
+  Event <- paste(raw_json$PhaseInfo$Event$c_Name, raw_json$PhaseInfo$c_Phase)
   # Get Basic Results
   Results <- raw_json$Result$PhaseList$ParticipantList
   
@@ -46,31 +46,44 @@ for (i in 1:length(all_files)){
   }   
   # Always Unlist Phase Result List b/c nothing there
   Results$PhaseResultList <- unlist(Results$PhaseResultList)
-  
-  
-  # Two Different Types: Pairs and Singles/Team
-  # Something in my gut tells me that Team is different but I don't
-  # know so I'm gonna trust what I have...
-  if(str_detect(Event, pattern = c("Singles")) |
-     str_detect(Event, pattern = c("Team"))) {
-    # Individual Events Don't have a Team Member List
+  # Two Different Types: Multiple People in once routine vs only one
+  # This was stupidly hard to figure out
+  if(!is_empty(Results$TeamMemberList[[1]])) {
+   # Team Member List
+   # Make a dataframe
+   TeamMemberList <- Results$TeamMemberList %>% 
+     do.call("bind_rows", .) %>%
+     # Make Wide
+     mutate(key = rep(1:(nrow(.)/2), each = 2)) %>% 
+    group_by(key) %>% 
+     nest() %>% 
+     ungroup() %>% 
+     unnest_wider(col = -key) %>% 
+     unnest_wider(col = -key, 
+                  names_sep = ".")
+   
+   Results <- Results %>% 
+     select(-TeamMemberList) %>% 
+     mutate(key = 1:nrow(.))
+   
+   Full_Results <- left_join(Results, TeamMemberList, by = "key")
+  } else {
     Results$TeamMemberList <- unlist(Results$TeamMemberList)
     Full_Results <- Results
-  } else {
-    # Make a Key Variable For joining on Team members
-    Results <- Results %>% mutate(key = 1:nrow(Results))
-    
-    # Results looks ok, just have to figure out the team members now 
-    TeamMembers <- Results$TeamMemberList
-    TeamMembers <- lapply(TeamMembers, unlist)
-    TeamMembers <- lapply(TeamMembers, FUN = function(x){ data.frame(t(x), stringsAsFactors = F) })
-    TeamMembers <- do.call("bind_rows", TeamMembers)
-    # Mutate On key to join with Results
-    TeamMembers <- TeamMembers %>% mutate(key = 1:nrow(TeamMembers))
-    
-    # Now I need to Join back the Team Members to the Results
-    Full_Results <- full_join(Results, TeamMembers, by = "key") %>% 
-      select(-key, -TeamMemberList)
+   # # Make a Key Variable For joining on Team members
+   # Results <- Results %>% mutate(key = 1:nrow(Results))
+   # 
+   # # Results looks ok, just have to figure out the team members now 
+   # TeamMembers <- Results$TeamMemberList
+   # TeamMembers <- lapply(TeamMembers, unlist)
+   # TeamMembers <- lapply(TeamMembers, FUN = function(x){ data.frame(t(x), stringsAsFactors = F) })
+   # TeamMembers <- do.call("bind_rows", TeamMembers)
+   # # Mutate On key to join with Results
+   # TeamMembers <- TeamMembers %>% mutate(key = 1:nrow(TeamMembers))
+   # 
+   # # Now I need to Join back the Team Members to the Results
+   # Full_Results <- full_join(Results, TeamMembers, by = "key") %>% 
+   #   select(-key, -TeamMemberList)
   }
   
   # Write to CSV
