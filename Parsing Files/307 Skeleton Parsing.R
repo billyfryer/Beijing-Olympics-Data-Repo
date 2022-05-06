@@ -8,8 +8,8 @@ library(lubridate)
 # Read in All File Names
 # Code Stolen From:
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
-all_files <- list.files(path = "Data/217 JSONs")
-all_files <- paste0("Data/217 JSONs/", all_files)
+all_files <- list.files(path = "Data/307 JSONs")
+all_files <- paste0("Data/307 JSONs/", all_files)
 
 
 for (i in 1:length(all_files)){
