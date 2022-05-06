@@ -11,12 +11,12 @@ library(lubridate)
 all_files <- list.files(path = "Data/220 JSONs")
 all_files <- paste0("Data/220 JSONs/", all_files)
 
-
 for (i in 1:length(all_files)){
   
   json_file_name <- all_files[i]
   # Sanity Check
   print(json_file_name)
+  print(paste("i = ", i))
   
   # Read in the json file
   # Don't know how this works, but it does.
@@ -52,20 +52,22 @@ for (i in 1:length(all_files)){
   if(str_detect(Event, pattern = "Team") |
      str_detect(Event, pattern = "Relay")) {
     
-    # Make a Key Variable For joining on Team members
-    Results <- Results %>% mutate(key = 1:nrow(Results))
-    
     # Results looks ok, just have to figure out the team members now 
-    TeamMembers <- Results$TeamMemberList
-    TeamMembers <- lapply(TeamMembers, unlist)
-    TeamMembers <- lapply(TeamMembers, FUN = function(x){ data.frame(t(x), stringsAsFactors = F) })
-    TeamMembers <- do.call("bind_rows", TeamMembers)
-    # Mutate On key to join with Results
-    TeamMembers <- TeamMembers %>% mutate(key = 1:nrow(TeamMembers))
-    
-    # Now I need to Join back the Team Members to the Results
-    Full_Results <- full_join(Results, TeamMembers, by = "key") %>% 
-      select(-key, -TeamMemberList)
+    if(! is.null(Results$TeamMemberList)) {
+      Results <- Results %>% mutate(key = 1:nrow(Results))
+      TeamMembers <- Results$TeamMemberList
+      TeamMembers <- lapply(TeamMembers, unlist)
+      TeamMembers <- lapply(TeamMembers, FUN = function(x){ data.frame(t(x), stringsAsFactors = F) })
+      TeamMembers <- do.call("bind_rows", TeamMembers)
+      # Mutate On key to join with Results
+      TeamMembers <- TeamMembers %>% mutate(key = 1:nrow(TeamMembers))
+      
+      # Now I need to Join back the Team Members to the Results
+      Full_Results <- full_join(Results, TeamMembers, by = "key") %>% 
+        select(-key, -TeamMemberList)
+    } else {
+      Full_Results <- Results
+    }
   } else if(str_detect(json_file_name, pattern = "Relay")){
     
     # Make a Key Variable For joining on Team members
