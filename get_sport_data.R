@@ -35,8 +35,10 @@ get_sport_data <- function(sportId, matchId = NA, phaseId = NA) {
   # Final URL Created
   final_url <- paste0(url, "&languageCode=2")
   
-  # Read JSON Data
-  jackpot <- jsonlite::fromJSON(final_url)
+  res <- httr::RETRY("GET", final_url)
+  
+  jackpot <- res %>%
+    httr::content(encoding = "UTF-8")
 
   return(jackpot)
 }
