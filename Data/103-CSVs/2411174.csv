@@ -1,0 +1,9 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantLastName","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","c_ODF_QualificationMark","b_Completed","b_Upcoming","key"
+4, 33728,"Japan","JPN","Japan",1,   18, 2241,Japan,JPN,1,1,"1","2:53.61","2:53.61",173610,   0,"SF1",TRUE,FALSE,1
+4, 33731,"Canada","CAN","Canada",6,  159, 2231,Canada,CAN,2,2,"2","2:53.97","2:53.97",173970, 360,"SF2",TRUE,FALSE,2
+4, 33712,"Netherlands","NED","Netherlands",4,    1, 2201,Netherlands,NED,3,3,"3","2:57.26","2:57.26",177260,3650,"SF2",TRUE,FALSE,3
+4,475665,"ROC","ROC","ROC",8,23062,73035,ROC,ROC,4,4,"4","2:57.66","2:57.66",177660,4050,"SF1",TRUE,FALSE,4
+4, 33738,"China","CHN","China",2,   26, 2770,China,CHN,5,5,"5","3:00.58","3:00.58",180580,6970,"FC",TRUE,FALSE,5
+4, 33743,"Norway","NOR","Norway",3,  153, 2221,Norway,NOR,6,6,"6","3:01.84","3:01.84",181840,8230,"FC",TRUE,FALSE,6
+4, 33750,"Poland","POL","Poland",7,  150, 2214,Poland,POL,7,7,"7","3:01.92","3:01.92",181920,8310,"FD",TRUE,FALSE,7
+4, 33734,"Belarus","BLR","Belarus",5,  103, 4387,Belarus,BLR,8,8,"8","3:02.00","3:02.00",182000,8390,"FD",TRUE,FALSE,8

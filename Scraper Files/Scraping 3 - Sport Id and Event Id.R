@@ -60,10 +60,15 @@ for (i in 1:nrow(complete_schedule)) {
               "PhaseID:", PhaseID,
               i, "/", nrow(complete_schedule)))
   data <- get_sport_data(sportId = SportID, matchId = MatchID, phaseId = PhaseID)
-  output_path <- paste0("Data/", SportID, "-JSONs/", MatchID, ".json")
+  # Output path depends on Phase or Match ID, whichever is not NA
+  if(is.na(MatchID)) {
+  output_path <- paste0("Data/", SportID, "-JSONs/", PhaseID, ".json")
+  } else {
+    output_path <- paste0("Data/", SportID, "-JSONs/", MatchID, ".json")
+    
+  }
   
   # Save as JSON
   export_json <- toJSON(data)
   write(export_json, file = output_path)
-  
 }
