@@ -35,10 +35,14 @@ get_sport_data <- function(sportId, matchId = NA, phaseId = NA) {
   # Final URL Created
   final_url <- paste0(url, "&languageCode=2")
   
+  # Not exactly sure, but Saiem does this.
   res <- httr::RETRY("GET", final_url)
   
-  jackpot <- res %>%
-    httr::content(encoding = "UTF-8")
+  # To get the accents
+  resp <- res %>%
+    httr::content(as = "text", encoding = "UTF-8")
+  
+  jackpot <- jsonlite::fromJSON(resp)
 
   return(jackpot)
 }
