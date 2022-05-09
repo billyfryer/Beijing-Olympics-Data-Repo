@@ -70,5 +70,5 @@ for (i in 1:nrow(complete_schedule)) {
   
   # Save as JSON
   export_json <- toJSON(data)
-  write(export_json, file = output_path)
+  writeLines(export_json, output_path, useBytes = TRUE)
 }
