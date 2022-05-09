@@ -7,21 +7,23 @@ source("get_event_phase.R")
 source("get_sport_data.R")
 # These are the rest of the functions that I need to pull from
 
-all_schedules <- paste0("Data/Sport Schedules/",
-                        list.files("Data/Sport Schedules"))
+all_schedules <- paste0("Data/Sport-Schedules/",
+                        list.files("Data/Sport-Schedules"))
 
-lookup_df <- data.frame(SportID = c(),
+complete_schedule <- data.frame(SportID = c(),
                         SportTypeID = c(),
                         MatchID = c(),
                         PhaseID = c())
 
-for (schedule in all_schedules) {
+for (i in 1:length(all_schedules)) {
   
-  print(paste("Testing:", schedule))
+  print(paste(i, "/", length(all_schedules)))
+  schedule <- all_schedules[i]
+  print(paste("Getting:", schedule))
   raw_csv <- read_csv(schedule)
   
   # If it's Hockey or Curling
-  if(str_detect(schedule, pattern = "113") | str_detect(schedule, pattern = "212")) {
+  if(unique(raw_csv$Sport.n_TypeID) == 1) {
     temp <- raw_csv %>% 
       select(SportID = Sport.n_ID,
              SportTypeID = Sport.n_TypeID,
@@ -38,31 +40,27 @@ for (schedule in all_schedules) {
       select(SportID, SportTypeID, MatchID, PhaseID)
     }
   
-  lookup_df <- bind_rows(lookup_df, temp)
+  complete_schedule <- bind_rows(complete_schedule, temp)
 }
 
 ##############################################
 ### Grab Data For All Sports
 ##############################################
-for (i in 1:nrow(lookup_df)) {
+for (i in 1:nrow(complete_schedule)) {
   
   # Pull Individual Values Out of Each Row
-  SportID <- lookup_df[i,]$SportID
-  SportTypeID <- lookup_df[i,]$SportTypeID
-  MatchID <- lookup_df[i,]$MatchID
-  PhaseID <- lookup_df[i,]$PhaseID
+  SportID <- complete_schedule[i,]$SportID
+  SportTypeID <- complete_schedule[i,]$SportTypeID
+  MatchID <- complete_schedule[i,]$MatchID
+  PhaseID <- complete_schedule[i,]$PhaseID
   
-
-  if(SportTypeID == 1) {
-    print(paste("SportID:", SportID, "MatchID:", MatchID, i, "/", nrow(lookup_df)))
-    data <- get_sport_data(sportId = SportID, matchId = MatchID)
-    output_path <- paste0("Data/", SportID, " JSONs/", MatchID, ".json")
-  } else {
-    print(paste("SportID:", SportID, "PhaseID:", PhaseID, i, "/", nrow(lookup_df)))
-    data <- get_sport_data(sportId = SportID, phaseId = PhaseID)
-    output_path <- paste0("Data/", SportID, " JSONs/", PhaseID, ".json")
-    
-  }
+  # Get Data and Output
+  print(paste("SportID:", SportID,
+              "MatchID:", MatchID,
+              "PhaseID:", PhaseID,
+              i, "/", nrow(complete_schedule)))
+  data <- get_sport_data(sportId = SportID, matchId = MatchID, phaseId = PhaseID)
+  output_path <- paste0("Data/", SportID, "-JSONs/", MatchID, ".json")
   
   # Save as JSON
   export_json <- toJSON(data)

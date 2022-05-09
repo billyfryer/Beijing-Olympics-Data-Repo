@@ -1,5 +1,0 @@
-"n_PersonID","Team","c_Person","c_PersonShort","c_PersonFirstName","c_PersonLastName","c_FunctionShort","n_Sort","c_Value_GAME_SUCCESS","c_Value_CW","c_Value_CCW","c_Value_DRAW","c_Value_TAKEOUT","c_ValueRelative_GAME_SUCCESS","c_ValueRelative_CW","c_ValueRelative_CCW","c_ValueRelative_DRAW","c_ValueRelative_TAKEOUT"
-721971,"SWE","ERIKSSON Oskar","ERIKSSON O","Oskar","Eriksson","M",5,"21","15","6","13","8","86","83","92","88","81"
-1245672,"SWE","DE VAL Almida","DE VAL A","Almida","de Val","F",5,"14","8","6","12","2","95","97","92","94","100"
-338028,"CAN","MORRIS John","MORRIS J","John","Morris","M",5,"21","11","10","15","6","87","82","93","90","79"
-842605,"CAN","HOMAN Rachel","HOMAN R","Rachel","Homan","F",5,"12","10","2","10","2","58","60","50","65","25"
