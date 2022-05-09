@@ -1,7 +1,7 @@
 "n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","b_Completed","b_Upcoming"
 1, 749959,"KROL Thomas","KROL T","Thomas","Krol","52",25,    1, 2201,Netherlands,NED, 1, 1,"1","1:07.92","1:07.92",67920,   0,TRUE,FALSE
 1, 762751,"DUBREUIL Laurent","DUBREUIL L","Laurent","Dubreuil","7",29,  159, 2231,Canada,CAN, 2, 2,"2","1:08.32","1:08.32",68320, 400,TRUE,FALSE
-1, 751032,"LORENTZEN Haavard","LORENTZEN H","Håvard","Lorentzen","61",26,  153, 2221,Norway,NOR, 3, 3,"3","1:08.48","1:08.48",68480, 560,TRUE,FALSE
+1, 751032,"LORENTZEN Haavard","LORENTZEN H","HÃ¥vard","Lorentzen","61",26,  153, 2221,Norway,NOR, 3, 3,"3","1:08.48","1:08.48",68480, 560,TRUE,FALSE
 1, 818482,"MICHALSKI Piotr","MICHALSKI P","Piotr","Michalski","69", 7,  150, 2214,Poland,POL, 4, 4,"4","1:08.56","1:08.56",68560, 640,TRUE,FALSE
 1,1720677,"ZHONGYAN Ning","ZHONGYAN N","Zhongyan","Ning","15",27,   26, 2770,China,CHN, 5, 5,"5","1:08.60","1:08.60",68600, 680,TRUE,FALSE
 1,1156984,"GOLOVATSIUK Ignat","GOLOVATSIUK I","Ignat","Golovatsiuk","4",23,  103, 4387,Belarus,BLR, 6, 6,"6","1:08.63","1:08.63",68630, 710,TRUE,FALSE
@@ -20,12 +20,12 @@
 1,2052118,"LIAN Ziwen","LIAN Z","Ziwen","Lian","14", 8,   26, 2770,China,CHN,19,19,"19","1:09.93","1:09.93",69930,2010,TRUE,FALSE
 1,1933332,"KOJIMA Ryouta","KOJIMA R","Ryouta","Kojima","33",17,   18, 2241,Japan,JPN,20,20,"20","1:09.97","1:09.97",69970,2050,TRUE,FALSE
 1,1220081,"SHINHAMA Tatsuya","SHINHAMA T","Tatsuya","Shinhama","37", 1,   18, 2241,Japan,JPN,21,21,"21","1:10.00","1:10.00",70000,2080,TRUE,FALSE
-1, 762603,"GELINAS-BEAULIEU Antoine","GELINAS-BEAULIEU A","Antoine","Gélinas-Beaulieu","9",15,  159, 2231,Canada,CAN,22,22,"22","1:10.075","1:10.075",70075,2150,TRUE,FALSE
+1, 762603,"GELINAS-BEAULIEU Antoine","GELINAS-BEAULIEU A","Antoine","GÃ©linas-Beaulieu","9",15,  159, 2231,Canada,CAN,22,22,"22","1:10.075","1:10.075",70075,2150,TRUE,FALSE
 1, 720270,"KUZIN Denis","KUZIN D","Denis","Kuzin","40",10,  160, 2236,Kazakhstan,KAZ,23,23,"23","1:10.077","1:10.077",70077,2150,TRUE,FALSE
 1,1246985,"KIM Min-Seok","KIM MS","Min-Seok","Kim","45",14,  106, 4391,South Korea,KOR,24,24,"24","1:10.08","1:10.08",70080,2160,TRUE,FALSE
-1,1362313,"MAGNUSSEN Bjorn","MAGNUSSEN B","Bjørn","Magnussen","62", 6,  153, 2221,Norway,NOR,25,25,"25","1:10.14","1:10.14",70140,2220,TRUE,FALSE
+1,1362313,"MAGNUSSEN Bjorn","MAGNUSSEN B","BjÃ¸rn","Magnussen","62", 6,  153, 2221,Norway,NOR,25,25,"25","1:10.14","1:10.14",70140,2220,TRUE,FALSE
 1, 349442,"DUFTER Joel","DUFTER J","Joel","Dufter","24",16,    2, 2206,Germany,GER,26,26,"26","1:10.16","1:10.16",70160,2240,TRUE,FALSE
-1, 915678,"VOSTE Mathias","VOSTE M","Mathias","Vosté","3",12,  147, 2205,Belgium,BEL,27,27,"27","1:10.22","1:10.22",70220,2300,TRUE,FALSE
+1, 915678,"VOSTE Mathias","VOSTE M","Mathias","VostÃ©","3",12,  147, 2205,Belgium,BEL,27,27,"27","1:10.22","1:10.22",70220,2300,TRUE,FALSE
 1,1362308,"JOHANSSON Allan Dahl","JOHANSSON AD","Allan Dahl","Johansson","59",18,  153, 2221,Norway,NOR,28,28,"28","1:10.34","1:10.34",70340,2420,TRUE,FALSE
 1,1475736,"KLEBA Austin","KLEBA A","Austin","Kleba","83", 4,    5, 2209,United States,USA,29,29,"29","1:10.57","1:10.57",70570,2650,TRUE,FALSE
 1, 816572,"VERBIJ Kai","VERBIJ K","Kai","Verbij","57",30,    1, 2201,Netherlands,NED,30,30,"30","1:14.17","1:14.17",74170,6250,TRUE,FALSE

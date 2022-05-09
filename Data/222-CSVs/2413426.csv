@@ -1,0 +1,26 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ODF_QualificationMark","c_ResultInfo_1","c_ResultInfo_2","b_Completed","b_Upcoming","n_BDF_VideoSessionID"
+1,1132380,"HIRANO Ayumu","HIRANO A","Ayumu","Hirano","3", 1, 18,2241,Japan,JPN, 1, 1,"1","93.25","93.25",93250,"Q","87.25","93.25",TRUE,FALSE,1
+1, 764037,"JAMES Scotty","JAMES S","Scott","James","2", 4,157,2229,Australia,AUS, 2, 2,"2","91.25","91.25",91250,"Q","88.25","91.25",TRUE,FALSE,1
+1,1629590,"HIRANO Ruka","HIRANO R","Ruka","Hirano","5", 2, 18,2241,Japan,JPN, 3, 3,"3","87.00","87.00",87000,"Q","80.75","87.00",TRUE,FALSE,1
+1, 347042,"WHITE Shaun","WHITE S","Shaun","White","9",23,  5,2209,United States,USA, 4, 4,"4","86.25","86.25",86250,"Q","24.25","86.25",TRUE,FALSE,1
+1,1795490,"GUSELI Valentino","GUSELI V","Valentino","Guseli","14", 9,157,2229,Australia,AUS, 5, 5,"5","85.75","85.75",85750,"Q","31.75","85.75",TRUE,FALSE,1
+1,1471137,"TOTSUKA Yuto","TOTSUKA Y","Yuto","Totsuka","1", 3, 18,2241,Japan,JPN, 6, 6,"6","84.50","84.50",84500,"Q","84.50","12.00",TRUE,FALSE,1
+1, 915590,"GOLD Taylor","GOLD T","Taylor","Gold","8",20,  5,2209,United States,USA, 7, 7,"7","83.50","83.50",83500,"Q","81.25","83.50",TRUE,FALSE,1
+1, 818966,"SCHERRER Jan","SCHERRER J","Jan","Scherrer","4", 5,149,2213,Switzerland,SUI, 8, 8,"8","79.25","79.25",79250,"Q","73.50","79.25",TRUE,FALSE,1
+1,1724084,"HIRANO Kaishu","HIRANO K","Kaishu","Hirano","13",11, 18,2241,Japan,JPN, 9, 9,"9","77.25","77.25",77250,"Q","74.75","77.25",TRUE,FALSE,1
+1,1132368,"HOEFLICH Andre","HOEFLICH A","André","Höflich","6",16,  2,2206,Germany,GER,10,10,"10","75.00","75.00",75000,"Q","75.00","17.75",TRUE,FALSE,1
+1, 753816,"BURGENER Pat","BURGENER P","Patrick","Burgener","7",19,149,2213,Switzerland,SUI,11,11,"11","73.00","73.00",73000,"Q","70.75","73.00",TRUE,FALSE,1
+1,1027739,"JOSEY Chase","JOSEY C","Chase","Josey","11",25,  5,2209,United States,USA,12,12,"12","69.50","69.50",69500,"Q","15.75","69.50",TRUE,FALSE,1
+1, 582346,"VITO Louie","VITO L","Louie","Vito","19",15,  6,2210,Italy,ITA,13,13,"13","60.25","60.25",60250,NA,"60.25","3.25",TRUE,FALSE,1
+1,1370605,"GU Ao","GU A","Ao","Gu","21", 7, 26,2770,China,CHN,14,14,"14","58.50","58.50",58500,NA,"50.25","58.50",TRUE,FALSE,1
+1, 964026,"O'CONNOR Seamus","O'CONNOR S","Seamus","O'Connor","16",17, 19,2242,Ireland,IRL,15,15,"15","57.00","57.00",57000,NA,"57.00","10.25",TRUE,FALSE,1
+1,1705182,"FAN Xiaobing","FAN X","Xiaobing","Fan","22",18, 26,2770,China,CHN,16,16,"16","44.00","44.00",44000,NA,"39.00","44.00",TRUE,FALSE,1
+1,1761963,"FOSTER Lucas","FOSTER L","Lucas","Foster","12",14,  5,2209,United States,USA,17,17,"17","42.00","42.00",42000,NA,"42.00","21.50",TRUE,FALSE,1
+1,2185878,"LEE Chae-Un","LEE CU","Chaeun","Lee","25", 8,106,4391,South Korea,KOR,18,18,"18","35.00","35.00",35000,NA,"26.00","35.00",TRUE,FALSE,1
+1,1234620,"GENNERO Lorenzo","GENNERO L","Lorenzo","Gennero","23",21,  6,2210,Italy,ITA,19,19,"19","34.75","34.75",34750,NA,"34.75","2.00",TRUE,FALSE,1
+1,1367864,"TOURKI Liam","TOURKI L","Liam","Tourki","17",13,144,2202,France,FRA,20,20,"20","25.50","25.50",25500,NA,"25.50","11.50",TRUE,FALSE,1
+1,1720525,"WANG Ziyang","WANG Z","Ziyang","Wang","15",22, 26,2770,China,CHN,21,21,"21","20.25","20.25",20250,NA,"20.25","7.50",TRUE,FALSE,1
+1,1027754,"STANTE Tit","STANTE T","Tit","Štante","18",10, 30,2783,Slovenia,SLO,22,22,"22","18.25","18.25",18250,NA,"18.25","5.75",TRUE,FALSE,1
+1,1638088,"GILL Liam","GILL L","Liam","Gill","20",12,159,2231,Canada,CAN,23,23,"23","16.75","16.75",16750,NA,"16.75","15.50",TRUE,FALSE,1
+1, 985168,"HABLUETZEL David","HABLUETZEL D","David","Hablützel","10",24,149,2213,Switzerland,SUI,24,24,"24","15.50","15.50",15500,NA,"15.50","14.00",TRUE,FALSE,1
+1,1860223,"GAO Hongbo","GAO H","Hongbo","Gao","24", 6, 26,2770,China,CHN,25,25,"25","15.00","15.00",15000,NA,"15.00","DNS",TRUE,FALSE,1

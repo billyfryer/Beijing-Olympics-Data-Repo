@@ -1,5 +1,5 @@
 "n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","b_Completed","b_Upcoming"
-1, 222453,"WUST Ireen","WUST I","Ireen","Wüst","253",23,    1, 2201,Netherlands,NED, 1, 1,"1","1:53.28","1:53.28",113280,    0,TRUE,FALSE
+1, 222453,"WUST Ireen","WUST I","Ireen","WÃ¼st","253",23,    1, 2201,Netherlands,NED, 1, 1,"1","1:53.28","1:53.28",113280,    0,TRUE,FALSE
 1, 723414,"TAKAGI Miho","TAKAGI M","Miho","Takagi","237",30,   18, 2241,Japan,JPN, 2, 2,"2","1:53.72","1:53.72",113720,  440,TRUE,FALSE
 1, 816627,"DE JONG Antoinette","DE JONG A","Antoinette","de Jong","246",21,    1, 2201,Netherlands,NED, 3, 3,"3","1:54.82","1:54.82",114820, 1540,TRUE,FALSE
 1,1146729,"SATO Ayano","SATO A","Ayano","Sato","236",25,   18, 2241,Japan,JPN, 4, 4,"4","1:54.92","1:54.92",114920, 1640,TRUE,FALSE
@@ -19,7 +19,7 @@
 1, 720274,"AYDOVA Yekaterina","AYDOVA Y","Yekaterina","Aydova","239",14,  160, 2236,Kazakhstan,KAZ,18,18,"18","1:59.01","1:59.01",119010, 5730,TRUE,FALSE
 1, 335047,"CZERWONKA Natalia","CZERWONKA N","Natalia","Czerwonka","260",16,  150, 2214,Poland,POL,19,19,"19","1:59.03","1:59.03",119030, 5750,TRUE,FALSE
 1, 481004,"MANGANELLO KILBURG Mia","MANGANELLO KILBURG M","Mia","Kilburg-Manganello","279", 9,    5, 2209,United States,USA,20,20,"20","1:59.11","1:59.11",119110, 5830,TRUE,FALSE
-1,1023494,"ZDRAHALOVA Nikola","ZDRAHALOVA N","Nikola","Zdráhalová","226",15,   17, 2240,Czech Republic,CZE,21,21,"21","1:59.54","1:59.54",119540, 6260,TRUE,FALSE
+1,1023494,"ZDRAHALOVA Nikola","ZDRAHALOVA N","Nikola","ZdrÃ¡halovÃ¡","226",15,   17, 2240,Czech Republic,CZE,21,21,"21","1:59.54","1:59.54",119540, 6260,TRUE,FALSE
 1, 763157,"SOKHRYAKOVA Elena","SOKHRYAKOVA E","Elena","Sokhryakova","270", 7,23062,73035,ROC,ROC,22,22,"22","1:59.58","1:59.58",119580, 6300,TRUE,FALSE
 1, 985487,"ZUEVA Marina","ZUEVA M","Marina","Zueva","207",10,  103, 4387,Belarus,BLR,23,23,"23","1:59.82","1:59.82",119820, 6540,TRUE,FALSE
 1,1146732,"PEARMAN Maddison","PEARMAN M","Maddison","Pearman","213",11,  159, 2231,Canada,CAN,24,24,"24","1:59.89","1:59.89",119890, 6610,TRUE,FALSE

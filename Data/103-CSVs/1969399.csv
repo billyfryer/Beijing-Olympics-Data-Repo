@@ -1,7 +1,7 @@
 "n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","b_Completed","b_Upcoming"
 1, 642928,"SCHOUTEN Irene","SCHOUTEN I","Irene","Schouten","252",11,    1, 2201,Netherlands,NED, 1, 1,"1","6:43.51","6:43.51",403510,    0,TRUE,FALSE
 1,1228816,"WEIDEMANN Isabelle","WEIDEMANN I","Isabelle","Weidemann","215", 9,  159, 2231,Canada,CAN, 2, 2,"2","6:48.18","6:48.18",408180, 4670,TRUE,FALSE
-1, 210868,"SABLIKOVA Martina","SABLIKOVA M","Martina","S·blÌkov·","225", 7,   17, 2240,Czech Republic,CZE, 3, 3,"3","6:50.09","6:50.09",410090, 6580,TRUE,FALSE
+1, 210868,"SABLIKOVA Martina","SABLIKOVA M","Martina","S√°bl√≠kov√°","225", 7,   17, 2240,Czech Republic,CZE, 3, 3,"3","6:50.09","6:50.09",410090, 6580,TRUE,FALSE
 1, 703475,"LOLLOBRIGIDA Francesca","LOLLOBRIGIDA F","Francesca","Lollobrigida","230",12,    6, 2210,Italy,ITA, 4, 4,"4","6:51.76","6:51.76",411760, 8250,TRUE,FALSE
 1,1559989,"WIKLUND Ragne","WIKLUND R","Ragne","Wiklund","258",10,  153, 2221,Norway,NOR, 5, 5,"5","6:56.34","6:56.34",416340,12830,TRUE,FALSE
 1,1246989,"VORONINA Natalya","VORONINA N","Natalya","Voronina","271", 6,23062,73035,ROC,ROC, 6, 6,"6","6:56.99","6:56.99",416990,13480,TRUE,FALSE

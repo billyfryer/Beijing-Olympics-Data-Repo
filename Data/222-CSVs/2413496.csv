@@ -1,0 +1,13 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ResultInfo_1","c_ResultInfo_2","c_ResultInfo_3","b_Completed","b_Upcoming","n_BDF_VideoSessionID"
+1,1568767,"SADOWSKI-SYNNOTT Zoi","SADOWSKI-SYNNOTT Z","Zoi","Sadowski-Synnott","1",12,158,2230,New Zealand,NZL, 1, 1,"1","92.88","92.88",92880,"84.51","28.15","92.88",TRUE,FALSE,1
+1,1368941,"MARINO Julia","MARINO J","Julia","Marino","9", 7,  5,2209,United States,USA, 2, 2,"2","87.68","87.68",87680,"30.61","87.68","60.35",TRUE,FALSE,1
+1,1471152,"COADY Tess","COADY T","Tess","Coady","5", 5,157,2229,Australia,AUS, 3, 3,"3","84.15","84.15",84150,"82.68","55.98","84.15",TRUE,FALSE,1
+1,1019516,"BLOUIN Laurie","BLOUIN L","Laurie","Blouin","8", 6,159,2231,Canada,CAN, 4, 4,"4","81.41","81.41",81410,"77.96","46.70","81.41",TRUE,FALSE,1
+1,1367876,"IWABUCHI Reira","IWABUCHI R","Reira","Iwabuchi","7", 2, 18,2241,Japan,JPN, 5, 5,"5","80.03","80.03",80030,"75.60","80.03","46.15",TRUE,FALSE,1
+1,1131249,"GASSER Anna","GASSER A","Anna","Gasser","4", 9,151,2219,Austria,AUT, 6, 6,"6","75.33","75.33",75330,"35.01","43.58","75.33",TRUE,FALSE,1
+1, 723851,"RUKAJARVI Enni","RUKAJARVI E","Enni","Rukajärvi","3",10,161,2237,Finland,FIN, 7, 7,"7","71.45","71.45",71450,"30.51","71.45","23.43",TRUE,FALSE,1
+1,1132383,"MORGAN Annika","MORGAN A","Annika","Morgan","11", 3,  2,2206,Germany,GER, 8, 8,"8","64.13","64.13",64130,"64.13","31.01","28.76",TRUE,FALSE,1
+1, 807332,"ANDERSON Jamie","ANDERSON J","Jamie","Anderson","2", 8,  5,2209,United States,USA, 9, 9,"9","60.78","60.78",60780,"22.98","60.78","36.88",TRUE,FALSE,1
+1,1780043,"MURASE Kokomo","MURASE K","Kokomo","Murase","6",11, 18,2241,Japan,JPN,10,10,"10","49.05","49.05",49050,"48.50","49.05","48.00",TRUE,FALSE,1
+1,1359652,"LANGLAND Hailey","LANGLAND H","Hailey","Langland","12", 4,  5,2209,United States,USA,11,11,"11","48.35","48.35",48350,"32.05","48.35","29.93",TRUE,FALSE,1
+1,1132374,"BURRI Ariane","BURRI A","Ariane","Burri","19", 1,149,2213,Switzerland,SUI,12,12,"12","24.01","24.01",24010,"21.40","24.01","18.86",TRUE,FALSE,1
