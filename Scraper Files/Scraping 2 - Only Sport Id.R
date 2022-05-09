@@ -1,6 +1,6 @@
 library(tidyverse)
 # Only things we need is SportIds
-sport_list <- read_csv("Data/Sport List.csv")
+sport_list <- read_csv("Data/Sport_List.csv")
 
 sportids <- sport_list %>% pull(n_SportID)
 
@@ -10,7 +10,7 @@ for (i in 1:length(sportids)) {
   id <- sportids[i]
   print(paste("Sport ID ", i, "/", length(sportids)))
   event_phase <- get_event_phase(id)
-  output_path <- paste0("Data/Event Matches/", id, " Event Matches.csv")
+  output_path <- paste0("Data/Event-Matches/", id, "_Event_Matches.csv")
   # Change "Phase" to match
   names(event_phase) <- str_replace_all(names(event_phase), 
                                   pattern = "Phase",
@@ -30,7 +30,7 @@ for (id in sportids) {
                                         pattern = "Phase",
                                         replacement = "Match")
 
-  output_path <- paste0("Data/Sport Schedules/", id, " Sport Schedule.csv")
+  output_path <- paste0("Data/Sport-Schedules/", id, "_Sport_Schedule.csv")
   write.csv(sport_schedule, output_path,
             row.names = FALSE)
 }
