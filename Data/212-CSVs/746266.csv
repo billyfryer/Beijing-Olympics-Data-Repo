@@ -1,7 +1,7 @@
 "n_PersonID","Team","c_Person","c_PersonShort","c_PersonFirstName","c_PersonLastName","c_FunctionShort","n_Sort","c_Value_GAME_SUCCESS","c_Value_CW","c_Value_CCW","c_Value_DRAW","c_Value_TAKEOUT","c_ValueRelative_GAME_SUCCESS","c_ValueRelative_CW","c_ValueRelative_CCW","c_ValueRelative_DRAW","c_ValueRelative_TAKEOUT"
 721999,"DEN","KRAUSE Mikkel","KRAUSE M","Mikkel","Krause","4-S",5,"20","12","8","12","8","76","83","66","79","72"
 841707,"DEN","JACOBSEN Tobias Thune","JACOBSEN TT","Tobias Thune","Jacobsen","A",5,"0","0","0","0","0","-","-","-","-","-"
-931773,"DEN","NOERGAARD Mads","NOERGAARD M","Mads","NÃ¸rgaard","3-V",5,"20","7","13","8","12","71","79","67","75","69"
+931773,"DEN","NOERGAARD Mads","NOERGAARD M","Mads","Nørgaard","3-V",5,"20","7","13","8","12","71","79","67","75","69"
 1629089,"DEN","WIKSTEN Kasper","WIKSTEN K","Kasper","Wiksten","1",5,"20","16","4","17","3","84","88","69","87","67"
 2032356,"DEN","HOLTERMANN Henrik","HOLTERMANN H","Henrik","Holtermann","2",5,"20","12","8","6","14","88","94","78","92","86"
 931795,"CHN","MA Xiuyue","MA X","Xiuyue","Ma","4-S",5,"20","12","8","9","11","79","75","84","83","75"

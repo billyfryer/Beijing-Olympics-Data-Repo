@@ -1,6 +1,6 @@
 "n_PersonID","Team","c_Person","c_PersonShort","c_PersonFirstName","c_PersonLastName","c_FunctionShort","n_Sort","c_Value_GAME_SUCCESS","c_Value_CW","c_Value_CCW","c_Value_DRAW","c_Value_TAKEOUT","c_ValueRelative_GAME_SUCCESS","c_ValueRelative_CW","c_ValueRelative_CCW","c_ValueRelative_DRAW","c_ValueRelative_TAKEOUT"
 842291,"SUI","DE CRUZ Peter","DE CRUZ P","Peter","De Cruz","2-S",5,"20","9","11","9","11","89","86","91","89","89"
-842302,"SUI","SCHWARZ Benoit","SCHWARZ B","BenoÃ®t","Schwarz","4-V",5,"17","8","9","9","8","69","88","53","81","56"
+842302,"SUI","SCHWARZ Benoit","SCHWARZ B","Benoît","Schwarz","4-V",5,"17","8","9","9","8","69","88","53","81","56"
 842309,"SUI","TANNER Valentin","TANNER V","Valentin","Tanner","1",5,"20","7","13","19","1","91","89","92","93","50"
 931633,"SUI","MICHEL Sven","MICHEL S","Sven","Michel","3",5,"20","5","15","13","7","78","55","85","81","71"
 2189727,"SUI","LACHAT Pablo","LACHAT P","Pablo","Lachat","A",5,"0","0","0","0","0","-","-","-","-","-"

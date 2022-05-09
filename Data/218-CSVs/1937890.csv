@@ -1,16 +1,16 @@
 "n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","c_ResultInfo_1","c_ResultInfo_2","b_Completed","b_Upcoming"
-1, 980251,"BOE Johannes Thingnes","BOE JT","Johannes Thingnes","BÃ¸","2", 2,  153, 2221,Norway,NOR, 1, 1,"1","38:14.4","38:14.4",2294400,     0,"1 + 0 + 1 + 2","4",TRUE,FALSE
+1, 980251,"BOE Johannes Thingnes","BOE JT","Johannes Thingnes","Bø","2", 2,  153, 2221,Norway,NOR, 1, 1,"1","38:14.4","38:14.4",2294400,     0,"1 + 0 + 1 + 2","4",TRUE,FALSE
 1,1245820,"PONSILUOMA Martin","PONSILUOMA M","Martin","Ponsiluoma","18",18,  154, 2222,Sweden,SWE, 2, 2,"2","+40.3","38:54.7",2334700, 40300,"1 + 0 + 0 + 1","2",TRUE,FALSE
-1, 823293,"CHRISTIANSEN Vetle Sjaastad","CHRISTIANSEN VS","Vetle SjÃ¥stad","Christiansen","8", 8,  153, 2221,Norway,NOR, 3, 3,"3","+1:12.5","39:26.9",2366900, 72500,"2 + 0 + 1 + 0","3",TRUE,FALSE
+1, 823293,"CHRISTIANSEN Vetle Sjaastad","CHRISTIANSEN VS","Vetle Sjåstad","Christiansen","8", 8,  153, 2221,Norway,NOR, 3, 3,"3","+1:12.5","39:26.9",2366900, 72500,"2 + 0 + 1 + 0","3",TRUE,FALSE
 1, 923163,"FILLON MAILLET Quentin","FILLON MAILLET Q","Quentin","Fillon Maillet","1", 1,  144, 2202,France,FRA, 4, 4,"4","+1:25.6","39:40.0",2380000, 85600,"1 + 1 + 0 + 3","5",TRUE,FALSE
 1, 717512,"WINDISCH Dominik","WINDISCH D","Dominik","Windisch","23",23,    6, 2210,Italy,ITA, 5, 5,"5","+1:38.4","39:52.8",2392800, 98400,"0 + 2 + 1 + 0","3",TRUE,FALSE
-1,1338639,"LAEGREID Sturla Holm","LAEGREID SH","Sturla Holm","LÃ¦greid","9", 9,  153, 2221,Norway,NOR, 6, 6,"6","+1:46.1","40:00.5",2400500,106100,"1 + 2 + 1 + 1","5",TRUE,FALSE
+1,1338639,"LAEGREID Sturla Holm","LAEGREID SH","Sturla Holm","Lægreid","9", 9,  153, 2221,Norway,NOR, 6, 6,"6","+1:46.1","40:00.5",2400500,106100,"1 + 2 + 1 + 1","5",TRUE,FALSE
 1, 451771,"EDER Simon","EDER S","Simon","Eder","26",26,  151, 2219,Austria,AUT, 7, 7,"7","+1:56.4","40:10.8",2410800,116400,"2 + 0 + 0 + 0","2",TRUE,FALSE
 1, 717496,"DOLL Benedikt","DOLL B","Benedikt","Doll","12",12,    2, 2206,Germany,GER, 8, 8,"8","+2:31.4","40:45.8",2445800,151400,"0 + 0 + 2 + 4","6",TRUE,FALSE
-1,1338646,"SEPPALA Tero","SEPPALA T","Tero","SeppÃ¤lÃ¤","14",14,  161, 2237,Finland,FIN, 9, 9,"9","+2:32.7","40:47.1",2447100,152700,"1 + 0 + 2 + 2","5",TRUE,FALSE
-1, 839313,"KUEHN Johannes","KUEHN J","Johannes","KÃ¼hn","15",15,    2, 2206,Germany,GER,10,10,"10","+2:38.3","40:52.7",2452700,158300,"1 + 0 + 2 + 2","5",TRUE,FALSE
+1,1338646,"SEPPALA Tero","SEPPALA T","Tero","Seppälä","14",14,  161, 2237,Finland,FIN, 9, 9,"9","+2:32.7","40:47.1",2447100,152700,"1 + 0 + 2 + 2","5",TRUE,FALSE
+1, 839313,"KUEHN Johannes","KUEHN J","Johannes","Kühn","15",15,    2, 2206,Germany,GER,10,10,"10","+2:38.3","40:52.7",2452700,158300,"1 + 0 + 2 + 2","5",TRUE,FALSE
 1,1338622,"SAMUELSSON Sebastian","SAMUELSSON S","Sebastian","Samuelsson","7", 7,  154, 2222,Sweden,SWE,11,11,"11","+2:46.6","41:01.0",2461000,166600,"0 + 0 + 1 + 3","4",TRUE,FALSE
-1, 708876,"BOE Tarjei","BOE T","Tarjei","BÃ¸","4", 4,  153, 2221,Norway,NOR,12,12,"12","+2:47.4","41:01.8",2461800,167400,"0 + 1 + 2 + 1","4",TRUE,FALSE
+1, 708876,"BOE Tarjei","BOE T","Tarjei","Bø","4", 4,  153, 2221,Norway,NOR,12,12,"12","+2:47.4","41:01.8",2461800,167400,"0 + 1 + 2 + 1","4",TRUE,FALSE
 1, 844429,"GOW Christian","GOW C","Christian","Gow","25",25,  159, 2231,Canada,CAN,13,13,"13","+2:48.1","41:02.5",2462500,168100,"0 + 0 + 0 + 3","3",TRUE,FALSE
 1,1017915,"REES Roman","REES R","Roman","Rees","17",17,    2, 2206,Germany,GER,14,14,"14","+2:50.8","41:05.2",2465200,170800,"0 + 0 + 1 + 2","3",TRUE,FALSE
 1, 844397,"LOGINOV Aleksandr","LOGINOV A","Alexander","Loginov","10",10,23062,73035,ROC,ROC,15,15,"15","+2:51.8","41:06.2",2466200,171800,"2 + 0 + 2 + 3","7",TRUE,FALSE
@@ -19,7 +19,7 @@
 1,1245786,"BURNOTTE Jules","BURNOTTE J","Jules","Burnotte","29",29,  159, 2231,Canada,CAN,18,18,"18","+3:20.6","41:35.0",2495000,200600,"2 + 1 + 1 + 1","5",TRUE,FALSE
 1,1137029,"LATYPOV Eduard","LATYPOV E","Eduard","Latypov","5", 5,23062,73035,ROC,ROC,19,19,"19","+3:21.0","41:35.4",2495400,201000,"1 + 3 + 1 + 2","7",TRUE,FALSE
 1, 918879,"TSVETKOV Maxim","TSVETKOV M","Maxim","Tsvetkov","16",16,23062,73035,ROC,ROC,20,20,"20","+3:23.3","41:37.7",2497700,203300,"1 + 1 + 2 + 2","6",TRUE,FALSE
-1, 823237,"KRCMAR Michal","KRCMAR M","Michal","KrcmÃ¡r","28",28,   17, 2240,Czech Republic,CZE,21,21,"21","+3:40.5","41:54.9",2514900,220500,"0 + 1 + 1 + 3","5",TRUE,FALSE
+1, 823237,"KRCMAR Michal","KRCMAR M","Michal","Krcmár","28",28,   17, 2240,Czech Republic,CZE,21,21,"21","+3:40.5","41:54.9",2514900,220500,"0 + 1 + 1 + 3","5",TRUE,FALSE
 1,1245776,"JACQUELIN Emilien","JACQUELIN E","Emilien","Jacquelin","6", 6,  144, 2202,France,FRA,22,22,"22","+3:54.3","42:08.7",2528700,234300,"2 + 1 + 0 + 2","5",TRUE,FALSE
 1,1246138,"NAWRATH Philipp","NAWRATH P","Philipp","Nawrath","27",27,    2, 2206,Germany,GER,23,23,"23","+3:55.7","42:10.1",2530100,235700,"0 + 0 + 3 + 4","7",TRUE,FALSE
 1, 844376,"PIDRUCHNYI Dmytro","PIDRUCHNYI D","Dmytro","Pidruchnyi","20",20,   13, 2232,Ukraine,UKR,24,24,"24","+4:01.8","42:16.2",2536200,241800,"0 + 3 + 2 + 2","7",TRUE,FALSE

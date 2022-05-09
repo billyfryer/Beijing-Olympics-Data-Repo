@@ -1,7 +1,7 @@
 "n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","b_Completed","b_Upcoming"
-1,1356911,"KLAEBO Johannes Hoesflot","KLAEBO JH","Johannes HÃ¸sflot","KlÃ¦bo","3",3,  153, 2221,Norway,NOR,1,1,"1","2:58.06","2:58.06",178060,   0,TRUE,FALSE
+1,1356911,"KLAEBO Johannes Hoesflot","KLAEBO JH","Johannes Høsflot","Klæbo","3",3,  153, 2221,Norway,NOR,1,1,"1","2:58.06","2:58.06",178060,   0,TRUE,FALSE
 1, 774322,"PELLEGRINO Federico","PELLEGRINO F","Federico","Pellegrino","6",1,    6, 2210,Italy,ITA,2,2,"2","+0.26","2:58.32",178320, 260,TRUE,FALSE
 1,1629704,"TERENTEV Alexander","TERENTEV A","Alexander","Terentev","12",2,23062,73035,ROC,ROC,3,3,"3","+1.31","2:59.37",179370,1310,TRUE,FALSE
-1,1240529,"MAKI Joni","MAKI J","Joni","MÃ¤ki","23",4,  161, 2237,Finland,FIN,4,4,"4","+2.12","3:00.18",180180,2120,TRUE,FALSE
+1,1240529,"MAKI Joni","MAKI J","Joni","Mäki","23",4,  161, 2237,Finland,FIN,4,4,"4","+2.12","3:00.18",180180,2120,TRUE,FALSE
 1,1018349,"MALTSEV Artem","MALTSEV A","Artem","Maltsev","10",6,23062,73035,ROC,ROC,5,5,"5","+3.59","3:01.65",181650,3590,TRUE,FALSE
 1,1135252,"SVENSSON Oskar","SVENSSON O","Oskar","Svensson","17",5,  154, 2222,Sweden,SWE,6,6,"6","+6.17","3:04.23",184230,6170,TRUE,FALSE

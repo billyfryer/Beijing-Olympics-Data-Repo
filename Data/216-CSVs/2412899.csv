@@ -1,8 +1,8 @@
 "n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","b_Completed","b_Upcoming","c_ODF_IRM"
-1, 835857,"GRAABAK Joergen","GRAABAK J","J√∏rgen","Graabak","12",12,  153, 2221,Norway,NOR, 1, 1,"1","27:13.3","27:13.3",1633300,     0,TRUE,FALSE,NA
-1,1555403,"OFTEBRO Jens Luraas","OFTEBRO JL","Jens Lur√•s","Oftebro","10",10,  153, 2221,Norway,NOR, 2, 2,"2","+0.4","27:13.7",1633700,   400,TRUE,FALSE,NA
+1, 835857,"GRAABAK Joergen","GRAABAK J","J¯rgen","Graabak","12",12,  153, 2221,Norway,NOR, 1, 1,"1","27:13.3","27:13.3",1633300,     0,TRUE,FALSE,NA
+1,1555403,"OFTEBRO Jens Luraas","OFTEBRO JL","Jens LurÂs","Oftebro","10",10,  153, 2221,Norway,NOR, 2, 2,"2","+0.4","27:13.7",1633700,   400,TRUE,FALSE,NA
 1, 602685,"WATABE Akito","WATABE A","Akito","Watabe","5", 5,   18, 2241,Japan,JPN, 3, 3,"3","+0.6","27:13.9",1633900,   600,TRUE,FALSE,NA
-1, 824558,"FAISST Manuel","FAISST M","Manuel","Fai√üt","4", 4,    2, 2206,Germany,GER, 4, 4,"4","+3.3","27:16.6",1636600,  3300,TRUE,FALSE,NA
+1, 824558,"FAISST Manuel","FAISST M","Manuel","Faiﬂt","4", 4,    2, 2206,Germany,GER, 4, 4,"4","+3.3","27:16.6",1636600,  3300,TRUE,FALSE,NA
 1,1134598,"GREIDERER Lukas","GREIDERER L","Lukas","Greiderer","11",11,  151, 2219,Austria,AUT, 5, 5,"5","+11.8","27:25.1",1645100, 11800,TRUE,FALSE,NA
 1,1766435,"LAMPARTER Johannes","LAMPARTER J","Johannes","Lamparter","8", 8,  151, 2219,Austria,AUT, 6, 6,"6","+18.0","27:31.3",1651300, 18000,TRUE,FALSE,NA
 1,1457323,"GEIGER Vinzenz","GEIGER V","Vinzenz","Geiger","14",14,    2, 2206,Germany,GER, 7, 7,"7","+31.2","27:44.5",1664500, 31200,TRUE,FALSE,NA
@@ -12,23 +12,23 @@
 1, 835865,"REHRL Franz-Josef","REHRL FJ","Franz-Josef","Rehrl","6", 6,  151, 2219,Austria,AUT,11,11,"11","+1:08.9","28:22.2",1702200, 68900,TRUE,FALSE,NA
 1,1240727,"YAMAMOTO Ryota","YAMAMOTO R","Ryota","Yamamoto","3", 3,   18, 2241,Japan,JPN,12,12,"12","+1:14.8","28:28.1",1708100, 74800,TRUE,FALSE,NA
 1, 835863,"SEIDL Mario","SEIDL M","Mario","Seidl","7", 7,  151, 2219,Austria,AUT,13,13,"13","+1:15.2","28:28.5",1708500, 75200,TRUE,FALSE,NA
-1,1356947,"GERARD Antoine","GERARD A","Antoine","G√©rard","18",18,  144, 2202,France,FRA,14,14,"14","+1:39.1","28:52.4",1732400, 99100,TRUE,FALSE,NA
+1,1356947,"GERARD Antoine","GERARD A","Antoine","GÈrard","18",18,  144, 2202,France,FRA,14,14,"14","+1:39.1","28:52.4",1732400, 99100,TRUE,FALSE,NA
 1,1018159,"ANDERSEN Espen","ANDERSEN E","Espen","Andersen","13",13,  153, 2221,Norway,NOR,15,15,"15","+1:43.9","28:57.2",1737200,103900,TRUE,FALSE,NA
 1,1018163,"HEROLA Ilkka","HEROLA I","Ilkka","Herola","25",25,  161, 2237,Finland,FIN,16,16,"16","+1:44.8","28:58.1",1738100,104800,TRUE,FALSE,NA
 1,1477944,"SHUMATE Jared","SHUMATE J","Jared","Shumate","19",19,    5, 2209,United States,USA,17,17,"17","+1:45.2","28:58.5",1738500,105200,TRUE,FALSE,NA
 1,1352114,"VYTRVAL Jan","VYTRVAL J","Jan","Vytrval","23",23,   17, 2240,Czech Republic,CZE,18,18,"18","+2:03.8","29:17.1",1757100,123800,TRUE,FALSE,NA
 1,1240207,"LOOMIS Ben","LOOMIS B","Ben","Loomis","17",17,    5, 2209,United States,USA,19,19,"19","+2:03.9","29:17.2",1757200,123900,TRUE,FALSE,NA
 1,1221146,"HIRVONEN Eero","HIRVONEN E","Eero","Hirvonen","26",26,  161, 2237,Finland,FIN,20,20,"20","+2:04.0","29:17.3",1757300,124000,TRUE,FALSE,NA
-1,1555566,"BAUD Matteo","BAUD M","Matt√©o","Baud","16",16,  144, 2202,France,FRA,21,21,"21","+2:05.1","29:18.4",1758400,125100,TRUE,FALSE,NA
+1,1555566,"BAUD Matteo","BAUD M","MattÈo","Baud","16",16,  144, 2202,France,FRA,21,21,"21","+2:05.1","29:18.4",1758400,125100,TRUE,FALSE,NA
 1,1023440,"BUZZI Raffaele","BUZZI R","Raffaele","Buzzi","21",21,    6, 2210,Italy,ITA,22,22,"22","+2:05.6","29:18.9",1758900,125600,TRUE,FALSE,NA
 1, 603077,"FLETCHER Taylor","FLETCHER T","Taylor","Fletcher","35",35,    5, 2209,United States,USA,23,23,"23","+2:23.4","29:36.7",1776700,143400,TRUE,FALSE,NA
-1,1136180,"MAEKIAHO Arttu","MAEKIAHO A","Arttu","M√§kiaho","28",28,  161, 2237,Finland,FIN,24,24,"24","+2:35.7","29:49.0",1789000,155700,TRUE,FALSE,NA
+1,1136180,"MAEKIAHO Arttu","MAEKIAHO A","Arttu","M‰kiaho","28",28,  161, 2237,Finland,FIN,24,24,"24","+2:35.7","29:49.0",1789000,155700,TRUE,FALSE,NA
 1, 762492,"WATABE Yoshito","WATABE Y","Yoshito","Watabe","27",27,   18, 2241,Japan,JPN,25,25,"25","+2:57.4","30:10.7",1810700,177400,TRUE,FALSE,NA
-1,1240650,"MUHLETHALER Laurent","MUHLETHALER L","Laurent","M√ºhlethaler","24",24,  144, 2202,France,FRA,26,26,"26","+3:06.3","30:19.6",1819600,186300,TRUE,FALSE,NA
-1,1018185,"PORTYK Tomas","PORTYK T","Tom√°≈°","Portyk","22",22,   17, 2240,Czech Republic,CZE,27,27,"27","+3:07.3","30:20.6",1820600,187300,TRUE,FALSE,NA
+1,1240650,"MUHLETHALER Laurent","MUHLETHALER L","Laurent","M¸hlethaler","24",24,  144, 2202,France,FRA,26,26,"26","+3:06.3","30:19.6",1819600,186300,TRUE,FALSE,NA
+1,1018185,"PORTYK Tomas","PORTYK T","Tom·ö","Portyk","22",22,   17, 2240,Czech Republic,CZE,27,27,"27","+3:07.3","30:20.6",1820600,187300,TRUE,FALSE,NA
 1, 759500,"RYDZEK Johannes","RYDZEK J","Johannes","Rydzek","15",15,    2, 2206,Germany,GER,28,28,"28","+3:08.7","30:22.0",1822000,188700,TRUE,FALSE,NA
-1,1352317,"PAZOUT Ondrej","PAZOUT O","Ondrej","Pa≈æout","20",20,   17, 2240,Czech Republic,CZE,29,29,"29","+3:16.4","30:29.7",1829700,196400,TRUE,FALSE,NA
-1,1240647,"DANEK Lukas","DANEK L","Luk√°≈°","Danek","31",31,   17, 2240,Czech Republic,CZE,30,30,"30","+3:54.0","31:07.3",1867300,234000,TRUE,FALSE,NA
+1,1352317,"PAZOUT Ondrej","PAZOUT O","Ondrej","Paûout","20",20,   17, 2240,Czech Republic,CZE,29,29,"29","+3:16.4","30:29.7",1829700,196400,TRUE,FALSE,NA
+1,1240647,"DANEK Lukas","DANEK L","Luk·ö","Danek","31",31,   17, 2240,Czech Republic,CZE,30,30,"30","+3:54.0","31:07.3",1867300,234000,TRUE,FALSE,NA
 1, 601192,"NAGAI Hideaki","NAGAI H","Hideaki","Nagai","32",32,   18, 2241,Japan,JPN,31,31,"31","+3:59.6","31:12.9",1872900,239600,TRUE,FALSE,NA
 1,1351898,"MAZURCHUK Dmytro","MAZURCHUK D","Dmytro","Mazurchuk","33",33,   13, 2232,Ukraine,UKR,32,32,"32","+4:07.1","31:20.4",1880400,247100,TRUE,FALSE,NA
 1, 602822,"PITTIN Alessandro","PITTIN A","Alessandro","Pittin","43",43,    6, 2210,Italy,ITA,33,33,"33","+4:18.5","31:31.8",1891800,258500,TRUE,FALSE,NA

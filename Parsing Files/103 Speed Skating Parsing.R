@@ -9,7 +9,7 @@ library(lubridate)
 # Code Stolen From:
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
 all_files <- list.files(path = "Data/103-JSONs")
-all_files <- paste0("Data/103-JSONs/", all_files)
+url_starter <- "https://raw.githubusercontent.com/b4billy/Beijing-Olympics-Data-Repo/main/Data/103-JSONs/"
 # Repeat for every file in Speed Skating
 for (i in 1:length(all_files)) {
   
@@ -18,12 +18,17 @@ for (i in 1:length(all_files)) {
   # Sanity Check
   print(json_file_name)
   
-  # Read in the json file
-  # Don't know how this works, but it does.
-  # Stolen From Stack Overflow:
-  # https://stackoverflow.com/questions/38074926/unable-to-parse-locally-stored-json-file-with-special-character-like-backslash
-  raw_json <- fromJSON(gsub("\\\\","",readLines(json_file_name)))
-
+  final_url <- paste0(url_starter, json_file_name)
+  
+  # Not exactly sure, but Saiem does this.
+  res <- httr::RETRY("GET", final_url)
+  
+  # To get the accents
+  resp <- res %>%
+    httr::content(as = "text", encoding = "UTF-8")
+  
+  raw_json <- jsonlite::fromJSON(resp)
+  
   # Date of Match and Gender
   Date <- raw_json$Result$PhaseList$DateTimes$Start$c_Local
   # Get MatchID
@@ -139,47 +144,47 @@ for (i in 1:length(all_files)) {
   #              c_Bib3 = c(TeamMemberList.c_Bib3, TeamMemberList.c_Bib3.1),
   #    ) %>% 
   #    mutate(key = 1:4)
-   # 
-   # Results <- Results %>% 
-   #   select(!contains("TeamMemberList")) %>% 
-   #   summarize(n_ParticipantType = c(n_ParticipantType1, n_ParticipantType2),
-   #             n_ParticipantID = c(n_ParticipantID1, n_ParticipantID2),
-   #             c_Participant = c(c_Participant1, c_Participant2),
-   #             c_ParticipantShort = c(c_ParticipantShort1, c_ParticipantShort2),
-   #             c_ParticipantLastName = c(c_ParticipantLastName1, c_ParticipantLastName2),
-   #             n_StartOrder = c(n_StartOrder1, n_StartOrder2),
-   #             NOC.n_ID = c(NOC.n_ID1, NOC.n_ID2),
-   #             NOC.n_GeoID = c(NOC.n_GeoID1, NOC.n_GeoID2),
-   #             NOC.c_Name = c(NOC.c_Name1, NOC.c_Name2),
-   #             NOC.c_Short = c(NOC.c_Short1, NOC.c_Short2),
-   #             n_Rank = c(n_Rank1, n_Rank2),
-   #             n_RankSort = c(n_RankSort1, n_RankSort2),
-   #             c_Rank = c(c_Rank1, c_Rank2),
-   #             c_Result = c(c_Result1, c_Result2),
-   #             c_ResultAbs = c(c_ResultAbs1, c_ResultAbs2),
-   #             n_TimeRel = c(n_TimeRel1, n_TimeRel2),
-   #             c_ODF_QualificationMark = c(c_ODF_QualificationMark1, c_ODF_QualificationMark2),
-   #             b_Completed = c(b_Completed1, b_Completed2),
-   #             b_Upcoming = c(b_Upcoming1, b_Upcoming2)
-   #             ) %>% 
-   #   mutate(key = 1:4)
-   # 
-   # Results <- left_join(Results, TeamMemberList, by = "key") %>% 
-   #   select(-key)
+  # 
+  # Results <- Results %>% 
+  #   select(!contains("TeamMemberList")) %>% 
+  #   summarize(n_ParticipantType = c(n_ParticipantType1, n_ParticipantType2),
+  #             n_ParticipantID = c(n_ParticipantID1, n_ParticipantID2),
+  #             c_Participant = c(c_Participant1, c_Participant2),
+  #             c_ParticipantShort = c(c_ParticipantShort1, c_ParticipantShort2),
+  #             c_ParticipantLastName = c(c_ParticipantLastName1, c_ParticipantLastName2),
+  #             n_StartOrder = c(n_StartOrder1, n_StartOrder2),
+  #             NOC.n_ID = c(NOC.n_ID1, NOC.n_ID2),
+  #             NOC.n_GeoID = c(NOC.n_GeoID1, NOC.n_GeoID2),
+  #             NOC.c_Name = c(NOC.c_Name1, NOC.c_Name2),
+  #             NOC.c_Short = c(NOC.c_Short1, NOC.c_Short2),
+  #             n_Rank = c(n_Rank1, n_Rank2),
+  #             n_RankSort = c(n_RankSort1, n_RankSort2),
+  #             c_Rank = c(c_Rank1, c_Rank2),
+  #             c_Result = c(c_Result1, c_Result2),
+  #             c_ResultAbs = c(c_ResultAbs1, c_ResultAbs2),
+  #             n_TimeRel = c(n_TimeRel1, n_TimeRel2),
+  #             c_ODF_QualificationMark = c(c_ODF_QualificationMark1, c_ODF_QualificationMark2),
+  #             b_Completed = c(b_Completed1, b_Completed2),
+  #             b_Upcoming = c(b_Upcoming1, b_Upcoming2)
+  #             ) %>% 
+  #   mutate(key = 1:4)
+  # 
+  # Results <- left_join(Results, TeamMemberList, by = "key") %>% 
+  #   select(-key)
   # } else {
   #   Results$TeamMemberList <- unlist(Results$TeamMemberList)
   #   Results <- Results %>% unnest_wider(NOC)
   # }
-
+  
   # Write to CSV
   # Wrapped in a unique because we only need 1 filename
   # The team event stuff was being a little silly
   output_file_name <- unique(paste0("Data/103-CSVs/", 
-                           MatchID, ".csv"))
+                                    MatchID, ".csv"))
   
   write.csv(x = Results, 
-           file = output_file_name,
-           row.names = FALSE)
+            file = output_file_name,
+            row.names = FALSE)
   
   # Print that it worked
   print(paste(MatchID, "was a Success", "/n"))

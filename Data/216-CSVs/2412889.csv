@@ -1,6 +1,6 @@
 "n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","b_Completed","b_Upcoming"
 1,1457323,"GEIGER Vinzenz","GEIGER V","Vinzenz","Geiger","11",11,    2, 2206,Germany,GER, 1, 1,"1","25:07.7","25:07.7",1507700,     0,TRUE,FALSE
-1, 835857,"GRAABAK Joergen","GRAABAK J","JÃ¸rgen","Graabak","9", 9,  153, 2221,Norway,NOR, 2, 2,"2","+0.8","25:08.5",1508500,   800,TRUE,FALSE
+1, 835857,"GRAABAK Joergen","GRAABAK J","Jørgen","Graabak","9", 9,  153, 2221,Norway,NOR, 2, 2,"2","+0.8","25:08.5",1508500,   800,TRUE,FALSE
 1,1134598,"GREIDERER Lukas","GREIDERER L","Lukas","Greiderer","2", 2,  151, 2219,Austria,AUT, 3, 3,"3","+6.6","25:14.3",1514300,  6600,TRUE,FALSE
 1,1766435,"LAMPARTER Johannes","LAMPARTER J","Johannes","Lamparter","5", 5,  151, 2219,Austria,AUT, 4, 4,"4","+9.0","25:16.7",1516700,  9000,TRUE,FALSE
 1, 759500,"RYDZEK Johannes","RYDZEK J","Johannes","Rydzek","4", 4,    2, 2206,Germany,GER, 5, 5,"5","+21.8","25:29.5",1529500, 21800,TRUE,FALSE
@@ -8,7 +8,7 @@
 1, 602685,"WATABE Akito","WATABE A","Akito","Watabe","10",10,   18, 2241,Japan,JPN, 7, 7,"7","+32.4","25:40.1",1540100, 32400,TRUE,FALSE
 1,1555443,"SCHMID Julian","SCHMID J","Julian","Schmid","3", 3,    2, 2206,Germany,GER, 8, 8,"8","+50.2","25:57.9",1557900, 50200,TRUE,FALSE
 1, 835865,"REHRL Franz-Josef","REHRL FJ","Franz-Josef","Rehrl","7", 7,  151, 2219,Austria,AUT, 9, 9,"9","+1:09.6","26:17.3",1577300, 69600,TRUE,FALSE
-1,1555403,"OFTEBRO Jens Luraas","OFTEBRO JL","Jens LurÃ¥s","Oftebro","20",20,  153, 2221,Norway,NOR,10,10,"10","+1:42.5","26:50.2",1610200,102500,TRUE,FALSE
+1,1555403,"OFTEBRO Jens Luraas","OFTEBRO JL","Jens Lurås","Oftebro","20",20,  153, 2221,Norway,NOR,10,10,"10","+1:42.5","26:50.2",1610200,102500,TRUE,FALSE
 1,1018159,"ANDERSEN Espen","ANDERSEN E","Espen","Andersen","16",16,  153, 2221,Norway,NOR,11,11,"11","+1:44.6","26:52.3",1612300,104600,TRUE,FALSE
 1,1134600,"FRITZ Martin","FRITZ M","Martin","Fritz","18",18,  151, 2219,Austria,AUT,12,12,"12","+1:45.7","26:53.4",1613400,105700,TRUE,FALSE
 1, 762492,"WATABE Yoshito","WATABE Y","Yoshito","Watabe","13",13,   18, 2241,Japan,JPN,13,13,"13","+1:46.5","26:54.2",1614200,106500,TRUE,FALSE
@@ -16,18 +16,18 @@
 1,1240207,"LOOMIS Ben","LOOMIS B","Ben","Loomis","17",17,    5, 2209,United States,USA,15,15,"15","+1:50.1","26:57.8",1617800,110100,TRUE,FALSE
 1,1023440,"BUZZI Raffaele","BUZZI R","Raffaele","Buzzi","22",22,    6, 2210,Italy,ITA,16,16,"16","+1:51.6","26:59.3",1619300,111600,TRUE,FALSE
 1,1221146,"HIRVONEN Eero","HIRVONEN E","Eero","Hirvonen","19",19,  161, 2237,Finland,FIN,17,17,"17","+1:54.6","27:02.3",1622300,114600,TRUE,FALSE
-1,1555566,"BAUD Matteo","BAUD M","MattÃ©o","Baud","12",12,  144, 2202,France,FRA,18,18,"18","+2:01.3","27:09.0",1629000,121300,TRUE,FALSE
+1,1555566,"BAUD Matteo","BAUD M","Mattéo","Baud","12",12,  144, 2202,France,FRA,18,18,"18","+2:01.3","27:09.0",1629000,121300,TRUE,FALSE
 1,1477944,"SHUMATE Jared","SHUMATE J","Jared","Shumate","24",24,    5, 2209,United States,USA,19,19,"19","+2:02.3","27:10.0",1630000,122300,TRUE,FALSE
-1,1018185,"PORTYK Tomas","PORTYK T","TomÃ¡Å¡","Portyk","14",14,   17, 2240,Czech Republic,CZE,20,20,"20","+2:08.7","27:16.4",1636400,128700,TRUE,FALSE
-1,1240647,"DANEK Lukas","DANEK L","LukÃ¡Å¡","Danek","25",25,   17, 2240,Czech Republic,CZE,21,21,"21","+2:34.1","27:41.8",1661800,154100,TRUE,FALSE
+1,1018185,"PORTYK Tomas","PORTYK T","Tomáš","Portyk","14",14,   17, 2240,Czech Republic,CZE,20,20,"20","+2:08.7","27:16.4",1636400,128700,TRUE,FALSE
+1,1240647,"DANEK Lukas","DANEK L","Lukáš","Danek","25",25,   17, 2240,Czech Republic,CZE,21,21,"21","+2:34.1","27:41.8",1661800,154100,TRUE,FALSE
 1,1948080,"REPONEN Perttu","REPONEN P","Perttu","Reponen","28",28,  161, 2237,Finland,FIN,22,22,"22","+2:37.0","27:44.7",1664700,157000,TRUE,FALSE
-1,1136180,"MAEKIAHO Arttu","MAEKIAHO A","Arttu","MÃ¤kiaho","27",27,  161, 2237,Finland,FIN,23,23,"23","+2:38.6","27:46.3",1666300,158600,TRUE,FALSE
+1,1136180,"MAEKIAHO Arttu","MAEKIAHO A","Arttu","Mäkiaho","27",27,  161, 2237,Finland,FIN,23,23,"23","+2:38.6","27:46.3",1666300,158600,TRUE,FALSE
 1, 603077,"FLETCHER Taylor","FLETCHER T","Taylor","Fletcher","34",34,    5, 2209,United States,USA,24,24,"24","+2:43.2","27:50.9",1670900,163200,TRUE,FALSE
 1,1477950,"SCHUMANN Stephen","SCHUMANN S","Stephen","Schumann","33",33,    5, 2209,United States,USA,25,25,"25","+2:44.7","27:52.4",1672400,164700,TRUE,FALSE
 1,1352114,"VYTRVAL Jan","VYTRVAL J","Jan","Vytrval","29",29,   17, 2240,Czech Republic,CZE,26,26,"26","+2:57.0","28:04.7",1684700,177000,TRUE,FALSE
-1,1136177,"BJOERNSTAD Espen","BJOERNSTAD E","Espen","BjÃ¸rnstad","15",15,  153, 2221,Norway,NOR,27,27,"27","+3:04.4","28:12.1",1692100,184400,TRUE,FALSE
-1,1240650,"MUHLETHALER Laurent","MUHLETHALER L","Laurent","MÃ¼hlethaler","21",21,  144, 2202,France,FRA,28,28,"28","+3:18.9","28:26.6",1706600,198900,TRUE,FALSE
-1,1352317,"PAZOUT Ondrej","PAZOUT O","Ondrej","PaÅ¾out","23",23,   17, 2240,Czech Republic,CZE,29,29,"29","+3:23.7","28:31.4",1711400,203700,TRUE,FALSE
+1,1136177,"BJOERNSTAD Espen","BJOERNSTAD E","Espen","Bjørnstad","15",15,  153, 2221,Norway,NOR,27,27,"27","+3:04.4","28:12.1",1692100,184400,TRUE,FALSE
+1,1240650,"MUHLETHALER Laurent","MUHLETHALER L","Laurent","Mühlethaler","21",21,  144, 2202,France,FRA,28,28,"28","+3:18.9","28:26.6",1706600,198900,TRUE,FALSE
+1,1352317,"PAZOUT Ondrej","PAZOUT O","Ondrej","Pažout","23",23,   17, 2240,Czech Republic,CZE,29,29,"29","+3:23.7","28:31.4",1711400,203700,TRUE,FALSE
 1,1555804,"YACHI Sora","YACHI S","Sora","Yachi","6", 6,   18, 2241,Japan,JPN,30,30,"30","+3:30.9","28:38.6",1718600,210900,TRUE,FALSE
 1,2080220,"BLONDEAU Gael","BLONDEAU G","Gael","Blondeau","30",30,  144, 2202,France,FRA,31,31,"31","+3:35.6","28:43.3",1723300,215600,TRUE,FALSE
 1, 602822,"PITTIN Alessandro","PITTIN A","Alessandro","Pittin","40",40,    6, 2210,Italy,ITA,32,32,"32","+4:25.7","29:33.4",1773400,265700,TRUE,FALSE

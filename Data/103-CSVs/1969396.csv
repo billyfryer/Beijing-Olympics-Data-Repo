@@ -1,7 +1,7 @@
 "n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_TimeAbs","n_TimeRel","b_Completed","b_Upcoming"
 1,1023480,"VAN DER POEL Nils","VAN DER POEL N","Nils","van der Poel","80",19,  154, 2222,Sweden,SWE, 1, 1,"1","6:08.84","6:08.84",368840,    0,TRUE,FALSE
 1,1184564,"ROEST Patrick","ROEST P","Patrick","Roest","55",10,    1, 2201,Netherlands,NED, 2, 2,"2","6:09.31","6:09.31",369310,  470,TRUE,FALSE
-1,1716678,"ENGEBRAATEN Hallgeir","ENGEBRAATEN H","Hallgeir","EngebrÃ¥ten","58", 6,  153, 2221,Norway,NOR, 3, 3,"3","6:09.88","6:09.88",369880, 1040,TRUE,FALSE
+1,1716678,"ENGEBRAATEN Hallgeir","ENGEBRAATEN H","Hallgeir","Engebråten","58", 6,  153, 2221,Norway,NOR, 3, 3,"3","6:09.88","6:09.88",369880, 1040,TRUE,FALSE
 1,1223486,"TROFIMOV Sergey","TROFIMOV S","Sergey","Trofimov","77", 5,23062,73035,ROC,ROC, 4, 4,"4","6:10.27","6:10.27",370270, 1430,TRUE,FALSE
 1, 189690,"BERGSMA Jorrit","BERGSMA J","Jorrit","Bergsma","49",11,    1, 2201,Netherlands,NED, 5, 5,"5","6:13.18","6:13.18",373180, 4340,TRUE,FALSE
 1, 699657,"RUMYANTSEV Aleksandr","RUMYANTSEV A","Aleksandr","Rumyantsev","76",15,23062,73035,ROC,ROC, 6, 6,"6","6:15.02","6:15.02",375020, 6180,TRUE,FALSE
