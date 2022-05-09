@@ -1,0 +1,5 @@
+"n_PersonID","Team","c_Person","c_PersonShort","c_PersonFirstName","c_PersonLastName","c_FunctionShort","n_Sort","c_Value_GAME_SUCCESS","c_Value_CW","c_Value_CCW","c_Value_DRAW","c_Value_TAKEOUT","c_ValueRelative_GAME_SUCCESS","c_ValueRelative_CW","c_ValueRelative_CCW","c_ValueRelative_DRAW","c_ValueRelative_TAKEOUT"
+721966,"USA","PLYS Chris","PLYS C","Chris","Plys","M",5,"24","7","17","15","9","72","71","72","83","53"
+1149977,"USA","PERSINGER Vicky","PERSINGER V","Vicky","Persinger","F",5,"16","2","14","10","6","67","38","71","75","54"
+1149957,"GBR","DODDS Jennifer","DODDS J","Jennifer","Dodds","F",5,"16","9","7","14","2","88","86","89","93","50"
+1366641,"GBR","MOUAT Bruce","MOUAT B","Bruce","Mouat","M",5,"24","14","10","19","5","94","98","88","92","100"

@@ -1,0 +1,32 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ODF_QualificationMark","c_ResultInfo_1","c_ResultInfo_2","b_Completed","b_Upcoming","n_BDF_VideoSessionID","c_ODF_IRM"
+1,1160705,"RAGETTLI Andri","RAGETTLI A","Andri","Ragettli","1", 3,149,2213,Switzerland,SUI, 1, 1,"1","85.08","85.08",85080,"Q","76.98","85.08",TRUE,FALSE,1,NA
+1,1429991,"RUUD Birk","RUUD B","Birk","Ruud","4", 4,153,2221,Norway,NOR, 2, 2,"2","83.96","83.96",83960,"Q","83.96","40.95",TRUE,FALSE,1,NA
+1,1021657,"GOEPPER Nick","GOEPPER N","Nicholas","Goepper","9",13,  5,2209,United States,USA, 3, 3,"3","82.51","82.51",82510,"Q","82.51","80.23",TRUE,FALSE,1,NA
+1,1019299,"TJADER Jesper","TJADER J","Jesper","Tjäder","8", 9,154,2222,Sweden,SWE, 4, 4,"4","79.38","79.38",79380,"Q","59.15","79.38",TRUE,FALSE,1,NA
+1,1372709,"HALL Alex","HALL A","Alexander","Hall","6",17,  5,2209,United States,USA, 5, 5,"5","79.13","79.13",79130,"Q","79.13","40.60",TRUE,FALSE,1,NA
+1, 995493,"STEVENSON Colby","STEVENSON C","Colby","Stevenson","2", 2,  5,2209,United States,USA, 6, 6,"6","78.01","78.01",78010,"Q","78.01","35.80",TRUE,FALSE,1,NA
+1,1642289,"BARCLAY Ben","BARCLAY B","Ben","Barclay","21",21,158,2230,New Zealand,NZL, 7, 7,"7","77.71","77.71",77710,"Q","76.00","77.71",TRUE,FALSE,1,NA
+1,1372735,"GUBSER Kim","GUBSER K","Kim","Gubser","16",11,149,2213,Switzerland,SUI, 8, 8,"8","76.71","76.71",76710,"Q","76.71","DNS",TRUE,FALSE,1,NA
+1,1857619,"SVANCER Matej","SVANCER M","Matej","Svancer","27",18,151,2219,Austria,AUT, 9, 9,"9","74.86","74.86",74860,"Q","37.25","74.86",TRUE,FALSE,1,NA
+1,1140094,"BOESCH Fabian","BOESCH F","Fabian","Boesch","5", 5,149,2213,Switzerland,SUI,10,10,"10","74.53","74.53",74530,"Q","53.83","74.53",TRUE,FALSE,1,NA
+1,1446111,"MOFFATT Max","MOFFATT M","Max","Moffatt","12",26,159,2231,Canada,CAN,11,11,"11","74.06","74.06",74060,"Q","74.06","35.16",TRUE,FALSE,1,NA
+1,1563409,"MAGNUSSON Oliwer","MAGNUSSON O","Oliwer","Magnusson","14",25,154,2222,Sweden,SWE,12,12,"12","73.46","73.46",73460,"Q","73.46","39.16",TRUE,FALSE,1,NA
+1,1495571,"THERRIAULT Edouard","THERRIAULT E","Edouard","Therriault","15", 6,159,2231,Canada,CAN,13,13,"13","70.40","70.40",70400,NA,"70.40","23.75",TRUE,FALSE,1,NA
+1,1591885,"LLISO Javier","LLISO J","Javier","Lliso","20",23,145,2203,Spain,ESP,14,14,"14","69.16","69.16",69160,NA,"21.95","69.16",TRUE,FALSE,1,NA
+1,1237802,"BILOUS Finn","BILOUS F","Finn","Bilous","17",12,158,2230,New Zealand,NZL,15,15,"15","68.01","68.01",68010,NA,"68.01","32.85",TRUE,FALSE,1,NA
+1,1430063,"DAHL Ferdinand","DAHL F","Ferdinand","Dahl","7",29,153,2221,Norway,NOR,16,16,"16","67.61","67.61",67610,NA,"35.41","67.61",TRUE,FALSE,1,NA
+1,1761549,"BACHER Daniel","BACHER D","Daniel","Bacher","28",28,151,2219,Austria,AUT,17,17,"17","63.60","63.60",63600,NA,"63.60","16.21",TRUE,FALSE,1,NA
+1,1983486,"DONAGGIO Leonardo","DONAGGIO L","Leonardo","Donaggio","29",24,  6,2210,Italy,ITA,18,18,"18","63.48","63.48",63480,NA,"63.48","42.88",TRUE,FALSE,1,NA
+1,1475725,"WILI Colin","WILI C","Colin","Wili","22",19,149,2213,Switzerland,SUI,19,19,"19","54.45","54.45",54450,NA,"54.45","38.03",TRUE,FALSE,1,NA
+1,1445979,"FOREHAND Mac","FOREHAND M","Mac","Forehand","3", 1,  5,2209,United States,USA,20,20,"20","51.21","51.21",51210,NA,"51.21","37.80",TRUE,FALSE,1,NA
+1,1092466,"HARLAUT Henrik","HARLAUT H","Henrik","Harlaut","18",27,154,2222,Sweden,SWE,21,21,"21","48.16","48.16",48160,NA,"37.70","48.16",TRUE,FALSE,1,NA
+1,2251610,"HE Jinbo","HE J","Jinbo","He","31",16, 26,2770,China,CHN,22,22,"22","42.83","42.83",42830,NA,"42.83","20.85",TRUE,FALSE,1,NA
+1, 929416,"NUMMEDAL Christian","NUMMEDAL C","Christian","Nummedal","11",15,153,2221,Norway,NOR,23,23,"23","41.48","41.48",41480,NA,"41.48","16.03",TRUE,FALSE,1,NA
+1,1022189,"MCEACHRAN Evan","MCEACHRAN E","Evan","McEachran","13",22,159,2231,Canada,CAN,24,24,"24","40.90","40.90",40900,NA,"40.90","33.70",TRUE,FALSE,1,NA
+1,1857626,"FROSTAD Tormod","FROSTAD T","Tormod","Frostad","26",10,153,2221,Norway,NOR,25,25,"25","38.05","38.05",38050,NA,"22.11","38.05",TRUE,FALSE,1,NA
+1,1370558,"HARLE Teal","HARLE T","Teal","Harle","24",31,159,2231,Canada,CAN,26,26,"26","36.05","36.05",36050,NA,"36.05","33.81",TRUE,FALSE,1,NA
+1,1761774,"PELTOLA Simo","PELTOLA S","Simo","Peltola","30", 8,161,2237,Finland,FIN,27,27,"27","35.01","35.01",35010,NA,"35.01","29.25",TRUE,FALSE,1,NA
+1,1213722,"BURVALL Hugo","BURVALL H","Hugo","Burvall","23",20,154,2222,Sweden,SWE,28,28,"28","33.40","33.40",33400,NA,"33.40","28.58",TRUE,FALSE,1,NA
+1,1642282,"MAGNIN Thibault","MAGNIN T","Thibault","Magnin","25",14,145,2203,Spain,ESP,29,29,"29","33.06","33.06",33060,NA,"33.06","14.78",TRUE,FALSE,1,NA
+1, 929557,"WOODS James","WOODS J","James","Woods","10", 7,211,4058,Great Britain,GBR,NA,30,NA,"DNS","DNS",NA,NA,"DNS","DNS",TRUE,FALSE,1,"DNS"
+1,1019311,"ADELISSE Antoine","ADELISSE A","Antoine","Adelisse","19",30,144,2202,France,FRA,NA,31,NA,"DNS","DNS",NA,NA,"DNS","DNS",TRUE,FALSE,1,"DNS"

@@ -1,0 +1,28 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ODF_QualificationMark","c_ResultInfo_1","c_ResultInfo_2","b_Completed","b_Upcoming","n_BDF_VideoSessionID","c_ODF_IRM"
+1,1447047,"SILDARU Kelly","SILDARU K","Kelly","Sildaru","2", 4,    8, 2217,Estonia,EST, 1, 1,"1","86.15","86.15",86150,"Q","80.96","86.15",TRUE,FALSE,1,NA
+1,1254074,"KILLI Johanne","KILLI J","Johanne","Killi","5", 5,  153, 2221,Norway,NOR, 2, 2,"2","86.00","86.00",86000,"Q","81.48","86.00",TRUE,FALSE,1,NA
+1,1642245,"GU Eileen","GU E","Eileen","Gu","3", 1,   26, 2770,China,CHN, 3, 3,"3","79.38","79.38",79380,"Q","57.28","79.38",TRUE,FALSE,1,NA
+1,1206127,"VOISIN Maggie","VOISIN M","Maggie","Voisin","10",14,    5, 2209,United States,USA, 4, 4,"4","72.78","72.78",72780,"Q","72.78","65.93",TRUE,FALSE,1,NA
+1,1591888,"TATALINA Anastasia","TATALINA A","Anastasiya","Tatalina","16",27,23062,73035,ROC,ROC, 5, 5,"5","72.03","72.03",72030,"Q","63.85","72.03",TRUE,FALSE,1,NA
+1,1857620,"MUIR Kirsty","MUIR K","Kirsty","Muir","9",16,  211, 4058,Great Britain,GBR, 6, 6,"6","70.11","70.11",70110,"Q","70.11","63.91",TRUE,FALSE,1,NA
+1,1495689,"HAMILL Marin","HAMILL M","Marin","Hamill","12",21,    5, 2209,United States,USA, 7, 7,"7","69.43","69.43",69430,"Q","69.43","37.36",TRUE,FALSE,1,NA
+1,1140114,"BERTAGNA Silvia","BERTAGNA S","Silvia","Bertagna","18",12,    6, 2210,Italy,ITA, 8, 8,"8","68.90","68.90",68900,"Q","65.25","68.90",TRUE,FALSE,1,NA
+1,1447594,"LEDEUX Tess","LEDEUX T","Tess","Ledeux","1", 3,  144, 2202,France,FRA, 9, 9,"9","68.13","68.13",68130,"Q","22.13","68.13",TRUE,FALSE,1,NA
+1, 929565,"SUMMERHAYES Katie","SUMMERHAYES K","Katie","Summerhayes","14",17,  211, 4058,Great Britain,GBR,10,10,"10","66.56","66.56",66560,"Q","66.56","59.11",TRUE,FALSE,1,NA
+1,1642243,"ASSELIN Olivia","ASSELIN O","Olivia","Asselin","17",23,  159, 2231,Canada,CAN,11,11,"11","64.68","64.68",64680,"Q","64.68","6.75",TRUE,FALSE,1,NA
+1,1475771,"GREMAUD Mathilde","GREMAUD M","Mathilde","Gremaud","7", 7,  149, 2213,Switzerland,SUI,12,12,"12","63.46","63.46",63460,"Q","39.41","63.46",TRUE,FALSE,1,NA
+1,1761769,"OLDHAM Megan","OLDHAM M","Megan","Oldham","6", 9,  159, 2231,Canada,CAN,13,13,"13","63.10","63.10",63100,NA,"6.45","63.10",TRUE,FALSE,1,NA
+1,1370554,"WOLF Lara","WOLF L","Lara","Wolf","15",13,  151, 2219,Austria,AUT,14,14,"14","62.56","62.56",62560,NA,"62.56","24.38",TRUE,FALSE,1,NA
+1,1372713,"KARAVA Anni","KARAVA A","Anni","Karava","24",10,  161, 2237,Finland,FIN,15,15,"15","61.73","61.73",61730,NA,"55.80","61.73",TRUE,FALSE,1,NA
+1,1372767,"HACKETT Margaux","HACKETT M","Margaux","Hackett","19",24,  158, 2230,New Zealand,NZL,16,16,"16","54.93","54.93",54930,NA,"54.93","37.28",TRUE,FALSE,1,NA
+1,1723983,"EICHINGER Aliah Delia","EICHINGER AD","Aliah Delia","Eichinger","27",20,    2, 2206,Germany,GER,17,17,"17","50.68","50.68",50680,NA,"26.45","50.68",TRUE,FALSE,1,NA
+1,1021660,"STEVENS Darian","STEVENS D","Darian","Stevens","20",11,    5, 2209,United States,USA,18,18,"18","50.01","50.01",50010,NA,"6.18","50.01",TRUE,FALSE,1,NA
+1,1254075,"MOESTUE EIE Sandra","MOESTUE EIE S","Sandra","Moestue Eie","13",18,  153, 2221,Norway,NOR,19,19,"19","49.08","49.08",49080,NA,"49.08","31.31",TRUE,FALSE,1,NA
+1,1372769,"HOEFFLIN Sarah","HOEFFLIN S","Sarah","Hoefflin","4", 2,  149, 2213,Switzerland,SUI,20,20,"20","48.96","48.96",48960,NA,"35.38","48.96",TRUE,FALSE,1,NA
+1,1983492,"ORLOVA Ksenia","ORLOVA K","Ksenia","Orlova","21",15,23062,73035,ROC,ROC,21,21,"21","45.31","45.31",45310,NA,"45.31","32.20",TRUE,FALSE,1,NA
+1,1021666,"OHACO Dominique","OHACO D","Dominique","Ohaco","28", 6,  219, 4328,Chile,CHI,22,22,"22","44.85","44.85",44850,NA,"17.28","44.85",TRUE,FALSE,1,NA
+1,1983490,"YANG Shuorui","YANG S","Shuorui","Yang","26",26,   26, 2770,China,CHN,23,23,"23","39.05","39.05",39050,NA,"18.46","39.05",TRUE,FALSE,1,NA
+1,1372736,"NAKAB Elisa","NAKAB E","Elisa","Nakab","25",25,    6, 2210,Italy,ITA,24,24,"24","32.70","32.70",32700,NA,"8.60","32.70",TRUE,FALSE,1,NA
+1,1240713,"WALLNER Laura","WALLNER L","Laura","Wallner","22", 8,  151, 2219,Austria,AUT,25,25,"25","30.70","30.70",30700,NA,"30.36","30.70",TRUE,FALSE,1,NA
+1,1723982,"HARRIGAN Abi","HARRIGAN A","Abi","Harrigan","29",19,  157, 2229,Australia,AUS,26,26,"26","26.31","26.31",26310,NA,"16.10","26.31",TRUE,FALSE,1,NA
+1,1430067,"CLAIRE Caroline","CLAIRE C","Caroline","Claire","8",22,    5, 2209,United States,USA,NA,27,NA,"DNS","DNS",NA,NA,"DNS","DNS",TRUE,FALSE,1,"DNS"

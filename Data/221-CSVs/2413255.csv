@@ -1,0 +1,13 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ResultInfo_1","c_ResultInfo_2","c_ResultInfo_3","b_Completed","b_Upcoming","n_BDF_VideoSessionID","c_ODF_IRM"
+1,1475771,"GREMAUD Mathilde","GREMAUD M","Mathilde","Gremaud","7", 1,  149, 2213,Switzerland,SUI, 1, 1,"1","86.56","86.56",86560,"1.10","86.56","46.96",TRUE,FALSE,1,NA
+1,1642245,"GU Eileen","GU E","Eileen","Gu","3",10,   26, 2770,China,CHN, 2, 2,"2","86.23","86.23",86230,"69.90","16.98","86.23",TRUE,FALSE,1,NA
+1,1447047,"SILDARU Kelly","SILDARU K","Kelly","Sildaru","2",12,    8, 2217,Estonia,EST, 3, 3,"3","82.06","82.06",82060,"82.06","46.71","78.75",TRUE,FALSE,1,NA
+1,1591888,"TATALINA Anastasia","TATALINA A","Anastasiya","Tatalina","16", 8,23062,73035,ROC,ROC, 4, 4,"4","75.51","75.51",75510,"39.38","74.16","75.51",TRUE,FALSE,1,NA
+1,1206127,"VOISIN Maggie","VOISIN M","Maggie","Voisin","10", 9,    5, 2209,United States,USA, 5, 5,"5","74.28","74.28",74280,"35.48","74.28","66.03",TRUE,FALSE,1,NA
+1,1254074,"KILLI Johanne","KILLI J","Johanne","Killi","5",11,  153, 2221,Norway,NOR, 6, 6,"6","73.11","73.11",73110,"24.86","73.11","71.78",TRUE,FALSE,1,NA
+1,1447594,"LEDEUX Tess","LEDEUX T","Tess","Ledeux","1", 4,  144, 2202,France,FRA, 7, 7,"7","72.91","72.91",72910,"72.91","23.08","28.81",TRUE,FALSE,1,NA
+1,1857620,"MUIR Kirsty","MUIR K","Kirsty","Muir","9", 7,  211, 4058,Great Britain,GBR, 8, 8,"8","71.30","71.30",71300,"41.86","71.30","69.21",TRUE,FALSE,1,NA
+1, 929565,"SUMMERHAYES Katie","SUMMERHAYES K","Katie","Summerhayes","14", 3,  211, 4058,Great Britain,GBR, 9, 9,"9","64.75","64.75",64750,"60.01","64.75","23.31",TRUE,FALSE,1,NA
+1,1140114,"BERTAGNA Silvia","BERTAGNA S","Silvia","Bertagna","18", 5,    6, 2210,Italy,ITA,10,10,"10","61.85","61.85",61850,"48.50","61.85","7.83",TRUE,FALSE,1,NA
+1,1642243,"ASSELIN Olivia","ASSELIN O","Olivia","Asselin","17", 2,  159, 2231,Canada,CAN,11,11,"11","16.83","16.83",16830,"16.83","DNS","DNS",TRUE,FALSE,1,NA
+1,1495689,"HAMILL Marin","HAMILL M","Marin","Hamill","12", 6,    5, 2209,United States,USA,12,12,"12","DNS","DNS",NA,"DNS","DNS","DNS",TRUE,FALSE,1,"DNS"

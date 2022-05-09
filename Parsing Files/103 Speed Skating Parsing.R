@@ -10,20 +10,20 @@ library(lubridate)
 # https://www.geeksforgeeks.org/read-all-files-in-directory-using-r/#:~:text=To%20list%20all%20files%20in,files%20in%20the%20specified%20directories.
 all_files <- list.files(path = "Data/103-JSONs")
 all_files <- paste0("Data/103-JSONs/", all_files)
-
 # Repeat for every file in Speed Skating
 for (i in 1:length(all_files)) {
   
   json_file_name <- all_files[i]
-  # Print For Tracking where we're at
-  print(paste(json_file_name, "Number", i ,"/", length(all_files)))
+  
+  # Sanity Check
+  print(json_file_name)
   
   # Read in the json file
   # Don't know how this works, but it does.
   # Stolen From Stack Overflow:
   # https://stackoverflow.com/questions/38074926/unable-to-parse-locally-stored-json-file-with-special-character-like-backslash
   raw_json <- fromJSON(gsub("\\\\","",readLines(json_file_name)))
-  
+
   # Date of Match and Gender
   Date <- raw_json$Result$PhaseList$DateTimes$Start$c_Local
   # Get MatchID

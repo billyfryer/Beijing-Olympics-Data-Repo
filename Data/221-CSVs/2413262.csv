@@ -1,0 +1,13 @@
+"n_ParticipantType","n_ParticipantID","c_Participant","c_ParticipantShort","c_ParticipantFirstName","c_ParticipantLastName","c_Bib","n_StartOrder","NOC.n_ID","NOC.n_GeoID","NOC.c_Name","NOC.c_Short","n_Rank","n_RankSort","c_Rank","c_Result","c_ResultAbs","n_PointsAbs","c_ResultInfo_1","c_ResultInfo_2","c_ResultInfo_3","b_Completed","b_Upcoming","n_BDF_VideoSessionID"
+1,1429991,"RUUD Birk","RUUD B","Birk","Ruud","5",12,153,2221,Norway,NOR, 1, 1,"1","187.75","187.75",187750,"95.75","92.00","69.00",TRUE,FALSE,1
+1, 995493,"STEVENSON Colby","STEVENSON C","Colby","Stevenson","4", 8,  5,2209,United States,USA, 2, 2,"2","183.00","183.00",183000,"34.75","91.75","91.25",TRUE,FALSE,1
+1,1092466,"HARLAUT Henrik","HARLAUT H","Henrik","Harlaut","19", 9,154,2222,Sweden,SWE, 3, 3,"3","181.00","181.00",181000,"86.00","90.00","91.00",TRUE,FALSE,1
+1,1563409,"MAGNUSSON Oliwer","MAGNUSSON O","Oliwer","Magnusson","8",10,154,2222,Sweden,SWE, 4, 4,"4","178.25","178.25",178250,"87.50","79.00","90.75",TRUE,FALSE,1
+1,1983486,"DONAGGIO Leonardo","DONAGGIO L","Leonardo","Donaggio","30", 3,  6,2210,Italy,ITA, 5, 5,"5","172.00","172.00",172000,"91.00","81.00","17.25",TRUE,FALSE,1
+1,1591885,"LLISO Javier","LLISO J","Javier","Lliso","25", 4,145,2203,Spain,ESP, 6, 6,"6","171.50","171.50",171500,"51.25","89.00","82.50",TRUE,FALSE,1
+1,1019299,"TJADER Jesper","TJADER J","Jesper","Tjäder","13", 1,154,2222,Sweden,SWE, 7, 7,"7","170.25","170.25",170250,"77.25","78.25","92.00",TRUE,FALSE,1
+1,1372709,"HALL Alex","HALL A","Alexander","Hall","3",11,  5,2209,United States,USA, 8, 8,"8","160.75","160.75",160750,"68.25","92.50","27.00",TRUE,FALSE,1
+1,1022189,"MCEACHRAN Evan","MCEACHRAN E","Evan","McEachran","20", 2,159,2231,Canada,CAN, 9, 9,"9","115.50","115.50",115500,"93.00","22.50","11.50",TRUE,FALSE,1
+1, 929416,"NUMMEDAL Christian","NUMMEDAL C","Christian","Nummedal","17", 7,153,2221,Norway,NOR,10,10,"10","110.50","110.50",110500,"26.00","93.00","17.50",TRUE,FALSE,1
+1,1445979,"FOREHAND Mac","FOREHAND M","Mac","Forehand","6", 5,  5,2209,United States,USA,11,11,"11","80.25","80.25", 80250,"60.75","19.50","42.00",TRUE,FALSE,1
+1,1857626,"FROSTAD Tormod","FROSTAD T","Tormod","Frostad","24", 6,153,2221,Norway,NOR,12,12,"12","58.50","58.50", 58500,"25.50","14.00","33.00",TRUE,FALSE,1
